@@ -1,0 +1,11 @@
+{
+  "Config": {
+    "name": "REDBLUE1",
+    "nameTag": "RED1",
+    "score": 0,
+    "coach": "RED1",
+    "color": "rgb(46,156,249)"
+  },
+  "IconLocation": "Cache\\TeamIcons\\Default.png",
+  "FileVersion": "1.0"
+}

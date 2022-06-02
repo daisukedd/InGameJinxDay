@@ -1,0 +1,1449 @@
+[16-37-20] Logging Init
+[16-37-20] Starting Config Controller
+[16-37-20] Config Provider started
+[16-37-20] Looking for config files at /Config
+[16-37-20] Found PickBan.json. Reading values
+[16-37-20] {
+  "frontend": {
+    "scoreEnabled": true,
+    "spellsEnabled": true,
+    "coachesEnabled": true,
+    "blueTeam": {
+      "name": "TUM",
+      "nameTag": "TUM",
+      "score": 0,
+      "coach": "G2 Grabz",
+      "color": "rgb(66,133,244)"
+    },
+    "redTeam": {
+      "name": "LMU",
+      "nameTag": "LMU",
+      "score": 0,
+      "coach": "G2 Grabz",
+      "color": "rgb(234,67,53)"
+    },
+    "patch": "12.1.1"
+  },
+  "FileVersion": "1.0"
+}
+[16-37-20] Config PickBan loaded
+[16-37-20] Found Ingame.json. Reading values
+[16-37-20] {
+  "Inhib": {
+    "Position": {
+      "X": 0.0,
+      "Y": 845.0
+    },
+    "Size": {
+      "X": 306.0,
+      "Y": 118.0
+    },
+    "UseBackgroundImage": false,
+    "UseBackgroundVideo": false,
+    "Color": "rgba(19,24,63,255)",
+    "Font": {
+      "Style": "Normal",
+      "Name": "News Cycle",
+      "Size": "15px",
+      "Align": "right",
+      "Color": "rgb(255,255,255)"
+    },
+    "IconSize": 40.0,
+    "HideWhenNoneDestroyed": true,
+    "UseTeamColors": true,
+    "BlueTeam": {
+      "Position": {
+        "X": 40.0,
+        "Y": 20.0
+      },
+      "LaneOffset": {
+        "X": 100.0,
+        "Y": 0.0
+      },
+      "UseTeamColor": true,
+      "Color": "rgb(0,0,0)",
+      "IconOffset": {
+        "X": 10.0,
+        "Y": -24.0
+      }
+    },
+    "RedTeam": {
+      "Position": {
+        "X": 40.0,
+        "Y": 80.0
+      },
+      "LaneOffset": {
+        "X": 100.0,
+        "Y": 0.0
+      },
+      "UseTeamColor": true,
+      "Color": "rgb(255,255,255)",
+      "IconOffset": {
+        "X": 10.0,
+        "Y": -24.0
+      }
+    },
+    "LaneOrder": [
+      "bot",
+      "mid",
+      "top"
+    ]
+  },
+  "Score": {
+    "Position": {
+      "X": 960.0,
+      "Y": 0.0
+    },
+    "Size": {
+      "X": 800.0,
+      "Y": 92.0
+    },
+    "TimeFont": {
+      "Style": "Normal",
+      "Name": "News Cycle",
+      "Size": "22px",
+      "Align": "center",
+      "Color": "rgb(255,255,255)"
+    },
+    "TimePosition": {
+      "X": 0.0,
+      "Y": 70.0
+    },
+    "BlueTeam": {
+      "Kills": {
+        "Position": {
+          "X": -40.0,
+          "Y": 6.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "URW DIN",
+          "Size": "50px",
+          "Align": "right",
+          "Color": "rgb(255,255,255)"
+        },
+        "Icon": {
+          "Name": "KillsIcon",
+          "Size": {
+            "X": 100.0,
+            "Y": 100.0
+          },
+          "Offset": {
+            "X": 0.0,
+            "Y": 0.0
+          }
+        }
+      },
+      "Towers": {
+        "Position": {
+          "X": -270.0,
+          "Y": 20.0
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "URW DIN",
+          "Size": "26px",
+          "Align": "right",
+          "Color": "rgb(255,255,255)"
+        },
+        "Icon": {
+          "Name": "TowerIcon",
+          "Size": {
+            "X": 25.0,
+            "Y": 30.0
+          },
+          "Offset": {
+            "X": 15.0,
+            "Y": 13.0
+          }
+        }
+      },
+      "Gold": {
+        "Position": {
+          "X": -150.0,
+          "Y": 20.0
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "URW DIN",
+          "Size": "26px",
+          "Align": "right",
+          "Color": "rgb(255,255,255)"
+        },
+        "Icon": {
+          "Name": "GoldIcon",
+          "Size": {
+            "X": 40.0,
+            "Y": 30.0
+          },
+          "Offset": {
+            "X": 25.0,
+            "Y": 10.0
+          }
+        }
+      },
+      "Drakes": {
+        "Position": {
+          "X": -55.0,
+          "Y": 71.0
+        },
+        "Offset": {
+          "X": -12.0,
+          "Y": 0.0
+        }
+      },
+      "Name": {
+        "UseTag": true,
+        "Position": {
+          "X": -390.0,
+          "Y": 6.0
+        },
+        "AdaptiveFontSize": true,
+        "MaxSize": {
+          "X": 100.0,
+          "Y": 50.0
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "News Cycle",
+          "Size": "40px",
+          "Align": "left",
+          "Color": "rgb(255,255,255)"
+        }
+      },
+      "Icon": {
+        "Position": {
+          "X": -430.0,
+          "Y": 30.0
+        },
+        "Size": {
+          "X": 60.0,
+          "Y": 60.0
+        },
+        "UseBackground": true,
+        "BackgroundOffset": {
+          "X": -10.0,
+          "Y": 0.0
+        }
+      },
+      "Score": {
+        "Position": {
+          "X": -380.0,
+          "Y": 70.0
+        },
+        "NumberFont": {
+          "Style": "Normal",
+          "Name": "News Cycle",
+          "Size": "15px",
+          "Align": "right",
+          "Color": "rgb(255,255,255)"
+        },
+        "UseCircleIcons": true,
+        "CircleOffset": {
+          "X": 25.0,
+          "Y": 0.0
+        },
+        "CircleRadius": 10.0,
+        "UseTeamColor": true,
+        "StrokeColor": "rgb(255,255,255)",
+        "FillColor": "rgb(255,255,255)"
+      }
+    },
+    "RedTeam": {
+      "Kills": {
+        "Position": {
+          "X": 40.0,
+          "Y": 6.0
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "URW DIN",
+          "Size": "50px",
+          "Align": "left",
+          "Color": "rgb(255,255,255)"
+        },
+        "Icon": {
+          "Name": "KillsIcon",
+          "Size": {
+            "X": 100.0,
+            "Y": 100.0
+          },
+          "Offset": {
+            "X": 0.0,
+            "Y": 0.0
+          }
+        }
+      },
+      "Towers": {
+        "Position": {
+          "X": 270.0,
+          "Y": 20.0
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "URW DIN",
+          "Size": "26px",
+          "Align": "left",
+          "Color": "rgb(255,255,255)"
+        },
+        "Icon": {
+          "Name": "TowerIcon",
+          "Size": {
+            "X": 25.0,
+            "Y": 30.0
+          },
+          "Offset": {
+            "X": -15.0,
+            "Y": 13.0
+          }
+        }
+      },
+      "Gold": {
+        "Position": {
+          "X": 150.0,
+          "Y": 20.0
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "URW DIN",
+          "Size": "26px",
+          "Align": "left",
+          "Color": "rgb(255,255,255)"
+        },
+        "Icon": {
+          "Name": "GoldIcon",
+          "Size": {
+            "X": 40.0,
+            "Y": 30.0
+          },
+          "Offset": {
+            "X": -25.0,
+            "Y": 10.0
+          }
+        }
+      },
+      "Drakes": {
+        "Position": {
+          "X": 50.0,
+          "Y": 71.0
+        },
+        "Offset": {
+          "X": 12.0,
+          "Y": 0.0
+        }
+      },
+      "Name": {
+        "UseTag": true,
+        "Position": {
+          "X": 390.0,
+          "Y": 6.0
+        },
+        "AdaptiveFontSize": true,
+        "MaxSize": {
+          "X": 100.0,
+          "Y": 50.0
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "News Cycle",
+          "Size": "40px",
+          "Align": "right",
+          "Color": "rgb(255,255,255)"
+        }
+      },
+      "Icon": {
+        "Position": {
+          "X": 430.0,
+          "Y": 30.0
+        },
+        "Size": {
+          "X": 60.0,
+          "Y": 60.0
+        },
+        "UseBackground": true,
+        "BackgroundOffset": {
+          "X": 10.0,
+          "Y": 0.0
+        }
+      },
+      "Score": {
+        "Position": {
+          "X": 380.0,
+          "Y": 70.0
+        },
+        "NumberFont": {
+          "Style": "Normal",
+          "Name": "News Cycle",
+          "Size": "15px",
+          "Align": "left",
+          "Color": "rgb(255,255,255)"
+        },
+        "UseCircleIcons": true,
+        "CircleOffset": {
+          "X": -25.0,
+          "Y": 0.0
+        },
+        "CircleRadius": 10.0,
+        "UseTeamColor": true,
+        "StrokeColor": "rgb(255,255,255)",
+        "FillColor": "rgb(255,255,255)"
+      }
+    },
+    "Background": {
+      "UseImage": true,
+      "UseVideo": false,
+      "UseAlpha": false,
+      "FallbackColor": "rgba(0,0,0,0)"
+    },
+    "Misc": {
+      "Animation": "Simple",
+      "ShowCenterIcon": true,
+      "CenterIconPosition": {
+        "X": 0.0,
+        "Y": 30.0
+      },
+      "CenterIconSize": {
+        "X": 40.0,
+        "Y": 40.0
+      },
+      "DrakeIconSize": {
+        "X": 20.0,
+        "Y": 20.0
+      }
+    }
+  },
+  "ObjectiveKill": {
+    "ShowTeamIcon": false,
+    "SoulPointScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": true,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "ElderKillScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": true,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "DragonKillScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": true,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "BaronKillScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": false,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "HeraldKillScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": true,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    }
+  },
+  "ObjectiveSpawn": {
+    "BaronSpawnScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": false,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": false,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "DrakeSpawnScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": true,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": false,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "HeraldSpawnScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": true,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": false,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    }
+  },
+  "ItemComplete": {
+    "UseCustomVideo": false,
+    "ShowItemName": true,
+    "ShowOnScoreboard": false,
+    "ShowOnChampionIndicator": true,
+    "InfoText": {
+      "Style": "Normal",
+      "Name": "News Cycle",
+      "Size": "20px",
+      "Align": "center",
+      "Color": "rgb(255,255,255)"
+    },
+    "ItemAnimationStates": [
+      {
+        "Scale": 0.0,
+        "Alpha": 0.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 400.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.1,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 3200.0,
+        "Ease": "Linear",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 2.5,
+        "Alpha": 0.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 400.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 0.0
+      }
+    ],
+    "InfoTextAnimationStates": [
+      {
+        "Scale": 1.0,
+        "Alpha": 0.0,
+        "Position": {
+          "X": 55.0,
+          "Y": 0.0
+        },
+        "Mirror": true,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 55.0,
+          "Y": 0.0
+        },
+        "Mirror": true,
+        "Duration": 200.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 1000.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 0.0,
+        "Position": {
+          "X": 55.0,
+          "Y": 0.0
+        },
+        "Mirror": true,
+        "Duration": 200.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 1800.0
+      }
+    ],
+    "InfoBackgroundAnimationStates": [
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 80.0
+        },
+        "Mirror": false,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 200.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 800.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": -80.0
+        },
+        "Mirror": false,
+        "Duration": 200.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 2200.0
+      }
+    ]
+  },
+  "LevelUp": {
+    "UseCustomVideo": false,
+    "ShowOnScoreboard": true,
+    "ShowOnChampionIndicator": true,
+    "LevelFont": {
+      "Style": "Normal",
+      "Name": "News Cycle",
+      "Size": "60px",
+      "Align": "center",
+      "Color": "rgb(255,255,255)"
+    },
+    "UseTeamColors": true,
+    "OrderColor": "rgb(0,0,255)",
+    "ChaosColor": "rgb(255,0,0)",
+    "NumberAnimationStates": [
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 70.0
+        },
+        "Mirror": true,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": -30.0
+        },
+        "Mirror": true,
+        "Duration": 300.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 250.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": -130.0
+        },
+        "Mirror": true,
+        "Duration": 400.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 3500.0
+      }
+    ],
+    "BackgroundAnimationStates": [
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 100.0
+        },
+        "Mirror": false,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 300.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 250.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": -90.0,
+          "Y": 0.0
+        },
+        "Mirror": true,
+        "Duration": 400.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 4000.0
+      }
+    ]
+  },
+  "InfoPage": {
+    "Position": {
+      "X": 0.0,
+      "Y": 135.0
+    },
+    "Title": {
+      "Enabled": true,
+      "Position": {
+        "Gold": {
+          "X": 150.0,
+          "Y": 15.0
+        },
+        "XP": {
+          "X": 150.0,
+          "Y": 15.0
+        },
+        "CSPM": {
+          "X": 150.0,
+          "Y": 15.0
+        }
+      },
+      "Font": {
+        "Style": "Normal",
+        "Name": "News Cycle",
+        "Size": "26px",
+        "Align": "center",
+        "Color": "rgb(255,255,255)"
+      }
+    },
+    "TitleHeight": 45.0,
+    "TabConfig": {
+      "TabSize": {
+        "X": 300.0,
+        "Y": 55.0
+      },
+      "UseTeamColorsText": false,
+      "OrderColor": "rgb(255,255,255)",
+      "ChaosColor": "rgb(255,255,255)",
+      "ChampIcon": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 4.0,
+            "Y": 8.0
+          },
+          "XP": {
+            "X": 4.0,
+            "Y": 8.0
+          },
+          "CSPM": {
+            "X": 4.0,
+            "Y": 8.0
+          }
+        },
+        "Size": {
+          "X": 42.0,
+          "Y": 42.0
+        }
+      },
+      "Separator": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "XP": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "CSPM": {
+            "X": 0.0,
+            "Y": 0.0
+          }
+        },
+        "Size": {
+          "X": 300.0,
+          "Y": 2.0
+        }
+      },
+      "PlayerName": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 54.0,
+            "Y": 6.0
+          },
+          "XP": {
+            "X": 54.0,
+            "Y": 6.0
+          },
+          "CSPM": {
+            "X": 54.0,
+            "Y": 6.0
+          }
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "News Cycle",
+          "Size": "15px",
+          "Align": "left",
+          "Color": "rgb(255,255,255)"
+        }
+      },
+      "MinValue": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 54.0,
+            "Y": 22.0
+          },
+          "XP": {
+            "X": 54.0,
+            "Y": 22.0
+          },
+          "CSPM": {
+            "X": 54.0,
+            "Y": 22.0
+          }
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "News Cycle",
+          "Size": "15px",
+          "Align": "left",
+          "Color": "rgb(255,255,255)"
+        }
+      },
+      "CurrentValue": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 270.0,
+            "Y": 15.0
+          },
+          "XP": {
+            "X": 280.0,
+            "Y": 15.0
+          },
+          "CSPM": {
+            "X": 280.0,
+            "Y": 15.0
+          }
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "News Cycle",
+          "Size": "25px",
+          "Align": "center",
+          "Color": "rgb(255,255,255)"
+        }
+      },
+      "MaxValue": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 230.0,
+            "Y": 22.0
+          },
+          "XP": {
+            "X": 260.0,
+            "Y": 22.0
+          },
+          "CSPM": {
+            "X": 260.0,
+            "Y": 22.0
+          }
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "News Cycle",
+          "Size": "15px",
+          "Align": "right",
+          "Color": "rgb(255,255,255)"
+        }
+      },
+      "ProgressBar": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 52.0,
+            "Y": 40.0
+          },
+          "XP": {
+            "X": 52.0,
+            "Y": 40.0
+          },
+          "CSPM": {
+            "X": 52.0,
+            "Y": 40.0
+          }
+        },
+        "Size": {
+          "Gold": {
+            "X": 180.0,
+            "Y": 10.0
+          },
+          "XP": {
+            "X": 210.0,
+            "Y": 10.0
+          },
+          "CSPM": {
+            "X": 210.0,
+            "Y": 10.0
+          }
+        },
+        "UseTeamColors": true,
+        "DefaultColor": "rgb(0,0,0)",
+        "OrderColor": "rgb(222,40,70)",
+        "ChaosColor": "rgb(0,151,196)",
+        "Animate": true
+      }
+    },
+    "Background": {
+      "UseImage": false,
+      "UseVideo": false,
+      "UseAlpha": false,
+      "FallbackColor": "rgb(19, 24, 63)",
+      "Size": {
+        "X": 300.0,
+        "Y": 600.0
+      }
+    }
+  },
+  "GoldGraph": {
+    "Position": {
+      "X": 965.0,
+      "Y": 845.0
+    },
+    "Size": {
+      "X": 740.0,
+      "Y": 235.0
+    },
+    "Background": {
+      "UseImage": false,
+      "UseVideo": false,
+      "UseAlpha": false,
+      "FallbackColor": "rgba(19,24,63,255)"
+    },
+    "Title": {
+      "Enabled": true,
+      "Position": {
+        "X": 0.0,
+        "Y": 10.0
+      },
+      "Font": {
+        "Style": "Bold",
+        "Name": "News Cycle",
+        "Size": "22px",
+        "Align": "left",
+        "Color": "rgb(230,190,138)"
+      },
+      "Text": "GOLD DIFFERENCE SINCE START"
+    },
+    "Graph": {
+      "Position": {
+        "X": 5.0,
+        "Y": 40.0
+      },
+      "Size": {
+        "X": 710.0,
+        "Y": 190.0
+      },
+      "ShowVerticalGrid": true,
+      "ShowHorizontalGrid": true,
+      "LineTension": 0.05,
+      "GridColor": "rgba(255,255,255, 0.3)",
+      "GridEdgeColor": "rgba(255,255,255, 0.4)",
+      "BorderUseTeamColors": true,
+      "BorderOrderColor": "rgb(0,0,0)",
+      "BorderChaosColor": "rgb(0,0,0)",
+      "FillUseTeamColors": true,
+      "FillOrderColor": "rgb(0,0,0)",
+      "FillChaosColor": "rgb(0,0,0)",
+      "InfoFont": {
+        "Style": "UNUSED",
+        "Name": "News Cycle",
+        "Size": "UNUSED",
+        "Align": "UNUSED",
+        "Color": "rgb(230,190,138)"
+      },
+      "TimeStepSize": 30,
+      "ShowTimeStepIndicators": true
+    }
+  },
+  "BaronTimer": {
+    "Position": {
+      "X": 1800.0,
+      "Y": 55.0
+    },
+    "MaskPosition": {
+      "X": 1750.0,
+      "Y": 20.0
+    },
+    "MaskSize": {
+      "X": 150.0,
+      "Y": 70.0
+    },
+    "Scale": 0.8,
+    "Align": "right",
+    "ShowGoldDiff": true,
+    "ShowTimer": true,
+    "ObjectiveIcon": true,
+    "Animate": true,
+    "IconPosition": {
+      "X": 0.0,
+      "Y": 0.0
+    },
+    "GoldPosition": {
+      "X": 25.0,
+      "Y": -25.0
+    },
+    "GoldIconPosition": {
+      "X": -7.0,
+      "Y": -25.0
+    },
+    "GoldFont": {
+      "Style": "Bold",
+      "Name": "URW DIN",
+      "Size": "22px",
+      "Align": "right",
+      "Color": "rgb(230,190,138)"
+    },
+    "TimePosition": {
+      "X": 25.0,
+      "Y": 0.0
+    },
+    "TimeIconPosition": {
+      "X": -10.0,
+      "Y": 0.0
+    },
+    "TimeFont": {
+      "Style": "Bold",
+      "Name": "URW DIN",
+      "Size": "22px",
+      "Align": "right",
+      "Color": "rgb(230,190,138)"
+    }
+  },
+  "ElderTimer": {
+    "Position": {
+      "X": 120.0,
+      "Y": 55.0
+    },
+    "MaskPosition": {
+      "X": 50.0,
+      "Y": 20.0
+    },
+    "MaskSize": {
+      "X": 150.0,
+      "Y": 70.0
+    },
+    "Scale": 0.8,
+    "Align": "left",
+    "ShowGoldDiff": true,
+    "ShowTimer": true,
+    "ObjectiveIcon": true,
+    "Animate": true,
+    "IconPosition": {
+      "X": 40.0,
+      "Y": 0.0
+    },
+    "GoldPosition": {
+      "X": 18.0,
+      "Y": -25.0
+    },
+    "GoldIconPosition": {
+      "X": 22.0,
+      "Y": -25.0
+    },
+    "GoldFont": {
+      "Style": "Bold",
+      "Name": "News Cycle",
+      "Size": "22px",
+      "Align": "left",
+      "Color": "rgb(230,190,138)"
+    },
+    "TimePosition": {
+      "X": 18.0,
+      "Y": 0.0
+    },
+    "TimeIconPosition": {
+      "X": 20.0,
+      "Y": -2.0
+    },
+    "TimeFont": {
+      "Style": "Bold",
+      "Name": "News Cycle",
+      "Size": "22px",
+      "Align": "left",
+      "Color": "rgb(230,190,138)"
+    }
+  },
+  "GoogleFonts": [
+    "News Cycle",
+    "News Cycle:bold",
+    "Droid Sans"
+  ],
+  "FileVersion": "2.2"
+}
+[16-37-20] Config Ingame loaded
+[16-37-20] Found Component.json. Reading values
+[16-37-20] {
+  "DataDragon": {
+    "MinimumGoldCost": 2000,
+    "Region": "euw",
+    "Locale": "pt_BR",
+    "CDN": "https://ddragon.leagueoflegends.com/cdn",
+    "Patch": "latest"
+  },
+  "PickBan": {
+    "IsActive": true,
+    "UseDelay": false,
+    "DelayValue": 300,
+    "DefaultBlueColor": "rgb(66, 133, 244)",
+    "DefaultRedColor": "rgb(234, 67, 53)"
+  },
+  "Ingame": {
+    "IsActive": true,
+    "UseLiveEvents": true,
+    "DoLevelUp": true,
+    "DoItemCompleted": true,
+    "SeriesGameCount": 3,
+    "Objectives": {
+      "DoBaronKill": true,
+      "DoDragonKill": true,
+      "DoInhibitors": false,
+      "DoObjectiveSpawnPopUp": false,
+      "DoObjectiveKillPopUp": false
+    },
+    "Teams": {
+      "DoTeamNames": false,
+      "DoTeamIcons": false,
+      "DoTeamScores": false
+    },
+    "UseCustomScoreboard": true
+  },
+  "Replay": {
+    "IsActive": true,
+    "UseAutoInitUI": true
+  },
+  "PostGame": {
+    "IsActive": false
+  },
+  "App": {
+    "LogLevel": 2,
+    "CheckForUpdates": true,
+    "UpdateRepositoryUrl": "https://github.com/floh22/LeagueBroadcast",
+    "UpdateRepositoryName": "floh22/LeagueBroadcast",
+    "LeagueInstall": [
+      "C:\\",
+      "D:\\",
+      "E:\\",
+      "F:\\",
+      "C:\\Program Files",
+      "C:\\Program Files (x86)"
+    ],
+    "CheckForOffsets": true,
+    "OffsetRepository": "https://raw.githubusercontent.com/floh22/LeagueBroadcast/v2/Offsets/",
+    "OffsetPrefix": "Offsets-"
+  },
+  "FileVersion": "1.3"
+}
+[16-37-20] Config Component loaded
+[16-37-20] Loading config watchers
+[16-37-20] Watching PickBan.json for changes
+[16-37-20] Watching Component.json for changes
+[16-37-20] Watching Ingame.json for changes
+[16-37-20] Log Level set to Info
+[16-37-20] League Broadcast Version 1.4.106
+[16-37-20] [Update] Checking for Updates
+[16-37-21] [Update] Latest release version v1.4.106 vs. current version 1.4.106
+[16-37-21] [Update] Local version up to date
+[16-37-21] Using current Version
+[16-37-21] Early Init Complete in 2158,6455ms
+[16-37-21] DataDragon Provider Init
+[16-37-21] Getting latest versions from dataDragon
+[16-37-21] Retrieving latest patch info
+[16-37-22] Champion: 12.1.1, Item: 12.1.1, CDN: https://ddragon.leagueoflegends.com/cdn
+[16-37-23] Loaded 157 champions
+[16-37-23] Loaded 16 summoner spells
+[16-37-24] Detected 206 items
+[16-37-24] Loaded 100 full items
+[16-37-24] Checking Local Cache
+[16-37-24] Cache C:\Users\daisuke\Desktop\RedFox\IN GAME\RedFox - 1.4.106/Cache/12.1.1 exists already
+[16-37-24] DDragon loaded
+[16-37-24] Loading PickBan Controller
+[16-37-24] Loading Ingame Controller
+[16-37-24] Checking League install for LiveEventsAPI
+[16-37-24] Found League install location
+[16-37-24] LiveEvents API found in Game config
+[16-37-24] [WARNING] Could not parse game config. Replay API may not be enabled!
+[16-37-24] Verifying LiveEvents list
+[16-37-24] Loading Replay Controller
+[16-37-24] Loading Farsight
+[16-37-24] Farsight loaded. Found 157 Champ names
+[16-37-24] Loading Frontend Webserver (HTTP/WS)
+[16-37-24] Server file system starting
+[16-37-24] WebServer New State - Loading
+[16-37-24] WebServer New State - Listening
+[16-37-24] WebServer running on http://*:9001/
+[16-37-24] Whats that ticking noise?
+[16-37-24] Init Complete in 3.201s
+[16-37-24] Opening main window
+[16-37-24] Connection State Changed
+[16-37-25] New Client I2v0Slq8tkumui3oyTsHSA connected from http://localhost:9001
+[16-37-25] New Client kxWAQqV/L0Si35ZG/pZKrQ connected from http://localhost:9001
+[16-37-25] Loading State Controller
+[16-37-25] Connecting to League Client
+[16-37-25] PickBan Enabled
+[16-37-25] Ingame Enabled
+[16-37-25] Using direct PickBan
+[16-37-25] Starting LeagueBroadcast with tickrate of 2tps
+[16-37-25] Checking for running Game
+[16-37-25] Target process (League of Legends) detected.
+[16-37-25] Init Game State
+[16-37-25] Game State reset
+[16-37-25] Connection State Changed
+[16-37-25] Post Init Complete in 640,2871ms
+[16-37-25] Total Startup time: 6.000s
+[16-37-25] Connected to League Client in 183 ms
+[16-37-25] Local Client Version 12.1.1
+[16-37-25] Loading offsets for current patch
+[16-37-25] Found Farsight.json. Reading values
+[16-37-25] Config Farsight loaded
+[16-37-25] Watching Farsight.json for changes
+[16-37-25] Using offsets 12.1.1
+[16-37-26] Game Loaded
+[16-37-26] Game Paused
+[16-37-26] LiveEventAPI Connected
+[16-37-26] Game Resumed
+[16-37-26] Init Team data
+[16-37-27] Init UI
+[16-37-27] Sending game start key inputs
+[16-38-17] Ingame.json change detected
+[16-38-17] Found Ingame.json. Reading values
+[16-38-17] Config Ingame loaded
+[16-38-42] Ingame.json change detected
+[16-38-42] Found Ingame.json. Reading values
+[16-38-42] Config Ingame loaded
+[16-38-51] Ingame.json change detected
+[16-38-52] Found Ingame.json. Reading values
+[16-38-52] Config Ingame loaded
+[16-39-21] Log Level set to Info
+[16-39-54] Writing PickBan config to file
+[16-39-54] PickBan.json change detected
+[16-39-54] Updated PickBan config file
+[16-39-55] Writing PickBan config to file
+[16-39-55] PickBan.json change detected
+[16-39-55] Updated PickBan config file
+[16-39-57] Writing PickBan config to file
+[16-39-57] PickBan.json change detected
+[16-39-57] Updated PickBan config file
+[16-40-00] Writing PickBan config to file
+[16-40-00] PickBan.json change detected
+[16-40-00] Updated PickBan config file
+[16-40-03] Writing PickBan config to file
+[16-40-03] PickBan.json change detected
+[16-40-03] Updated PickBan config file
+[16-40-05] Writing PickBan config to file
+[16-40-05] PickBan.json change detected
+[16-40-05] Updated PickBan config file
+[16-40-54] Updated RED team file
+[16-40-55] Updated FOX team file
+[16-41-45] Mountain spawned
+[16-42-11] Ingame.json change detected
+[16-42-12] Found Ingame.json. Reading values
+[16-42-12] Config Ingame loaded
+[16-42-15] [WARNING] Tried updating color to same color. Ingoring color change
+[16-42-16] Player 0 lvl up
+[16-42-23] Ingame.json change detected
+[16-42-24] Found Ingame.json. Reading values
+[16-42-24] Config Ingame loaded
+[16-42-29] Ingame.json change detected
+[16-42-30] Found Ingame.json. Reading values
+[16-42-30] Config Ingame loaded
+[16-42-46] Player 7 lvl up
+[16-42-57] Component.json change detected
+[16-43-36] Player 2 lvl up
+[16-43-40] Player 1 lvl up
+[16-43-46] Player 8 lvl up
+[16-44-08] Player 3 lvl up
+[16-44-15] Component.json change detected
+[16-44-16] [WARNING] Tried updating color to same color. Ingoring color change
+[16-44-24] Player 9 finished Item 3851
+[16-44-28] Component.json change detected
+[16-44-35] Component.json change detected
+[16-44-39] Component.json change detected
+[16-44-48] Herald spawned
+[16-44-52] Ingame.json change detected
+[16-44-53] Found Ingame.json. Reading values
+[16-44-53] Config Ingame loaded
+[16-44-57] Ingame.json change detected
+[16-44-57] Found Ingame.json. Reading values
+[16-44-57] Config Ingame loaded
+[16-45-02] Ingame.json change detected
+[16-45-02] Found Ingame.json. Reading values
+[16-45-02] Config Ingame loaded
+[16-45-13] Player 5 lvl up
+[16-45-55] Player 4 finished Item 3859
+[16-46-00] Player 4 lvl up
+[16-46-12] Player 1 finished Item 3142
+[16-47-08] Herald killed by ORDER
+[16-47-17] Ingame.json change detected
+[16-47-18] Found Ingame.json. Reading values
+[16-47-18] Config Ingame loaded
+[16-47-22] Player 0 finished Item 4644
+[16-47-42] Player 9 lvl up
+[16-48-04] Player 6 finished Item 3142
+[16-48-43] Mountain killed by CHAOS
+[16-48-54] Ingame.json change detected
+[16-48-54] Found Ingame.json. Reading values
+[16-48-54] Config Ingame loaded
+[16-49-07] Player 3 finished Item 3508
+[16-49-13] Player 6 finished Item 6673
+[16-49-34] Player 9 finished Item 3853
+[16-49-40] Player 8 finished Item 6653
+[16-49-53] Ingame.json change detected
+[16-49-54] Found Ingame.json. Reading values
+[16-49-54] Config Ingame loaded
+[16-50-13] Ingame.json change detected
+[16-50-13] Found Ingame.json. Reading values
+[16-50-13] Config Ingame loaded
+[16-50-20] Player 2 finished Item 3152
+[16-50-35] Player 7 finished Item 6692
+[16-50-41] Ingame.json change detected
+[16-50-41] Found Ingame.json. Reading values
+[16-50-41] Config Ingame loaded
+[16-50-42] Ingame.json change detected
+[16-50-42] Found Ingame.json. Reading values
+[16-50-42] Config Ingame loaded
+[16-50-46] Ingame.json change detected
+[16-50-47] Found Ingame.json. Reading values
+[16-50-47] Config Ingame loaded
+[16-50-47] Player 1 finished Item 6691
+[16-50-51] Ingame.json change detected
+[16-50-51] Found Ingame.json. Reading values
+[16-50-51] Config Ingame loaded
+[16-50-57] Ingame.json change detected
+[16-50-57] Found Ingame.json. Reading values
+[16-50-57] Config Ingame loaded
+[16-51-02] Ingame.json change detected
+[16-51-03] Found Ingame.json. Reading values
+[16-51-03] Config Ingame loaded
+[16-51-09] Player 9 finished Item 4005
+[16-51-13] Ingame.json change detected
+[16-51-13] Found Ingame.json. Reading values
+[16-51-13] Config Ingame loaded
+[16-51-14] Ingame.json change detected
+[16-51-14] Found Ingame.json. Reading values
+[16-51-14] Config Ingame loaded
+[16-51-21] Player 5 finished Item 6664
+[16-51-22] Ingame.json change detected
+[16-51-22] Found Ingame.json. Reading values
+[16-51-22] Config Ingame loaded
+[16-51-30] Ingame.json change detected
+[16-51-30] Found Ingame.json. Reading values
+[16-51-30] Config Ingame loaded
+[16-51-36] Player 1 lvl up
+[16-51-38] Ingame.json change detected
+[16-51-39] Found Ingame.json. Reading values
+[16-51-39] Config Ingame loaded
+[16-51-44] Ingame.json change detected
+[16-51-44] Found Ingame.json. Reading values
+[16-51-44] Config Ingame loaded
+[16-51-54] Ingame.json change detected
+[16-51-54] Found Ingame.json. Reading values
+[16-51-54] Config Ingame loaded
+[16-51-55] Player 5 lvl up
+[16-51-59] Ingame.json change detected
+[16-51-59] Found Ingame.json. Reading values
+[16-51-59] Config Ingame loaded
+[16-52-02] Ingame.json change detected
+[16-52-02] Player 0 lvl up
+[16-52-02] Found Ingame.json. Reading values
+[16-52-02] Config Ingame loaded
+[16-52-07] Player 7 lvl up
+[16-52-09] Player 8 lvl up
+[16-53-06] Herald spawned
+[16-53-33] Ingame.json change detected
+[16-53-34] Found Ingame.json. Reading values
+[16-53-34] Config Ingame loaded
+[16-53-38] Hextech spawned
+[16-53-51] Hextech killed by ORDER
+[16-53-51] Player 3 lvl up
+[16-54-09] Player 0 finished Item 3040
+[16-54-16] Player 4 finished Item 3860
+[16-54-38] Ingame.json change detected
+[16-54-39] Found Ingame.json. Reading values
+[16-54-39] Config Ingame loaded
+[16-54-43] Player 3 finished Item 3042
+[16-55-05] Player 8 finished Item 3157
+[16-55-11] Player 4 finished Item 3190
+[16-55-21] Client I2v0Slq8tkumui3oyTsHSA disconnected
+[16-55-22] New Client q5LCBJecLkWa4X62jjJldg connected from http://localhost:9001
+[16-55-34] Player 2 lvl up
+[16-55-49] Player 7 finished Item 3004
+[16-56-15] Herald killed by ORDER
+[16-56-26] Player 1 finished Item 3814
+[16-56-34] Player 6 finished Item 3042
+[16-56-34] Player 6 finished Item 3508
+[16-56-41] Player 6 finished Item 6673
+[16-56-51] Baron spawned
+[16-56-56] Player 7 finished Item 3042
+[16-57-11] Player 6 finished Item 3860
+[16-57-11] Player 6 finished Item 3190
+[16-57-11] Baron killed by CHAOS
+[16-57-13] Player 6 finished Item 6673
+[16-57-16] Player 4 lvl up
+[16-57-22] Player 6 finished Item 3508
+[16-58-32] Player 0 finished Item 3157
+[16-58-36] Player 5 finished Item 4637
+[16-58-46] Chemtech spawned
+[16-59-02] Chemtech killed by ORDER
+[16-59-10] Player 9 finished Item 3011
+[16-59-30] Player 8 finished Item 3135
+[16-59-44] Client q5LCBJecLkWa4X62jjJldg disconnected
+[16-59-45] New Client L3q1UIqpp0ObZt0jnodmtg connected from http://localhost:9001
+[16-59-55] Saving all configs to file
+[16-59-55] Writing PickBan config to file
+[16-59-55] Updated PickBan config file
+[16-59-55] Writing Component config to file
+[16-59-55] Updated Component config file
+[16-59-55] Writing Farsight config to file
+[16-59-55] Updated Farsight config file
+[16-59-55] Writing Ingame config to file
+[16-59-55] Updated Ingame config file
+[16-59-55] Configs saved

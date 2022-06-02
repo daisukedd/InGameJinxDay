@@ -1,0 +1,1280 @@
+[17-04-40] Logging Init
+[17-04-40] Starting Config Controller
+[17-04-40] Config Provider started
+[17-04-40] Looking for config files at /Config
+[17-04-40] Found PickBan.json. Reading values
+[17-04-40] {
+  "frontend": {
+    "scoreEnabled": true,
+    "spellsEnabled": true,
+    "coachesEnabled": true,
+    "blueTeam": {
+      "name": "RED",
+      "nameTag": "RED",
+      "score": 0,
+      "coach": "RED1",
+      "color": "rgb(66,133,244)"
+    },
+    "redTeam": {
+      "name": "FOX",
+      "nameTag": "FOX",
+      "score": 0,
+      "coach": "RED2",
+      "color": "rgb(234,67,53)"
+    },
+    "patch": "12.1.1"
+  },
+  "FileVersion": "1.0"
+}
+[17-04-40] Config PickBan loaded
+[17-04-40] Found Ingame.json. Reading values
+[17-04-40] {
+  "Inhib": {
+    "Position": {
+      "X": 0.0,
+      "Y": 845.0
+    },
+    "Size": {
+      "X": 306.0,
+      "Y": 118.0
+    },
+    "UseBackgroundImage": false,
+    "UseBackgroundVideo": false,
+    "Color": "rgba(19,24,63,255)",
+    "Font": {
+      "Style": "Normal",
+      "Name": "URW DIN",
+      "Size": "15px",
+      "Align": "right",
+      "Color": "rgb(255,255,255)"
+    },
+    "IconSize": 40.0,
+    "HideWhenNoneDestroyed": true,
+    "UseTeamColors": true,
+    "BlueTeam": {
+      "Position": {
+        "X": 40.0,
+        "Y": 20.0
+      },
+      "LaneOffset": {
+        "X": 100.0,
+        "Y": 0.0
+      },
+      "UseTeamColor": true,
+      "Color": "rgb(0,0,0)",
+      "IconOffset": {
+        "X": 10.0,
+        "Y": -24.0
+      }
+    },
+    "RedTeam": {
+      "Position": {
+        "X": 40.0,
+        "Y": 80.0
+      },
+      "LaneOffset": {
+        "X": 100.0,
+        "Y": 0.0
+      },
+      "UseTeamColor": true,
+      "Color": "rgb(255,255,255)",
+      "IconOffset": {
+        "X": 10.0,
+        "Y": -24.0
+      }
+    },
+    "LaneOrder": [
+      "bot",
+      "mid",
+      "top"
+    ]
+  },
+  "Score": {
+    "Position": {
+      "X": 960.0,
+      "Y": 0.0
+    },
+    "Size": {
+      "X": 800.0,
+      "Y": 92.0
+    },
+    "TimeFont": {
+      "Style": "Normal",
+      "Name": "URW DIN",
+      "Size": "22px",
+      "Align": "center",
+      "Color": "rgb(255,255,255)"
+    },
+    "TimePosition": {
+      "X": 0.0,
+      "Y": 70.0
+    },
+    "BlueTeam": {
+      "Kills": {
+        "Position": {
+          "X": -40.0,
+          "Y": 6.0
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "URW DIN",
+          "Size": "50px",
+          "Align": "right",
+          "Color": "rgb(104,0,245)"
+        },
+        "Icon": {
+          "Name": "KillsIcon",
+          "Size": {
+            "X": 100.0,
+            "Y": 100.0
+          },
+          "Offset": {
+            "X": 0.0,
+            "Y": 0.0
+          }
+        }
+      },
+      "Towers": {
+        "Position": {
+          "X": -270.0,
+          "Y": 20.0
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "URW DIN",
+          "Size": "26px",
+          "Align": "right",
+          "Color": "rgb(104,0,245)"
+        },
+        "Icon": {
+          "Name": "TowerIcon",
+          "Size": {
+            "X": 25.0,
+            "Y": 30.0
+          },
+          "Offset": {
+            "X": 15.0,
+            "Y": 13.0
+          }
+        }
+      },
+      "Gold": {
+        "Position": {
+          "X": -150.0,
+          "Y": 20.0
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "URW DIN",
+          "Size": "26px",
+          "Align": "right",
+          "Color": "rgb(104,0,245)"
+        },
+        "Icon": {
+          "Name": "GoldIcon",
+          "Size": {
+            "X": 40.0,
+            "Y": 30.0
+          },
+          "Offset": {
+            "X": 25.0,
+            "Y": 10.0
+          }
+        }
+      },
+      "Drakes": {
+        "Position": {
+          "X": -55.0,
+          "Y": 71.0
+        },
+        "Offset": {
+          "X": -12.0,
+          "Y": 0.0
+        }
+      },
+      "Name": {
+        "UseTag": true,
+        "Position": {
+          "X": -390.0,
+          "Y": 6.0
+        },
+        "AdaptiveFontSize": true,
+        "MaxSize": {
+          "X": 100.0,
+          "Y": 50.0
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "URW DIN",
+          "Size": "40px",
+          "Align": "left",
+          "Color": "rgb(255,255,255)"
+        }
+      },
+      "Icon": {
+        "Position": {
+          "X": -430.0,
+          "Y": 30.0
+        },
+        "Size": {
+          "X": 60.0,
+          "Y": 60.0
+        },
+        "UseBackground": true,
+        "BackgroundOffset": {
+          "X": -10.0,
+          "Y": 0.0
+        }
+      },
+      "Score": {
+        "Position": {
+          "X": -380.0,
+          "Y": 70.0
+        },
+        "NumberFont": {
+          "Style": "Normal",
+          "Name": "URW DIN",
+          "Size": "15px",
+          "Align": "right",
+          "Color": "rgb(255,255,255)"
+        },
+        "UseCircleIcons": true,
+        "CircleOffset": {
+          "X": 25.0,
+          "Y": 0.0
+        },
+        "CircleRadius": 10.0,
+        "UseTeamColor": true,
+        "StrokeColor": "rgb(255,255,255)",
+        "FillColor": "rgb(255,255,255)"
+      }
+    },
+    "RedTeam": {
+      "Kills": {
+        "Position": {
+          "X": 40.0,
+          "Y": 6.0
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "URW DIN",
+          "Size": "50px",
+          "Align": "left",
+          "Color": "rgb(255,19,74)"
+        },
+        "Icon": {
+          "Name": "KillsIcon",
+          "Size": {
+            "X": 100.0,
+            "Y": 100.0
+          },
+          "Offset": {
+            "X": 0.0,
+            "Y": 0.0
+          }
+        }
+      },
+      "Towers": {
+        "Position": {
+          "X": 270.0,
+          "Y": 20.0
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "URW DIN",
+          "Size": "26px",
+          "Align": "left",
+          "Color": "rgb(255,19,74)"
+        },
+        "Icon": {
+          "Name": "TowerIcon",
+          "Size": {
+            "X": 25.0,
+            "Y": 30.0
+          },
+          "Offset": {
+            "X": -15.0,
+            "Y": 13.0
+          }
+        }
+      },
+      "Gold": {
+        "Position": {
+          "X": 150.0,
+          "Y": 20.0
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "URW DIN",
+          "Size": "26px",
+          "Align": "left",
+          "Color": "rgb(255,19,74)"
+        },
+        "Icon": {
+          "Name": "GoldIcon",
+          "Size": {
+            "X": 40.0,
+            "Y": 30.0
+          },
+          "Offset": {
+            "X": -25.0,
+            "Y": 10.0
+          }
+        }
+      },
+      "Drakes": {
+        "Position": {
+          "X": 50.0,
+          "Y": 71.0
+        },
+        "Offset": {
+          "X": 12.0,
+          "Y": 0.0
+        }
+      },
+      "Name": {
+        "UseTag": true,
+        "Position": {
+          "X": 390.0,
+          "Y": 6.0
+        },
+        "AdaptiveFontSize": true,
+        "MaxSize": {
+          "X": 100.0,
+          "Y": 50.0
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "URW DIN",
+          "Size": "40px",
+          "Align": "right",
+          "Color": "rgb(255,255,255)"
+        }
+      },
+      "Icon": {
+        "Position": {
+          "X": 430.0,
+          "Y": 30.0
+        },
+        "Size": {
+          "X": 60.0,
+          "Y": 60.0
+        },
+        "UseBackground": true,
+        "BackgroundOffset": {
+          "X": 10.0,
+          "Y": 0.0
+        }
+      },
+      "Score": {
+        "Position": {
+          "X": 380.0,
+          "Y": 70.0
+        },
+        "NumberFont": {
+          "Style": "Normal",
+          "Name": "URW DIN",
+          "Size": "15px",
+          "Align": "left",
+          "Color": "rgb(255,255,255)"
+        },
+        "UseCircleIcons": true,
+        "CircleOffset": {
+          "X": -25.0,
+          "Y": 0.0
+        },
+        "CircleRadius": 10.0,
+        "UseTeamColor": true,
+        "StrokeColor": "rgb(255,255,255)",
+        "FillColor": "rgb(255,255,255)"
+      }
+    },
+    "Background": {
+      "UseImage": true,
+      "UseVideo": false,
+      "UseAlpha": false,
+      "FallbackColor": "rgba(0,0,0,0)"
+    },
+    "Misc": {
+      "Animation": "Simple",
+      "ShowCenterIcon": true,
+      "CenterIconPosition": {
+        "X": 0.0,
+        "Y": 30.0
+      },
+      "CenterIconSize": {
+        "X": 40.0,
+        "Y": 40.0
+      },
+      "DrakeIconSize": {
+        "X": 20.0,
+        "Y": 20.0
+      }
+    }
+  },
+  "ObjectiveKill": {
+    "ShowTeamIcon": false,
+    "SoulPointScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": true,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "ElderKillScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": true,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "DragonKillScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": true,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "BaronKillScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": false,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "HeraldKillScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": true,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    }
+  },
+  "ObjectiveSpawn": {
+    "BaronSpawnScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": false,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": false,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "DrakeSpawnScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": true,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": false,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "HeraldSpawnScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": true,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": false,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    }
+  },
+  "ItemComplete": {
+    "UseCustomVideo": false,
+    "ShowItemName": true,
+    "ShowOnScoreboard": false,
+    "ShowOnChampionIndicator": true,
+    "InfoText": {
+      "Style": "Normal",
+      "Name": "URW DIN",
+      "Size": "20px",
+      "Align": "center",
+      "Color": "rgb(255,255,255)"
+    },
+    "ItemAnimationStates": [
+      {
+        "Scale": 0.0,
+        "Alpha": 0.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 400.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.1,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 3200.0,
+        "Ease": "Linear",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 2.5,
+        "Alpha": 0.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 400.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 0.0
+      }
+    ],
+    "InfoTextAnimationStates": [
+      {
+        "Scale": 1.0,
+        "Alpha": 0.0,
+        "Position": {
+          "X": 55.0,
+          "Y": 0.0
+        },
+        "Mirror": true,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 55.0,
+          "Y": 0.0
+        },
+        "Mirror": true,
+        "Duration": 200.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 1000.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 0.0,
+        "Position": {
+          "X": 55.0,
+          "Y": 0.0
+        },
+        "Mirror": true,
+        "Duration": 200.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 1800.0
+      }
+    ],
+    "InfoBackgroundAnimationStates": [
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 80.0
+        },
+        "Mirror": false,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 200.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 800.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": -80.0
+        },
+        "Mirror": false,
+        "Duration": 200.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 2200.0
+      }
+    ]
+  },
+  "LevelUp": {
+    "UseCustomVideo": false,
+    "ShowOnScoreboard": true,
+    "ShowOnChampionIndicator": true,
+    "LevelFont": {
+      "Style": "Normal",
+      "Name": "URW DIN",
+      "Size": "60px",
+      "Align": "center",
+      "Color": "rgb(255,255,255)"
+    },
+    "UseTeamColors": true,
+    "OrderColor": "rgb(0,0,255)",
+    "ChaosColor": "rgb(255,0,0)",
+    "NumberAnimationStates": [
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 70.0
+        },
+        "Mirror": true,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": -30.0
+        },
+        "Mirror": true,
+        "Duration": 300.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 250.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": -130.0
+        },
+        "Mirror": true,
+        "Duration": 400.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 3500.0
+      }
+    ],
+    "BackgroundAnimationStates": [
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 100.0
+        },
+        "Mirror": false,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 300.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 250.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": -90.0,
+          "Y": 0.0
+        },
+        "Mirror": true,
+        "Duration": 400.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 4000.0
+      }
+    ]
+  },
+  "InfoPage": {
+    "Position": {
+      "X": 0.0,
+      "Y": 135.0
+    },
+    "Title": {
+      "Enabled": true,
+      "Position": {
+        "Gold": {
+          "X": 150.0,
+          "Y": 15.0
+        },
+        "XP": {
+          "X": 150.0,
+          "Y": 15.0
+        },
+        "CSPM": {
+          "X": 150.0,
+          "Y": 15.0
+        }
+      },
+      "Font": {
+        "Style": "Normal",
+        "Name": "URW DIN",
+        "Size": "26px",
+        "Align": "center",
+        "Color": "rgb(255,255,255)"
+      }
+    },
+    "TitleHeight": 45.0,
+    "TabConfig": {
+      "TabSize": {
+        "X": 300.0,
+        "Y": 55.0
+      },
+      "UseTeamColorsText": false,
+      "OrderColor": "rgb(255,255,255)",
+      "ChaosColor": "rgb(255,255,255)",
+      "ChampIcon": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 4.0,
+            "Y": 8.0
+          },
+          "XP": {
+            "X": 4.0,
+            "Y": 8.0
+          },
+          "CSPM": {
+            "X": 4.0,
+            "Y": 8.0
+          }
+        },
+        "Size": {
+          "X": 42.0,
+          "Y": 42.0
+        }
+      },
+      "Separator": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "XP": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "CSPM": {
+            "X": 0.0,
+            "Y": 0.0
+          }
+        },
+        "Size": {
+          "X": 300.0,
+          "Y": 2.0
+        }
+      },
+      "PlayerName": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 54.0,
+            "Y": 6.0
+          },
+          "XP": {
+            "X": 54.0,
+            "Y": 6.0
+          },
+          "CSPM": {
+            "X": 54.0,
+            "Y": 6.0
+          }
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "URW DIN",
+          "Size": "15px",
+          "Align": "left",
+          "Color": "rgb(255,255,255)"
+        }
+      },
+      "MinValue": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 54.0,
+            "Y": 22.0
+          },
+          "XP": {
+            "X": 54.0,
+            "Y": 22.0
+          },
+          "CSPM": {
+            "X": 54.0,
+            "Y": 22.0
+          }
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "URW DIN",
+          "Size": "15px",
+          "Align": "left",
+          "Color": "rgb(255,255,255)"
+        }
+      },
+      "CurrentValue": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 270.0,
+            "Y": 15.0
+          },
+          "XP": {
+            "X": 280.0,
+            "Y": 15.0
+          },
+          "CSPM": {
+            "X": 280.0,
+            "Y": 15.0
+          }
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "URW DIN",
+          "Size": "25px",
+          "Align": "center",
+          "Color": "rgb(255,255,255)"
+        }
+      },
+      "MaxValue": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 230.0,
+            "Y": 22.0
+          },
+          "XP": {
+            "X": 260.0,
+            "Y": 22.0
+          },
+          "CSPM": {
+            "X": 260.0,
+            "Y": 22.0
+          }
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "URW DIN",
+          "Size": "15px",
+          "Align": "right",
+          "Color": "rgb(255,255,255)"
+        }
+      },
+      "ProgressBar": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 52.0,
+            "Y": 40.0
+          },
+          "XP": {
+            "X": 52.0,
+            "Y": 40.0
+          },
+          "CSPM": {
+            "X": 52.0,
+            "Y": 40.0
+          }
+        },
+        "Size": {
+          "Gold": {
+            "X": 180.0,
+            "Y": 10.0
+          },
+          "XP": {
+            "X": 210.0,
+            "Y": 10.0
+          },
+          "CSPM": {
+            "X": 210.0,
+            "Y": 10.0
+          }
+        },
+        "UseTeamColors": true,
+        "DefaultColor": "rgb(0,0,0)",
+        "OrderColor": "rgb(222,40,70)",
+        "ChaosColor": "rgb(0,151,196)",
+        "Animate": true
+      }
+    },
+    "Background": {
+      "UseImage": false,
+      "UseVideo": false,
+      "UseAlpha": false,
+      "FallbackColor": "rgb(19, 24, 63)",
+      "Size": {
+        "X": 300.0,
+        "Y": 600.0
+      }
+    }
+  },
+  "GoldGraph": {
+    "Position": {
+      "X": 965.0,
+      "Y": 845.0
+    },
+    "Size": {
+      "X": 740.0,
+      "Y": 235.0
+    },
+    "Background": {
+      "UseImage": false,
+      "UseVideo": false,
+      "UseAlpha": false,
+      "FallbackColor": "rgba(19,24,63,255)"
+    },
+    "Title": {
+      "Enabled": true,
+      "Position": {
+        "X": 0.0,
+        "Y": 10.0
+      },
+      "Font": {
+        "Style": "Bold",
+        "Name": "URW DIN",
+        "Size": "22px",
+        "Align": "left",
+        "Color": "rgb(230,190,138)"
+      },
+      "Text": "GOLD DIFFERENCE SINCE START"
+    },
+    "Graph": {
+      "Position": {
+        "X": 5.0,
+        "Y": 40.0
+      },
+      "Size": {
+        "X": 710.0,
+        "Y": 190.0
+      },
+      "ShowVerticalGrid": true,
+      "ShowHorizontalGrid": true,
+      "LineTension": 0.05,
+      "GridColor": "rgba(255,255,255, 0.3)",
+      "GridEdgeColor": "rgba(255,255,255, 0.4)",
+      "BorderUseTeamColors": true,
+      "BorderOrderColor": "rgb(0,0,0)",
+      "BorderChaosColor": "rgb(0,0,0)",
+      "FillUseTeamColors": true,
+      "FillOrderColor": "rgb(0,0,0)",
+      "FillChaosColor": "rgb(0,0,0)",
+      "InfoFont": {
+        "Style": "UNUSED",
+        "Name": "URW DIN",
+        "Size": "UNUSED",
+        "Align": "UNUSED",
+        "Color": "rgb(230,190,138)"
+      },
+      "TimeStepSize": 30,
+      "ShowTimeStepIndicators": true
+    }
+  },
+  "BaronTimer": {
+    "Position": {
+      "X": 1800.0,
+      "Y": 55.0
+    },
+    "MaskPosition": {
+      "X": 1750.0,
+      "Y": 20.0
+    },
+    "MaskSize": {
+      "X": 150.0,
+      "Y": 70.0
+    },
+    "Scale": 0.8,
+    "Align": "right",
+    "ShowGoldDiff": true,
+    "ShowTimer": true,
+    "ObjectiveIcon": true,
+    "Animate": true,
+    "IconPosition": {
+      "X": 0.0,
+      "Y": 0.0
+    },
+    "GoldPosition": {
+      "X": 25.0,
+      "Y": -25.0
+    },
+    "GoldIconPosition": {
+      "X": -7.0,
+      "Y": -25.0
+    },
+    "GoldFont": {
+      "Style": "Bold",
+      "Name": "URW DIN",
+      "Size": "22px",
+      "Align": "right",
+      "Color": "rgb(230,190,138)"
+    },
+    "TimePosition": {
+      "X": 25.0,
+      "Y": 0.0
+    },
+    "TimeIconPosition": {
+      "X": -10.0,
+      "Y": 0.0
+    },
+    "TimeFont": {
+      "Style": "Bold",
+      "Name": "URW DIN",
+      "Size": "22px",
+      "Align": "right",
+      "Color": "rgb(230,190,138)"
+    }
+  },
+  "ElderTimer": {
+    "Position": {
+      "X": 120.0,
+      "Y": 55.0
+    },
+    "MaskPosition": {
+      "X": 50.0,
+      "Y": 20.0
+    },
+    "MaskSize": {
+      "X": 150.0,
+      "Y": 70.0
+    },
+    "Scale": 0.8,
+    "Align": "left",
+    "ShowGoldDiff": true,
+    "ShowTimer": true,
+    "ObjectiveIcon": true,
+    "Animate": true,
+    "IconPosition": {
+      "X": 40.0,
+      "Y": 0.0
+    },
+    "GoldPosition": {
+      "X": 18.0,
+      "Y": -25.0
+    },
+    "GoldIconPosition": {
+      "X": 22.0,
+      "Y": -25.0
+    },
+    "GoldFont": {
+      "Style": "Bold",
+      "Name": "URW DIN",
+      "Size": "22px",
+      "Align": "left",
+      "Color": "rgb(230,190,138)"
+    },
+    "TimePosition": {
+      "X": 18.0,
+      "Y": 0.0
+    },
+    "TimeIconPosition": {
+      "X": 20.0,
+      "Y": -2.0
+    },
+    "TimeFont": {
+      "Style": "Bold",
+      "Name": "URW DIN",
+      "Size": "22px",
+      "Align": "left",
+      "Color": "rgb(230,190,138)"
+    }
+  },
+  "GoogleFonts": [
+    "News Cycle",
+    "News Cycle:bold",
+    "Droid Sans"
+  ],
+  "FileVersion": "2.2"
+}
+[17-04-40] Config Ingame loaded
+[17-04-40] Found Component.json. Reading values
+[17-04-40] {
+  "DataDragon": {
+    "MinimumGoldCost": 2000,
+    "Region": "euw",
+    "Locale": "pt_BR",
+    "CDN": "https://ddragon.leagueoflegends.com/cdn",
+    "Patch": "latest"
+  },
+  "PickBan": {
+    "IsActive": true,
+    "UseDelay": false,
+    "DelayValue": 300,
+    "DefaultBlueColor": "rgb(66, 133, 244)",
+    "DefaultRedColor": "rgb(234, 67, 53)"
+  },
+  "Ingame": {
+    "IsActive": true,
+    "UseLiveEvents": true,
+    "DoLevelUp": true,
+    "DoItemCompleted": true,
+    "SeriesGameCount": 3,
+    "Objectives": {
+      "DoBaronKill": true,
+      "DoDragonKill": true,
+      "DoInhibitors": false,
+      "DoObjectiveSpawnPopUp": false,
+      "DoObjectiveKillPopUp": false
+    },
+    "Teams": {
+      "DoTeamNames": false,
+      "DoTeamIcons": false,
+      "DoTeamScores": false
+    },
+    "UseCustomScoreboard": true
+  },
+  "Replay": {
+    "IsActive": true,
+    "UseAutoInitUI": true
+  },
+  "PostGame": {
+    "IsActive": false
+  },
+  "App": {
+    "LogLevel": 2,
+    "CheckForUpdates": true,
+    "UpdateRepositoryUrl": "https://github.com/floh22/LeagueBroadcast",
+    "UpdateRepositoryName": "floh22/LeagueBroadcast",
+    "LeagueInstall": [
+      "C:\\",
+      "D:\\",
+      "E:\\",
+      "F:\\",
+      "C:\\Program Files",
+      "C:\\Program Files (x86)"
+    ],
+    "CheckForOffsets": true,
+    "OffsetRepository": "https://raw.githubusercontent.com/floh22/LeagueBroadcast/v2/Offsets/",
+    "OffsetPrefix": "Offsets-"
+  },
+  "FileVersion": "1.3"
+}
+[17-04-40] Config Component loaded
+[17-04-40] Loading config watchers
+[17-04-40] Watching PickBan.json for changes
+[17-04-40] Watching Component.json for changes
+[17-04-40] Watching Ingame.json for changes
+[17-04-40] Log Level set to Info
+[17-04-40] League Broadcast Version 1.4.106
+[17-04-40] [Update] Checking for Updates
+[17-04-41] [Update] Latest release version v1.4.106 vs. current version 1.4.106
+[17-04-41] [Update] Local version up to date
+[17-04-41] Using current Version
+[17-04-41] Early Init Complete in 2172,532ms
+[17-04-41] DataDragon Provider Init
+[17-04-41] Getting latest versions from dataDragon
+[17-04-41] Retrieving latest patch info
+[17-04-43] Champion: 12.1.1, Item: 12.1.1, CDN: https://ddragon.leagueoflegends.com/cdn
+[17-04-43] Loaded 157 champions
+[17-04-44] Loaded 16 summoner spells
+[17-04-44] Detected 206 items
+[17-04-44] Loaded 100 full items
+[17-04-44] Checking Local Cache
+[17-04-44] Cache C:\Users\daisuke\Desktop\RedFox\IN GAME\RedFox - 1.4.106/Cache/12.1.1 exists already
+[17-04-44] DDragon loaded
+[17-04-44] Loading PickBan Controller
+[17-04-44] Loading Ingame Controller
+[17-04-44] Checking League install for LiveEventsAPI
+[17-04-44] Found League install location
+[17-04-44] LiveEvents API found in Game config
+[17-04-44] [WARNING] Could not parse game config. Replay API may not be enabled!
+[17-04-44] Verifying LiveEvents list
+[17-04-45] Loading Replay Controller
+[17-04-45] Loading Farsight
+[17-04-45] Farsight loaded. Found 157 Champ names
+[17-04-45] Loading Frontend Webserver (HTTP/WS)
+[17-04-45] Server file system starting
+[17-04-45] WebServer New State - Loading
+[17-04-45] WebServer New State - Listening
+[17-04-45] WebServer running on http://*:9001/
+[17-04-45] Whats that ticking noise?
+[17-04-45] Init Complete in 3.642s
+[17-04-45] Opening main window
+[17-04-45] Team RED loaded
+[17-04-45] Team FOX loaded
+[17-04-45] Connection State Changed
+[17-04-45] New Client Jk6UD6wExUmYblNA6Jprxw connected from http://localhost:9001
+[17-04-45] New Client a5dTevFMOUePlb89F+Cy3A connected from http://localhost:9001
+[17-04-45] Loading State Controller
+[17-04-45] Connecting to League Client
+[17-04-45] PickBan Enabled
+[17-04-45] Ingame Enabled
+[17-04-45] Using direct PickBan
+[17-04-45] Starting LeagueBroadcast with tickrate of 2tps
+[17-04-45] Checking for running Game
+[17-04-45] Target process (League of Legends) detected.
+[17-04-45] Init Game State
+[17-04-46] Game State reset
+[17-04-46] Connection State Changed
+[17-04-46] Post Init Complete in 634,9365ms
+[17-04-46] Total Startup time: 6.450s
+[17-04-46] Connected to League Client in 167 ms
+[17-04-46] Local Client Version 12.1.1
+[17-04-46] Loading offsets for current patch
+[17-04-46] Found Farsight.json. Reading values
+[17-04-46] Config Farsight loaded
+[17-04-46] Watching Farsight.json for changes
+[17-04-46] Using offsets 12.1.1
+[17-04-46] Game Loaded
+[17-04-46] Game Paused
+[17-04-46] LiveEventAPI Connected
+[17-04-46] Game Resumed
+[17-04-47] Baron spawned
+[17-04-47] Init Team data
+[17-04-47] Init UI
+[17-04-47] Sending game start key inputs
+[17-04-49] Player 4 finished Item 3011
+[17-05-04] Client a5dTevFMOUePlb89F+Cy3A disconnected
+[17-05-04] Player 8 lvl up
+[17-05-05] New Client 1z5uZJrSY0265S5/TCOTzQ connected from http://localhost:9001
+[17-05-13] Player 3 finished Item 3157
+[17-06-12] Player 3 lvl up
+[17-06-31] Player 6 finished Item 3860
+[17-06-31] Player 6 finished Item 3190
+[17-06-31] Player 6 finished Item 3011
+[17-06-39] Player 6 finished Item 6673
+[17-06-39] Player 6 finished Item 3508
+[17-07-12] Player 6 finished Item 3152
+[17-07-12] Player 6 finished Item 4645
+[17-07-19] Player 6 finished Item 6673
+[17-07-19] Player 6 finished Item 3508
+[17-07-53] Player 0 finished Item 4629
+[17-07-57] Player 7 lvl up
+[17-07-59] Player 5 lvl up
+[17-08-33] Game Paused
+[17-19-32] Ingame.json change detected
+[17-19-33] Found Ingame.json. Reading values
+[17-19-33] Config Ingame loaded

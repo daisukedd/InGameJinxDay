@@ -1,0 +1,1553 @@
+[10-39-37] Logging Init
+[10-39-37] Starting Config Controller
+[10-39-37] Config Provider started
+[10-39-37] Looking for config files at /Config
+[10-39-37] Found PickBan.json. Reading values
+[10-39-37] {
+  "frontend": {
+    "scoreEnabled": true,
+    "spellsEnabled": true,
+    "coachesEnabled": true,
+    "blueTeam": {
+      "name": "REDBLUE1",
+      "nameTag": "RED1",
+      "score": 0,
+      "coach": "RED1",
+      "color": "rgb(46,156,249)"
+    },
+    "redTeam": {
+      "name": "FOX2",
+      "nameTag": "FOX2",
+      "score": 0,
+      "coach": "RED2",
+      "color": "rgb(249,46,99)"
+    },
+    "patch": "12.10.1"
+  },
+  "FileVersion": "1.0"
+}
+[10-39-37] Config PickBan loaded
+[10-39-37] Found Ingame.json. Reading values
+[10-39-37] {
+  "Inhib": {
+    "Position": {
+      "X": 0.0,
+      "Y": 845.0
+    },
+    "Size": {
+      "X": 306.0,
+      "Y": 118.0
+    },
+    "UseBackgroundImage": false,
+    "UseBackgroundVideo": false,
+    "Color": "rgba(19,24,63,255)",
+    "Font": {
+      "Style": "Normal",
+      "Name": "Joyride",
+      "Size": "15px",
+      "Align": "right",
+      "Color": "rgb(255,255,255)"
+    },
+    "IconSize": 40.0,
+    "HideWhenNoneDestroyed": true,
+    "UseTeamColors": true,
+    "BlueTeam": {
+      "Position": {
+        "X": 40.0,
+        "Y": 20.0
+      },
+      "LaneOffset": {
+        "X": 100.0,
+        "Y": 0.0
+      },
+      "UseTeamColor": true,
+      "Color": "rgb(0,0,0)",
+      "IconOffset": {
+        "X": 10.0,
+        "Y": -24.0
+      }
+    },
+    "RedTeam": {
+      "Position": {
+        "X": 40.0,
+        "Y": 80.0
+      },
+      "LaneOffset": {
+        "X": 100.0,
+        "Y": 0.0
+      },
+      "UseTeamColor": true,
+      "Color": "rgb(255,255,255)",
+      "IconOffset": {
+        "X": 10.0,
+        "Y": -24.0
+      }
+    },
+    "LaneOrder": [
+      "bot",
+      "mid",
+      "top"
+    ]
+  },
+  "Score": {
+    "Position": {
+      "X": 960.0,
+      "Y": 0.0
+    },
+    "Size": {
+      "X": 800.0,
+      "Y": 92.0
+    },
+    "TimeFont": {
+      "Style": "Normal",
+      "Name": "Joyride",
+      "Size": "20px",
+      "Align": "center",
+      "Color": "rgb(255,255,255)"
+    },
+    "TimePosition": {
+      "X": 14.0,
+      "Y": 80.0
+    },
+    "BlueTeam": {
+      "Kills": {
+        "Position": {
+          "X": -62.0,
+          "Y": -1.0
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "Joyride",
+          "Size": "50px",
+          "Align": "right",
+          "Color": "rgb(46, 156, 249)"
+        },
+        "Icon": {
+          "Name": "KillsIcon",
+          "Size": {
+            "X": 100.0,
+            "Y": 100.0
+          },
+          "Offset": {
+            "X": 0.0,
+            "Y": 0.0
+          }
+        }
+      },
+      "Towers": {
+        "Position": {
+          "X": -292.0,
+          "Y": 15.0
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "Joyride",
+          "Size": "26px",
+          "Align": "right",
+          "Color": "rgb(46, 156, 249)"
+        },
+        "Icon": {
+          "Name": "TowerIcon",
+          "Size": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Offset": {
+            "X": 25.0,
+            "Y": 13.0
+          }
+        }
+      },
+      "Gold": {
+        "Position": {
+          "X": -174.0,
+          "Y": 15.0
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "Joyride",
+          "Size": "26px",
+          "Align": "right",
+          "Color": "rgb(46, 156, 249)"
+        },
+        "Icon": {
+          "Name": "GoldIcon",
+          "Size": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Offset": {
+            "X": 25.0,
+            "Y": 10.0
+          }
+        }
+      },
+      "Drakes": {
+        "Position": {
+          "X": -62.0,
+          "Y": 82.0
+        },
+        "Offset": {
+          "X": -12.0,
+          "Y": 0.0
+        }
+      },
+      "Name": {
+        "UseTag": true,
+        "Position": {
+          "X": -390.0,
+          "Y": 6.0
+        },
+        "AdaptiveFontSize": true,
+        "MaxSize": {
+          "X": 100.0,
+          "Y": 50.0
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "Joyride",
+          "Size": "40px",
+          "Align": "left",
+          "Color": "rgb(255,255,255)"
+        }
+      },
+      "Icon": {
+        "Position": {
+          "X": -430.0,
+          "Y": 30.0
+        },
+        "Size": {
+          "X": 60.0,
+          "Y": 60.0
+        },
+        "UseBackground": true,
+        "BackgroundOffset": {
+          "X": -10.0,
+          "Y": 0.0
+        }
+      },
+      "Score": {
+        "Position": {
+          "X": -380.0,
+          "Y": 70.0
+        },
+        "NumberFont": {
+          "Style": "Normal",
+          "Name": "Joyride",
+          "Size": "15px",
+          "Align": "right",
+          "Color": "rgb(255,255,255)"
+        },
+        "UseCircleIcons": true,
+        "CircleOffset": {
+          "X": 25.0,
+          "Y": 0.0
+        },
+        "CircleRadius": 10.0,
+        "UseTeamColor": true,
+        "StrokeColor": "rgb(255,255,255)",
+        "FillColor": "rgb(255,255,255)"
+      }
+    },
+    "RedTeam": {
+      "Kills": {
+        "Position": {
+          "X": 62.0,
+          "Y": -1.0
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "Joyride",
+          "Size": "50px",
+          "Align": "left",
+          "Color": "rgb(249, 46, 99)"
+        },
+        "Icon": {
+          "Name": "KillsIcon",
+          "Size": {
+            "X": 100.0,
+            "Y": 100.0
+          },
+          "Offset": {
+            "X": 0.0,
+            "Y": 0.0
+          }
+        }
+      },
+      "Towers": {
+        "Position": {
+          "X": 292.0,
+          "Y": 15.0
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "Joyride",
+          "Size": "26px",
+          "Align": "left",
+          "Color": "rgb(249, 46, 99)"
+        },
+        "Icon": {
+          "Name": "TowerIcon",
+          "Size": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Offset": {
+            "X": -15.0,
+            "Y": 13.0
+          }
+        }
+      },
+      "Gold": {
+        "Position": {
+          "X": 174.0,
+          "Y": 15.0
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "Joyride",
+          "Size": "26px",
+          "Align": "left",
+          "Color": "rgb(249, 46, 99)"
+        },
+        "Icon": {
+          "Name": "GoldIcon",
+          "Size": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Offset": {
+            "X": -25.0,
+            "Y": 10.0
+          }
+        }
+      },
+      "Drakes": {
+        "Position": {
+          "X": 62.0,
+          "Y": 82.0
+        },
+        "Offset": {
+          "X": 12.0,
+          "Y": 0.0
+        }
+      },
+      "Name": {
+        "UseTag": true,
+        "Position": {
+          "X": 390.0,
+          "Y": 6.0
+        },
+        "AdaptiveFontSize": true,
+        "MaxSize": {
+          "X": 100.0,
+          "Y": 50.0
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "Joyride",
+          "Size": "40px",
+          "Align": "right",
+          "Color": "rgb(255,255,255)"
+        }
+      },
+      "Icon": {
+        "Position": {
+          "X": 430.0,
+          "Y": 30.0
+        },
+        "Size": {
+          "X": 60.0,
+          "Y": 60.0
+        },
+        "UseBackground": true,
+        "BackgroundOffset": {
+          "X": 10.0,
+          "Y": 0.0
+        }
+      },
+      "Score": {
+        "Position": {
+          "X": 380.0,
+          "Y": 70.0
+        },
+        "NumberFont": {
+          "Style": "Normal",
+          "Name": "Joyride",
+          "Size": "15px",
+          "Align": "left",
+          "Color": "rgb(255,255,255)"
+        },
+        "UseCircleIcons": true,
+        "CircleOffset": {
+          "X": -25.0,
+          "Y": 0.0
+        },
+        "CircleRadius": 10.0,
+        "UseTeamColor": true,
+        "StrokeColor": "rgb(255,255,255)",
+        "FillColor": "rgb(255,255,255)"
+      }
+    },
+    "Background": {
+      "UseImage": true,
+      "UseVideo": false,
+      "UseAlpha": false,
+      "FallbackColor": "rgba(0,0,0,0)"
+    },
+    "Misc": {
+      "Animation": "Simple",
+      "ShowCenterIcon": false,
+      "CenterIconPosition": {
+        "X": 0.0,
+        "Y": 30.0
+      },
+      "CenterIconSize": {
+        "X": 40.0,
+        "Y": 40.0
+      },
+      "DrakeIconSize": {
+        "X": 20.0,
+        "Y": 20.0
+      }
+    }
+  },
+  "ObjectiveKill": {
+    "ShowTeamIcon": false,
+    "SoulPointScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": true,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "ElderKillScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": true,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "DragonKillScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": true,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "BaronKillScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": false,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "HeraldKillScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": true,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    }
+  },
+  "ObjectiveSpawn": {
+    "BaronSpawnScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": false,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": false,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "DrakeSpawnScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": true,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": false,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "HeraldSpawnScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": true,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": false,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    }
+  },
+  "ItemComplete": {
+    "UseCustomVideo": false,
+    "ShowItemName": false,
+    "ShowOnScoreboard": false,
+    "ShowOnChampionIndicator": true,
+    "InfoText": {
+      "Style": "Normal",
+      "Name": "Joyride",
+      "Size": "20px",
+      "Align": "center",
+      "Color": "rgb(255,255,255)"
+    },
+    "ItemAnimationStates": [
+      {
+        "Scale": 0.0,
+        "Alpha": 0.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 400.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.1,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 3200.0,
+        "Ease": "Linear",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 2.5,
+        "Alpha": 0.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 400.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 0.0
+      }
+    ],
+    "InfoTextAnimationStates": [
+      {
+        "Scale": 1.0,
+        "Alpha": 0.0,
+        "Position": {
+          "X": 55.0,
+          "Y": 0.0
+        },
+        "Mirror": true,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 55.0,
+          "Y": 0.0
+        },
+        "Mirror": true,
+        "Duration": 200.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 1000.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 0.0,
+        "Position": {
+          "X": 55.0,
+          "Y": 0.0
+        },
+        "Mirror": true,
+        "Duration": 200.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 1800.0
+      }
+    ],
+    "InfoBackgroundAnimationStates": [
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 80.0
+        },
+        "Mirror": false,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 200.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 800.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": -80.0
+        },
+        "Mirror": false,
+        "Duration": 200.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 2200.0
+      }
+    ]
+  },
+  "LevelUp": {
+    "UseCustomVideo": false,
+    "ShowOnScoreboard": true,
+    "ShowOnChampionIndicator": true,
+    "LevelFont": {
+      "Style": "Normal",
+      "Name": "Joyride",
+      "Size": "60px",
+      "Align": "center",
+      "Color": "rgb(255,255,255)"
+    },
+    "UseTeamColors": false,
+    "OrderColor": "rgb(100,0,245)",
+    "ChaosColor": "rgb(249, 46, 99)",
+    "NumberAnimationStates": [
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 70.0
+        },
+        "Mirror": true,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": -30.0
+        },
+        "Mirror": true,
+        "Duration": 300.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 250.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": -130.0
+        },
+        "Mirror": true,
+        "Duration": 400.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 3500.0
+      }
+    ],
+    "BackgroundAnimationStates": [
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 100.0
+        },
+        "Mirror": false,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 300.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 250.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": -90.0,
+          "Y": 0.0
+        },
+        "Mirror": true,
+        "Duration": 400.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 4000.0
+      }
+    ]
+  },
+  "InfoPage": {
+    "Position": {
+      "X": 0.0,
+      "Y": 135.0
+    },
+    "Title": {
+      "Enabled": true,
+      "Position": {
+        "Gold": {
+          "X": 150.0,
+          "Y": 15.0
+        },
+        "XP": {
+          "X": 150.0,
+          "Y": 15.0
+        },
+        "CSPM": {
+          "X": 150.0,
+          "Y": 15.0
+        }
+      },
+      "Font": {
+        "Style": "Bold",
+        "Name": "Montserrat",
+        "Size": "26px",
+        "Align": "center",
+        "Color": "rgb(255,255,255)"
+      }
+    },
+    "TitleHeight": 45.0,
+    "TabConfig": {
+      "TabSize": {
+        "X": 300.0,
+        "Y": 55.0
+      },
+      "UseTeamColorsText": false,
+      "OrderColor": "rgb(255,255,255)",
+      "ChaosColor": "rgb(255,255,255)",
+      "ChampIcon": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 4.0,
+            "Y": 8.0
+          },
+          "XP": {
+            "X": 4.0,
+            "Y": 8.0
+          },
+          "CSPM": {
+            "X": 4.0,
+            "Y": 8.0
+          }
+        },
+        "Size": {
+          "X": 42.0,
+          "Y": 42.0
+        }
+      },
+      "Separator": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "XP": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "CSPM": {
+            "X": 0.0,
+            "Y": 0.0
+          }
+        },
+        "Size": {
+          "X": 300.0,
+          "Y": 2.0
+        }
+      },
+      "PlayerName": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 54.0,
+            "Y": 6.0
+          },
+          "XP": {
+            "X": 54.0,
+            "Y": 6.0
+          },
+          "CSPM": {
+            "X": 54.0,
+            "Y": 6.0
+          }
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "15px",
+          "Align": "left",
+          "Color": "rgb(255,255,255)"
+        }
+      },
+      "MinValue": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 54.0,
+            "Y": 22.0
+          },
+          "XP": {
+            "X": 54.0,
+            "Y": 22.0
+          },
+          "CSPM": {
+            "X": 54.0,
+            "Y": 22.0
+          }
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "15px",
+          "Align": "left",
+          "Color": "rgb(255,255,255)"
+        }
+      },
+      "CurrentValue": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 270.0,
+            "Y": 15.0
+          },
+          "XP": {
+            "X": 280.0,
+            "Y": 15.0
+          },
+          "CSPM": {
+            "X": 280.0,
+            "Y": 15.0
+          }
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "25px",
+          "Align": "center",
+          "Color": "rgb(255,255,255)"
+        }
+      },
+      "MaxValue": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 230.0,
+            "Y": 22.0
+          },
+          "XP": {
+            "X": 260.0,
+            "Y": 22.0
+          },
+          "CSPM": {
+            "X": 260.0,
+            "Y": 22.0
+          }
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "15px",
+          "Align": "right",
+          "Color": "rgb(255,255,255)"
+        }
+      },
+      "ProgressBar": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 52.0,
+            "Y": 40.0
+          },
+          "XP": {
+            "X": 52.0,
+            "Y": 40.0
+          },
+          "CSPM": {
+            "X": 52.0,
+            "Y": 40.0
+          }
+        },
+        "Size": {
+          "Gold": {
+            "X": 180.0,
+            "Y": 10.0
+          },
+          "XP": {
+            "X": 210.0,
+            "Y": 10.0
+          },
+          "CSPM": {
+            "X": 210.0,
+            "Y": 10.0
+          }
+        },
+        "UseTeamColors": true,
+        "DefaultColor": "rgb(255,255,255)",
+        "OrderColor": "rgb(1,4,25)",
+        "ChaosColor": "rgb(249, 46, 99)",
+        "Animate": true
+      }
+    },
+    "Background": {
+      "UseImage": true,
+      "UseVideo": false,
+      "UseAlpha": false,
+      "FallbackColor": "rgb(19, 24, 63)",
+      "Size": {
+        "X": 300.0,
+        "Y": 600.0
+      }
+    }
+  },
+  "GoldGraph": {
+    "Position": {
+      "X": 965.0,
+      "Y": 845.0
+    },
+    "Size": {
+      "X": 740.0,
+      "Y": 235.0
+    },
+    "Background": {
+      "UseImage": false,
+      "UseVideo": false,
+      "UseAlpha": false,
+      "FallbackColor": "rgba(20,19,22,0)"
+    },
+    "Title": {
+      "Enabled": true,
+      "Position": {
+        "X": 0.0,
+        "Y": 10.0
+      },
+      "Font": {
+        "Style": "Bold",
+        "Name": "Montserrat",
+        "Size": "22px",
+        "Align": "left",
+        "Color": "rgb(255,255,255)"
+      },
+      "Text": "DIFERENÇA DE OURO"
+    },
+    "Graph": {
+      "Position": {
+        "X": 5.0,
+        "Y": 40.0
+      },
+      "Size": {
+        "X": 710.0,
+        "Y": 190.0
+      },
+      "ShowVerticalGrid": false,
+      "ShowHorizontalGrid": true,
+      "LineTension": 1.05,
+      "GridColor": "rgba(255,255,255, 0.3)",
+      "GridEdgeColor": "rgba(255,255,255, 0.4)",
+      "BorderUseTeamColors": true,
+      "BorderOrderColor": "rgb(0,0,0)",
+      "BorderChaosColor": "rgb(0,0,0)",
+      "FillUseTeamColors": true,
+      "FillOrderColor": "rgb(255,255,255)",
+      "FillChaosColor": "rgb(0,0,0)",
+      "InfoFont": {
+        "Style": "UNUSED",
+        "Name": "Joyride",
+        "Size": "UNUSED",
+        "Align": "UNUSED",
+        "Color": "rgb(255,255,255)"
+      },
+      "TimeStepSize": 30,
+      "ShowTimeStepIndicators": true
+    }
+  },
+  "BaronTimer": {
+    "Position": {
+      "X": 0.0,
+      "Y": 0.0
+    },
+    "MaskPosition": {
+      "X": 0.0,
+      "Y": 0.0
+    },
+    "MaskSize": {
+      "X": 150.0,
+      "Y": 70.0
+    },
+    "Scale": 0.0,
+    "Align": "right",
+    "ShowGoldDiff": false,
+    "ShowTimer": false,
+    "ObjectiveIcon": false,
+    "Animate": false,
+    "IconPosition": {
+      "X": 0.0,
+      "Y": 0.0
+    },
+    "GoldPosition": {
+      "X": 0.0,
+      "Y": 0.0
+    },
+    "GoldIconPosition": {
+      "X": -7.0,
+      "Y": -25.0
+    },
+    "GoldFont": {
+      "Style": "Bold",
+      "Name": "Joyride",
+      "Size": "22px",
+      "Align": "right",
+      "Color": "rgb(230,190,138)"
+    },
+    "TimePosition": {
+      "X": 0.0,
+      "Y": 0.0
+    },
+    "TimeIconPosition": {
+      "X": -10.0,
+      "Y": 0.0
+    },
+    "TimeFont": {
+      "Style": "Bold",
+      "Name": "Joyride",
+      "Size": "22px",
+      "Align": "right",
+      "Color": "rgb(230,190,138)"
+    }
+  },
+  "ElderTimer": {
+    "Position": {
+      "X": 120.0,
+      "Y": 55.0
+    },
+    "MaskPosition": {
+      "X": 50.0,
+      "Y": 20.0
+    },
+    "MaskSize": {
+      "X": 150.0,
+      "Y": 70.0
+    },
+    "Scale": 0.8,
+    "Align": "left",
+    "ShowGoldDiff": true,
+    "ShowTimer": true,
+    "ObjectiveIcon": true,
+    "Animate": true,
+    "IconPosition": {
+      "X": 40.0,
+      "Y": 0.0
+    },
+    "GoldPosition": {
+      "X": 18.0,
+      "Y": -25.0
+    },
+    "GoldIconPosition": {
+      "X": 22.0,
+      "Y": -25.0
+    },
+    "GoldFont": {
+      "Style": "Bold",
+      "Name": "Joyride",
+      "Size": "22px",
+      "Align": "left",
+      "Color": "rgb(230,190,138)"
+    },
+    "TimePosition": {
+      "X": 18.0,
+      "Y": 0.0
+    },
+    "TimeIconPosition": {
+      "X": 20.0,
+      "Y": -2.0
+    },
+    "TimeFont": {
+      "Style": "Bold",
+      "Name": "Joyride",
+      "Size": "22px",
+      "Align": "left",
+      "Color": "rgb(230,190,138)"
+    }
+  },
+  "GoogleFonts": [
+    "News Cycle",
+    "News Cycle:bold",
+    "Droid Sans"
+  ],
+  "FileVersion": "2.2"
+}
+[10-39-37] Config Ingame loaded
+[10-39-37] Found Component.json. Reading values
+[10-39-37] {
+  "DataDragon": {
+    "MinimumGoldCost": 2000,
+    "Region": "euw",
+    "Locale": "pt_BR",
+    "CDN": "https://ddragon.leagueoflegends.com/cdn",
+    "Patch": "latest"
+  },
+  "PickBan": {
+    "IsActive": true,
+    "UseDelay": false,
+    "DelayValue": 300,
+    "DefaultBlueColor": "rgb(46, 156, 249)",
+    "DefaultRedColor": "rgb(249, 46, 99)"
+  },
+  "Ingame": {
+    "IsActive": true,
+    "UseLiveEvents": true,
+    "DoLevelUp": false,
+    "DoItemCompleted": true,
+    "SeriesGameCount": 3,
+    "Objectives": {
+      "DoBaronKill": false,
+      "DoDragonKill": false,
+      "DoInhibitors": false,
+      "DoObjectiveSpawnPopUp": false,
+      "DoObjectiveKillPopUp": false
+    },
+    "Teams": {
+      "DoTeamNames": false,
+      "DoTeamIcons": false,
+      "DoTeamScores": false
+    },
+    "UseCustomScoreboard": true
+  },
+  "Replay": {
+    "IsActive": true,
+    "UseAutoInitUI": true
+  },
+  "PostGame": {
+    "IsActive": false
+  },
+  "App": {
+    "LogLevel": 2,
+    "CheckForUpdates": true,
+    "UpdateRepositoryUrl": "https://github.com/floh22/LeagueBroadcast",
+    "UpdateRepositoryName": "floh22/LeagueBroadcast",
+    "LeagueInstall": [
+      "C:\\",
+      "D:\\",
+      "E:\\",
+      "F:\\",
+      "C:\\Program Files",
+      "C:\\Program Files (x86)"
+    ],
+    "CheckForOffsets": true,
+    "OffsetRepository": "https://raw.githubusercontent.com/floh22/LeagueBroadcast/v2/Offsets/",
+    "OffsetPrefix": "Offsets-"
+  },
+  "FileVersion": "1.3"
+}
+[10-39-37] Config Component loaded
+[10-39-37] Loading config watchers
+[10-39-37] Watching PickBan.json for changes
+[10-39-37] Watching Component.json for changes
+[10-39-37] Watching Ingame.json for changes
+[10-39-37] Log Level set to Info
+[10-39-37] League Broadcast Version 1.4.106
+[10-39-37] [Update] Checking for Updates
+[10-39-38] [Update] Latest release version v1.4.106 vs. current version 1.4.106
+[10-39-38] [Update] Local version up to date
+[10-39-38] Using current Version
+[10-39-38] Early Init Complete in 1854.5627ms
+[10-39-38] DataDragon Provider Init
+[10-39-38] Getting latest versions from dataDragon
+[10-39-38] Retrieving latest patch info
+[10-39-38] Champion: 12.10.1, Item: 12.10.1, CDN: https://ddragon.leagueoflegends.com/cdn
+[10-39-38] Loaded 159 champions
+[10-39-39] Loaded 16 summoner spells
+[10-39-39] Detected 254 items
+[10-39-39] Loaded 125 full items
+[10-39-39] Checking Local Cache
+[10-39-39] Cache C:\Users\Daisuke\Desktop\InHouseJinx\InGameJinxDay/Cache/12.10.1 exists already
+[10-39-39] DDragon loaded
+[10-39-39] Loading PickBan Controller
+[10-39-39] Loading Ingame Controller
+[10-39-39] Checking League install for LiveEventsAPI
+[10-39-39] Found League install location
+[10-39-39] LiveEvents API found in Game config
+[10-39-39] Replay API found in Game config
+[10-39-39] Verifying LiveEvents list
+[10-39-39] Loading Replay Controller
+[10-39-39] Loading Farsight
+[10-39-39] Farsight loaded. Found 159 Champ names
+[10-39-39] Loading Frontend Webserver (HTTP/WS)
+[10-39-39] Server file system starting
+[10-39-39] WebServer New State - Loading
+[10-39-39] WebServer New State - Listening
+[10-39-39] WebServer running on http://*:9001/
+[10-39-39] Whats that ticking noise?
+[10-39-39] Init Complete in 1.503s
+[10-39-39] Opening main window
+[10-39-39] Team REDBLUE1 loaded
+[10-39-40] Team FOX2 loaded
+[10-39-40] Connection State Changed
+[10-39-40] Loading State Controller
+[10-39-40] Connecting to League Client
+[10-39-40] PickBan Enabled
+[10-39-40] Ingame Enabled
+[10-39-40] Using direct PickBan
+[10-39-40] Starting LeagueBroadcast with tickrate of 2tps
+[10-39-40] Checking for running Game
+[10-39-40] Target process (League of Legends) detected.
+[10-39-40] Init Game State
+[10-39-40] Game State reset
+[10-39-40] Connection State Changed
+[10-39-40] Post Init Complete in 646.6468ms
+[10-39-40] Total Startup time: 4.004s
+[10-39-40] Connected to League Client in 291 ms
+[10-39-40] Local Client Version 12.10.1
+[10-39-40] Loading offsets for current patch
+[10-39-40] Found Farsight.json. Reading values
+[10-39-40] Config Farsight loaded
+[10-39-40] Watching Farsight.json for changes
+[10-39-40] Using offsets 12.10.1
+[10-39-41] Game Loaded
+[10-39-41] Game Paused
+[10-39-41] LiveEventAPI Connected
+[10-39-41] Game Resumed
+[10-39-41] Init Team data
+[10-39-42] Init UI
+[10-39-42] Sending game start key inputs
+[10-39-58] New Client gS3uyzrLyUOoR4/9EL5Plg connected from http://localhost:9001
+[10-41-57] Cloud spawned
+[10-45-01] Herald spawned
+[10-45-22] Cloud killed by ORDER
+[10-48-19] Herald killed by CHAOS
+[10-49-32] Ingame.json change detected
+[10-49-33] Found Ingame.json. Reading values
+[10-49-33] Config Ingame loaded
+[10-49-39] Ingame.json change detected
+[10-49-39] Found Ingame.json. Reading values
+[10-49-39] Config Ingame loaded
+[10-49-43] Ingame.json change detected
+[10-49-44] Found Ingame.json. Reading values
+[10-49-44] Config Ingame loaded
+[10-49-47] Ingame.json change detected
+[10-49-47] Found Ingame.json. Reading values
+[10-49-47] Config Ingame loaded
+[10-49-49] Ingame.json change detected
+[10-49-49] Found Ingame.json. Reading values
+[10-49-49] Config Ingame loaded
+[10-49-51] Ingame.json change detected
+[10-49-52] Found Ingame.json. Reading values
+[10-49-52] Config Ingame loaded
+[10-49-54] Ingame.json change detected
+[10-49-55] Found Ingame.json. Reading values
+[10-49-55] Config Ingame loaded
+[10-49-59] Ingame.json change detected
+[10-50-00] Found Ingame.json. Reading values
+[10-50-00] Config Ingame loaded
+[10-50-04] Ingame.json change detected
+[10-50-05] Found Ingame.json. Reading values
+[10-50-05] Config Ingame loaded
+[10-50-07] Ingame.json change detected
+[10-50-08] Found Ingame.json. Reading values
+[10-50-08] Config Ingame loaded
+[10-50-16] Fire spawned
+[10-50-19] Ingame.json change detected
+[10-50-19] Found Ingame.json. Reading values
+[10-50-19] Config Ingame loaded
+[10-51-17] Ingame.json change detected
+[10-51-18] Found Ingame.json. Reading values
+[10-51-18] Config Ingame loaded
+[10-51-33] Ingame.json change detected
+[10-51-33] Found Ingame.json. Reading values
+[10-51-33] Config Ingame loaded
+[10-51-44] Ingame.json change detected
+[10-51-44] Found Ingame.json. Reading values
+[10-51-44] Config Ingame loaded
+[10-51-49] Ingame.json change detected
+[10-51-49] Found Ingame.json. Reading values
+[10-51-49] Config Ingame loaded
+[10-51-51] Ingame.json change detected
+[10-51-52] Found Ingame.json. Reading values
+[10-51-52] Config Ingame loaded
+[10-51-55] Ingame.json change detected
+[10-51-55] Found Ingame.json. Reading values
+[10-51-55] Config Ingame loaded
+[10-52-01] Ingame.json change detected
+[10-52-02] Found Ingame.json. Reading values
+[10-52-02] Config Ingame loaded
+[10-52-04] Ingame.json change detected
+[10-52-04] Found Ingame.json. Reading values
+[10-52-04] Config Ingame loaded
+[10-52-10] Ingame.json change detected
+[10-52-10] Found Ingame.json. Reading values
+[10-52-10] Config Ingame loaded
+[10-52-35] Ingame.json change detected
+[10-52-35] Found Ingame.json. Reading values
+[10-52-35] Config Ingame loaded
+[10-52-50] Ingame.json change detected
+[10-52-50] Fire killed by CHAOS
+[10-52-50] Found Ingame.json. Reading values
+[10-52-50] Config Ingame loaded
+[10-52-56] Ingame.json change detected
+[10-52-57] Found Ingame.json. Reading values
+[10-52-57] Config Ingame loaded
+[10-52-59] Ingame.json change detected
+[10-53-00] Found Ingame.json. Reading values
+[10-53-00] Config Ingame loaded
+[10-53-07] Ingame.json change detected
+[10-53-08] Found Ingame.json. Reading values
+[10-53-08] Config Ingame loaded
+[10-53-19] Ingame.json change detected
+[10-53-20] Found Ingame.json. Reading values
+[10-53-20] Config Ingame loaded
+[10-53-22] Ingame.json change detected
+[10-53-22] Found Ingame.json. Reading values
+[10-53-22] Config Ingame loaded
+[10-53-25] Ingame.json change detected
+[10-53-25] Found Ingame.json. Reading values
+[10-53-25] Config Ingame loaded
+[10-53-40] Ingame.json change detected
+[10-53-40] Found Ingame.json. Reading values
+[10-53-40] Config Ingame loaded
+[10-53-42] Ingame.json change detected
+[10-53-42] Found Ingame.json. Reading values
+[10-53-42] Config Ingame loaded
+[10-53-45] Ingame.json change detected
+[10-53-45] Found Ingame.json. Reading values
+[10-53-45] Config Ingame loaded
+[10-53-47] Ingame.json change detected
+[10-53-48] Found Ingame.json. Reading values
+[10-53-48] Config Ingame loaded
+[10-53-51] Ingame.json change detected
+[10-53-51] Found Ingame.json. Reading values
+[10-53-51] Config Ingame loaded
+[10-53-53] Ingame.json change detected
+[10-53-53] Found Ingame.json. Reading values
+[10-53-53] Config Ingame loaded
+[10-53-55] Ingame.json change detected
+[10-53-55] Found Ingame.json. Reading values
+[10-53-55] Config Ingame loaded
+[10-53-59] Ingame.json change detected
+[10-54-00] Found Ingame.json. Reading values
+[10-54-00] Config Ingame loaded
+[10-54-17] Herald spawned
+[10-54-58] Herald killed by CHAOS
+[10-55-37] Ingame.json change detected
+[10-55-38] Found Ingame.json. Reading values
+[10-55-38] Config Ingame loaded
+[10-55-43] Ingame.json change detected
+[10-55-43] Found Ingame.json. Reading values
+[10-55-43] Config Ingame loaded
+[10-56-04] Ingame.json change detected
+[10-56-05] Found Ingame.json. Reading values
+[10-56-05] Config Ingame loaded
+[10-56-10] Ingame.json change detected
+[10-56-10] Found Ingame.json. Reading values
+[10-56-10] Config Ingame loaded
+[10-56-12] Ingame.json change detected
+[10-56-12] Found Ingame.json. Reading values
+[10-56-12] Config Ingame loaded
+[10-56-15] Ingame.json change detected
+[10-56-16] Found Ingame.json. Reading values
+[10-56-16] Config Ingame loaded
+[10-56-17] Ingame.json change detected
+[10-56-18] Found Ingame.json. Reading values
+[10-56-18] Config Ingame loaded
+[10-56-32] Ingame.json change detected
+[10-56-32] Found Ingame.json. Reading values
+[10-56-32] Config Ingame loaded
+[10-56-52] Ingame.json change detected
+[10-56-52] Found Ingame.json. Reading values
+[10-56-52] Config Ingame loaded
+[10-56-55] Ingame.json change detected
+[10-56-55] Found Ingame.json. Reading values
+[10-56-55] Config Ingame loaded
+[10-56-57] Ingame.json change detected
+[10-56-57] Found Ingame.json. Reading values
+[10-56-57] Config Ingame loaded
+[10-57-02] Ingame.json change detected
+[10-57-02] Found Ingame.json. Reading values
+[10-57-02] Config Ingame loaded
+[10-57-04] Baron spawned
+[10-57-05] Ingame.json change detected
+[10-57-06] Found Ingame.json. Reading values
+[10-57-06] Config Ingame loaded
+[10-57-35] Ingame.json change detected
+[10-57-35] Found Ingame.json. Reading values
+[10-57-35] Config Ingame loaded
+[10-57-44] Mountain spawned
+[10-57-52] Ingame.json change detected
+[10-57-52] Found Ingame.json. Reading values
+[10-57-52] Config Ingame loaded
+[10-57-57] Ingame.json change detected
+[10-57-57] Found Ingame.json. Reading values
+[10-57-57] Config Ingame loaded
+[10-58-00] Ingame.json change detected
+[10-58-01] Found Ingame.json. Reading values
+[10-58-01] Config Ingame loaded
+[10-58-06] Ingame.json change detected
+[10-58-06] Found Ingame.json. Reading values
+[10-58-06] Config Ingame loaded
+[10-58-15] Mountain killed by CHAOS
+[10-58-32] Ingame.json change detected
+[10-58-33] Found Ingame.json. Reading values
+[10-58-33] Config Ingame loaded
+[10-58-38] Ingame.json change detected
+[10-58-39] Found Ingame.json. Reading values
+[10-58-39] Config Ingame loaded
+[10-58-44] Ingame.json change detected
+[10-58-45] Found Ingame.json. Reading values
+[10-58-45] Config Ingame loaded
+[10-58-49] Ingame.json change detected
+[10-58-50] Found Ingame.json. Reading values
+[10-58-50] Config Ingame loaded
+[11-00-18] Baron killed by ORDER
+[11-03-09] Mountain spawned
+[11-03-18] Baron ended. Resetting baron status for all players
+[11-03-39] Mountain killed by CHAOS
+[11-07-17] Baron killed by CHAOS
+[11-08-33] Mountain spawned
+[11-09-04] Mountain killed by CHAOS
+[11-10-17] Baron ended. Resetting baron status for all players
+[11-10-23] Game Paused
+[11-13-01] League State: WaitingForStats
+[11-13-01] LiveEventAPI Closed
+[11-13-01] Game ended
+[11-13-01] Connection State Changed
+[11-13-04] LiveEventAPI Closed
+[11-13-04] Game ended
+[11-13-04] Connection State Changed
+[11-13-05] League State: PreEndOfGame
+[11-13-05] League State: EndOfGame
+[11-13-43] League State: None
+[11-13-57] Target process (League of Legends) detected.
+[11-13-57] Init Game State
+[11-13-57] Game State reset
+[11-13-57] Connection State Changed
+[11-14-10] Game Loaded
+[11-14-10] Game Paused
+[11-14-10] LiveEventAPI Connected
+[11-14-10] Game Resumed
+[11-14-10] Init Team data
+[11-14-11] Init UI
+[11-14-11] Sending game start key inputs
+[11-25-05] Mountain killed by CHAOS
+[11-30-00] Ocean spawned
+[11-30-28] Herald killed by CHAOS
+[11-30-42] [WARNING] Tried converting negative XP to Level
+[11-30-47] Ocean killed by ORDER
+[11-34-09] Baron spawned
+[11-35-09] Baron killed by CHAOS
+[11-36-25] Fire killed by CHAOS
+[11-37-53] Game Paused
+[13-09-37] LiveEventAPI Closed
+[13-09-37] Game ended
+[13-09-37] Connection State Changed
+[13-13-02] Target process (League of Legends) detected.
+[13-13-02] Init Game State
+[13-13-02] Game State reset
+[13-13-02] Connection State Changed
+[13-13-14] Game Loaded
+[13-13-14] Game Paused
+[13-13-14] LiveEventAPI Connected
+[13-13-15] Game Resumed
+[13-13-15] Init Team data
+[13-13-15] Init UI
+[13-13-15] Sending game start key inputs
+[13-21-20] Player 3 lvl up
+[13-21-51] Player 1 lvl up
+[13-21-52] Player 7 finished Item 6653
+[13-21-57] Player 6 lvl up
+[13-22-35] Player 4 lvl up
+[13-23-45] Player 9 lvl up
+[13-24-10] Mountain killed by CHAOS
+[13-24-48] Player 6 finished Item 6691
+[13-26-14] Player 3 finished Item 6671
+[13-26-32] Player 0 finished Item 6692
+[13-26-46] Player 5 finished Item 6692
+[13-26-59] Player 7 finished Item 3116
+[13-27-16] Player 5 lvl up
+[13-27-25] Player 9 finished Item 3853
+[13-27-43] Player 1 finished Item 6630
+[13-28-13] Player 8 finished Item 6671
+[13-28-32] Player 7 lvl up
+[13-28-34] Player 5 finished Item 3004
+[13-29-04] Ocean spawned
+[13-29-15] Player 9 finished Item 6653
+[13-29-22] Player 6 finished Item 6692
+[13-29-32] Herald killed by CHAOS
+[13-29-36] Player 4 finished Item 3851
+[13-29-51] Ocean killed by ORDER
+[13-30-20] Player 3 finished Item 3508
+[13-30-21] Player 4 finished Item 2065
+[13-30-26] Player 5 finished Item 3042
+[13-30-46] Player 6 lvl up
+[13-30-50] Player 2 finished Item 3115
+[13-30-54] Player 7 finished Item 4637
+[13-31-10] Player 0 lvl up
+[13-31-21] Player 2 lvl up
+[13-32-13] Player 3 lvl up
+[13-32-21] Player 0 finished Item 6694
+[13-32-29] Player 8 lvl up
+[13-33-11] Player 4 lvl up
+[13-33-13] Baron spawned
+[13-34-13] Baron killed by CHAOS
+[13-34-26] Player 5 finished Item 6694
+[13-34-36] Player 8 finished Item 3094
+[13-34-52] Player 6 finished Item 3071
+[13-35-29] Fire killed by CHAOS
+[13-35-59] Player 3 finished Item 3031
+[13-36-14] Player 9 lvl up
+[13-36-45] Player 1 lvl up
+[13-36-58] Game Paused
+[14-14-26] LiveEventAPI Closed
+[14-14-26] Game ended
+[14-14-26] Connection State Changed
+[14-14-28] Saving all configs to file
+[14-14-28] Writing PickBan config to file
+[14-14-28] Updated PickBan config file
+[14-14-28] Writing Component config to file
+[14-14-28] Updated Component config file
+[14-14-28] Writing Farsight config to file
+[14-14-28] Updated Farsight config file
+[14-14-28] Writing Ingame config to file
+[14-14-28] Updated Ingame config file
+[14-14-28] Configs saved

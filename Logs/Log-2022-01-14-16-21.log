@@ -1,0 +1,2667 @@
+[16-21-04] Logging Init
+[16-21-04] Starting Config Controller
+[16-21-04] Config Provider started
+[16-21-04] Looking for config files at /Config
+[16-21-04] Found PickBan.json. Reading values
+[16-21-05] {
+  "frontend": {
+    "scoreEnabled": true,
+    "spellsEnabled": true,
+    "coachesEnabled": true,
+    "blueTeam": {
+      "name": "TUM",
+      "nameTag": "TUM",
+      "score": 0,
+      "coach": "G2 Grabz",
+      "color": "rgb(66,133,244)"
+    },
+    "redTeam": {
+      "name": "LMU",
+      "nameTag": "LMU",
+      "score": 0,
+      "coach": "G2 Grabz",
+      "color": "rgb(234,67,53)"
+    },
+    "patch": "12.1.1"
+  },
+  "FileVersion": "1.0"
+}
+[16-21-05] Config PickBan loaded
+[16-21-05] Found Ingame.json. Reading values
+[16-21-05] {
+  "Inhib": {
+    "Position": {
+      "X": 0.0,
+      "Y": 845.0
+    },
+    "Size": {
+      "X": 306.0,
+      "Y": 118.0
+    },
+    "UseBackgroundImage": false,
+    "UseBackgroundVideo": false,
+    "Color": "rgba(19,24,63,255)",
+    "Font": {
+      "Style": "Normal",
+      "Name": "News Cycle",
+      "Size": "15px",
+      "Align": "right",
+      "Color": "rgb(255,255,255)"
+    },
+    "IconSize": 40.0,
+    "HideWhenNoneDestroyed": true,
+    "UseTeamColors": true,
+    "BlueTeam": {
+      "Position": {
+        "X": 40.0,
+        "Y": 20.0
+      },
+      "LaneOffset": {
+        "X": 100.0,
+        "Y": 0.0
+      },
+      "UseTeamColor": true,
+      "Color": "rgb(0,0,0)",
+      "IconOffset": {
+        "X": 10.0,
+        "Y": -24.0
+      }
+    },
+    "RedTeam": {
+      "Position": {
+        "X": 40.0,
+        "Y": 80.0
+      },
+      "LaneOffset": {
+        "X": 100.0,
+        "Y": 0.0
+      },
+      "UseTeamColor": true,
+      "Color": "rgb(255,255,255)",
+      "IconOffset": {
+        "X": 10.0,
+        "Y": -24.0
+      }
+    },
+    "LaneOrder": [
+      "bot",
+      "mid",
+      "top"
+    ]
+  },
+  "Score": {
+    "Position": {
+      "X": 960.0,
+      "Y": 0.0
+    },
+    "Size": {
+      "X": 800.0,
+      "Y": 92.0
+    },
+    "TimeFont": {
+      "Style": "Normal",
+      "Name": "News Cycle",
+      "Size": "22px",
+      "Align": "center",
+      "Color": "rgb(255,255,255)"
+    },
+    "TimePosition": {
+      "X": 0.0,
+      "Y": 70.0
+    },
+    "BlueTeam": {
+      "Kills": {
+        "Position": {
+          "X": -40.0,
+          "Y": 6.0
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "News Cycle",
+          "Size": "50px",
+          "Align": "right",
+          "Color": "rgb(255,255,255)"
+        },
+        "Icon": {
+          "Name": "KillsIcon",
+          "Size": {
+            "X": 100.0,
+            "Y": 100.0
+          },
+          "Offset": {
+            "X": 0.0,
+            "Y": 0.0
+          }
+        }
+      },
+      "Towers": {
+        "Position": {
+          "X": -270.0,
+          "Y": 20.0
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "News Cycle",
+          "Size": "26px",
+          "Align": "right",
+          "Color": "rgb(255,255,255)"
+        },
+        "Icon": {
+          "Name": "TowerIcon",
+          "Size": {
+            "X": 25.0,
+            "Y": 30.0
+          },
+          "Offset": {
+            "X": 15.0,
+            "Y": 13.0
+          }
+        }
+      },
+      "Gold": {
+        "Position": {
+          "X": -150.0,
+          "Y": 20.0
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "News Cycle",
+          "Size": "26px",
+          "Align": "right",
+          "Color": "rgb(255,255,255)"
+        },
+        "Icon": {
+          "Name": "GoldIcon",
+          "Size": {
+            "X": 40.0,
+            "Y": 30.0
+          },
+          "Offset": {
+            "X": 25.0,
+            "Y": 10.0
+          }
+        }
+      },
+      "Drakes": {
+        "Position": {
+          "X": -55.0,
+          "Y": 71.0
+        },
+        "Offset": {
+          "X": -12.0,
+          "Y": 0.0
+        }
+      },
+      "Name": {
+        "UseTag": true,
+        "Position": {
+          "X": -390.0,
+          "Y": 6.0
+        },
+        "AdaptiveFontSize": true,
+        "MaxSize": {
+          "X": 100.0,
+          "Y": 50.0
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "News Cycle",
+          "Size": "40px",
+          "Align": "left",
+          "Color": "rgb(255,255,255)"
+        }
+      },
+      "Icon": {
+        "Position": {
+          "X": -430.0,
+          "Y": 30.0
+        },
+        "Size": {
+          "X": 60.0,
+          "Y": 60.0
+        },
+        "UseBackground": true,
+        "BackgroundOffset": {
+          "X": -10.0,
+          "Y": 0.0
+        }
+      },
+      "Score": {
+        "Position": {
+          "X": -380.0,
+          "Y": 70.0
+        },
+        "NumberFont": {
+          "Style": "Normal",
+          "Name": "News Cycle",
+          "Size": "15px",
+          "Align": "right",
+          "Color": "rgb(255,255,255)"
+        },
+        "UseCircleIcons": true,
+        "CircleOffset": {
+          "X": 25.0,
+          "Y": 0.0
+        },
+        "CircleRadius": 10.0,
+        "UseTeamColor": true,
+        "StrokeColor": "rgb(255,255,255)",
+        "FillColor": "rgb(255,255,255)"
+      }
+    },
+    "RedTeam": {
+      "Kills": {
+        "Position": {
+          "X": 40.0,
+          "Y": 6.0
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "News Cycle",
+          "Size": "50px",
+          "Align": "left",
+          "Color": "rgb(255,255,255)"
+        },
+        "Icon": {
+          "Name": "KillsIcon",
+          "Size": {
+            "X": 100.0,
+            "Y": 100.0
+          },
+          "Offset": {
+            "X": 0.0,
+            "Y": 0.0
+          }
+        }
+      },
+      "Towers": {
+        "Position": {
+          "X": 270.0,
+          "Y": 20.0
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "News Cycle",
+          "Size": "26px",
+          "Align": "left",
+          "Color": "rgb(255,255,255)"
+        },
+        "Icon": {
+          "Name": "TowerIcon",
+          "Size": {
+            "X": 25.0,
+            "Y": 30.0
+          },
+          "Offset": {
+            "X": -15.0,
+            "Y": 13.0
+          }
+        }
+      },
+      "Gold": {
+        "Position": {
+          "X": 150.0,
+          "Y": 20.0
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "News Cycle",
+          "Size": "26px",
+          "Align": "left",
+          "Color": "rgb(255,255,255)"
+        },
+        "Icon": {
+          "Name": "GoldIcon",
+          "Size": {
+            "X": 40.0,
+            "Y": 30.0
+          },
+          "Offset": {
+            "X": -25.0,
+            "Y": 10.0
+          }
+        }
+      },
+      "Drakes": {
+        "Position": {
+          "X": 50.0,
+          "Y": 71.0
+        },
+        "Offset": {
+          "X": 12.0,
+          "Y": 0.0
+        }
+      },
+      "Name": {
+        "UseTag": true,
+        "Position": {
+          "X": 390.0,
+          "Y": 6.0
+        },
+        "AdaptiveFontSize": true,
+        "MaxSize": {
+          "X": 100.0,
+          "Y": 50.0
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "News Cycle",
+          "Size": "40px",
+          "Align": "right",
+          "Color": "rgb(255,255,255)"
+        }
+      },
+      "Icon": {
+        "Position": {
+          "X": 430.0,
+          "Y": 30.0
+        },
+        "Size": {
+          "X": 60.0,
+          "Y": 60.0
+        },
+        "UseBackground": true,
+        "BackgroundOffset": {
+          "X": 10.0,
+          "Y": 0.0
+        }
+      },
+      "Score": {
+        "Position": {
+          "X": 380.0,
+          "Y": 70.0
+        },
+        "NumberFont": {
+          "Style": "Normal",
+          "Name": "News Cycle",
+          "Size": "15px",
+          "Align": "left",
+          "Color": "rgb(255,255,255)"
+        },
+        "UseCircleIcons": true,
+        "CircleOffset": {
+          "X": -25.0,
+          "Y": 0.0
+        },
+        "CircleRadius": 10.0,
+        "UseTeamColor": true,
+        "StrokeColor": "rgb(255,255,255)",
+        "FillColor": "rgb(255,255,255)"
+      }
+    },
+    "Background": {
+      "UseImage": true,
+      "UseVideo": false,
+      "UseAlpha": false,
+      "FallbackColor": "rgba(19,24,63,255)"
+    },
+    "Misc": {
+      "Animation": "Simple",
+      "ShowCenterIcon": true,
+      "CenterIconPosition": {
+        "X": 0.0,
+        "Y": 30.0
+      },
+      "CenterIconSize": {
+        "X": 40.0,
+        "Y": 40.0
+      },
+      "DrakeIconSize": {
+        "X": 20.0,
+        "Y": 20.0
+      }
+    }
+  },
+  "ObjectiveKill": {
+    "ShowTeamIcon": false,
+    "SoulPointScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": true,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "ElderKillScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": true,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "DragonKillScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": true,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "BaronKillScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": true,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "HeraldKillScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": true,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    }
+  },
+  "ObjectiveSpawn": {
+    "BaronSpawnScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": true,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": false,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "DrakeSpawnScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": true,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": false,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "HeraldSpawnScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": true,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": false,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    }
+  },
+  "ItemComplete": {
+    "UseCustomVideo": false,
+    "ShowItemName": true,
+    "ShowOnScoreboard": false,
+    "ShowOnChampionIndicator": true,
+    "InfoText": {
+      "Style": "Normal",
+      "Name": "News Cycle",
+      "Size": "20px",
+      "Align": "center",
+      "Color": "rgb(255,255,255)"
+    },
+    "ItemAnimationStates": [
+      {
+        "Scale": 0.0,
+        "Alpha": 0.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 400.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.1,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 3200.0,
+        "Ease": "Linear",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 2.5,
+        "Alpha": 0.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 400.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 0.0
+      }
+    ],
+    "InfoTextAnimationStates": [
+      {
+        "Scale": 1.0,
+        "Alpha": 0.0,
+        "Position": {
+          "X": 55.0,
+          "Y": 0.0
+        },
+        "Mirror": true,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 55.0,
+          "Y": 0.0
+        },
+        "Mirror": true,
+        "Duration": 200.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 1000.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 0.0,
+        "Position": {
+          "X": 55.0,
+          "Y": 0.0
+        },
+        "Mirror": true,
+        "Duration": 200.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 1800.0
+      }
+    ],
+    "InfoBackgroundAnimationStates": [
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 80.0
+        },
+        "Mirror": false,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 200.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 800.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": -80.0
+        },
+        "Mirror": false,
+        "Duration": 200.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 2200.0
+      }
+    ]
+  },
+  "LevelUp": {
+    "UseCustomVideo": false,
+    "ShowOnScoreboard": false,
+    "ShowOnChampionIndicator": true,
+    "LevelFont": {
+      "Style": "Normal",
+      "Name": "News Cycle",
+      "Size": "60px",
+      "Align": "center",
+      "Color": "rgb(255,255,255)"
+    },
+    "UseTeamColors": true,
+    "OrderColor": "rgb(0,0,255)",
+    "ChaosColor": "rgb(255,0,0)",
+    "NumberAnimationStates": [
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 70.0
+        },
+        "Mirror": true,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": -30.0
+        },
+        "Mirror": true,
+        "Duration": 300.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 250.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": -130.0
+        },
+        "Mirror": true,
+        "Duration": 400.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 3500.0
+      }
+    ],
+    "BackgroundAnimationStates": [
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 100.0
+        },
+        "Mirror": false,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 300.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 250.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": -90.0,
+          "Y": 0.0
+        },
+        "Mirror": true,
+        "Duration": 400.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 4000.0
+      }
+    ]
+  },
+  "InfoPage": {
+    "Position": {
+      "X": 0.0,
+      "Y": 135.0
+    },
+    "Title": {
+      "Enabled": true,
+      "Position": {
+        "Gold": {
+          "X": 150.0,
+          "Y": 15.0
+        },
+        "XP": {
+          "X": 150.0,
+          "Y": 15.0
+        },
+        "CSPM": {
+          "X": 150.0,
+          "Y": 15.0
+        }
+      },
+      "Font": {
+        "Style": "Normal",
+        "Name": "News Cycle",
+        "Size": "26px",
+        "Align": "center",
+        "Color": "rgb(255,255,255)"
+      }
+    },
+    "TitleHeight": 45.0,
+    "TabConfig": {
+      "TabSize": {
+        "X": 300.0,
+        "Y": 55.0
+      },
+      "UseTeamColorsText": false,
+      "OrderColor": "rgb(255,255,255)",
+      "ChaosColor": "rgb(255,255,255)",
+      "ChampIcon": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 4.0,
+            "Y": 8.0
+          },
+          "XP": {
+            "X": 4.0,
+            "Y": 8.0
+          },
+          "CSPM": {
+            "X": 4.0,
+            "Y": 8.0
+          }
+        },
+        "Size": {
+          "X": 42.0,
+          "Y": 42.0
+        }
+      },
+      "Separator": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "XP": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "CSPM": {
+            "X": 0.0,
+            "Y": 0.0
+          }
+        },
+        "Size": {
+          "X": 300.0,
+          "Y": 2.0
+        }
+      },
+      "PlayerName": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 54.0,
+            "Y": 6.0
+          },
+          "XP": {
+            "X": 54.0,
+            "Y": 6.0
+          },
+          "CSPM": {
+            "X": 54.0,
+            "Y": 6.0
+          }
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "News Cycle",
+          "Size": "15px",
+          "Align": "left",
+          "Color": "rgb(255,255,255)"
+        }
+      },
+      "MinValue": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 54.0,
+            "Y": 22.0
+          },
+          "XP": {
+            "X": 54.0,
+            "Y": 22.0
+          },
+          "CSPM": {
+            "X": 54.0,
+            "Y": 22.0
+          }
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "News Cycle",
+          "Size": "15px",
+          "Align": "left",
+          "Color": "rgb(255,255,255)"
+        }
+      },
+      "CurrentValue": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 270.0,
+            "Y": 15.0
+          },
+          "XP": {
+            "X": 280.0,
+            "Y": 15.0
+          },
+          "CSPM": {
+            "X": 280.0,
+            "Y": 15.0
+          }
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "News Cycle",
+          "Size": "25px",
+          "Align": "center",
+          "Color": "rgb(255,255,255)"
+        }
+      },
+      "MaxValue": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 230.0,
+            "Y": 22.0
+          },
+          "XP": {
+            "X": 260.0,
+            "Y": 22.0
+          },
+          "CSPM": {
+            "X": 260.0,
+            "Y": 22.0
+          }
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "News Cycle",
+          "Size": "15px",
+          "Align": "right",
+          "Color": "rgb(255,255,255)"
+        }
+      },
+      "ProgressBar": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 52.0,
+            "Y": 40.0
+          },
+          "XP": {
+            "X": 52.0,
+            "Y": 40.0
+          },
+          "CSPM": {
+            "X": 52.0,
+            "Y": 40.0
+          }
+        },
+        "Size": {
+          "Gold": {
+            "X": 180.0,
+            "Y": 10.0
+          },
+          "XP": {
+            "X": 210.0,
+            "Y": 10.0
+          },
+          "CSPM": {
+            "X": 210.0,
+            "Y": 10.0
+          }
+        },
+        "UseTeamColors": true,
+        "DefaultColor": "rgb(0,0,0)",
+        "OrderColor": "rgb(222,40,70)",
+        "ChaosColor": "rgb(0,151,196)",
+        "Animate": true
+      }
+    },
+    "Background": {
+      "UseImage": false,
+      "UseVideo": false,
+      "UseAlpha": false,
+      "FallbackColor": "rgb(19, 24, 63)",
+      "Size": {
+        "X": 300.0,
+        "Y": 600.0
+      }
+    }
+  },
+  "GoldGraph": {
+    "Position": {
+      "X": 965.0,
+      "Y": 845.0
+    },
+    "Size": {
+      "X": 740.0,
+      "Y": 235.0
+    },
+    "Background": {
+      "UseImage": false,
+      "UseVideo": false,
+      "UseAlpha": false,
+      "FallbackColor": "rgba(19,24,63,255)"
+    },
+    "Title": {
+      "Enabled": true,
+      "Position": {
+        "X": 0.0,
+        "Y": 10.0
+      },
+      "Font": {
+        "Style": "Bold",
+        "Name": "News Cycle",
+        "Size": "22px",
+        "Align": "left",
+        "Color": "rgb(230,190,138)"
+      },
+      "Text": "GOLD DIFFERENCE SINCE START"
+    },
+    "Graph": {
+      "Position": {
+        "X": 5.0,
+        "Y": 40.0
+      },
+      "Size": {
+        "X": 710.0,
+        "Y": 190.0
+      },
+      "ShowVerticalGrid": true,
+      "ShowHorizontalGrid": true,
+      "LineTension": 0.05,
+      "GridColor": "rgba(255,255,255, 0.3)",
+      "GridEdgeColor": "rgba(255,255,255, 0.4)",
+      "BorderUseTeamColors": true,
+      "BorderOrderColor": "rgb(0,0,0)",
+      "BorderChaosColor": "rgb(0,0,0)",
+      "FillUseTeamColors": true,
+      "FillOrderColor": "rgb(0,0,0)",
+      "FillChaosColor": "rgb(0,0,0)",
+      "InfoFont": {
+        "Style": "UNUSED",
+        "Name": "News Cycle",
+        "Size": "UNUSED",
+        "Align": "UNUSED",
+        "Color": "rgb(230,190,138)"
+      },
+      "TimeStepSize": 30,
+      "ShowTimeStepIndicators": true
+    }
+  },
+  "BaronTimer": {
+    "Position": {
+      "X": 1800.0,
+      "Y": 55.0
+    },
+    "MaskPosition": {
+      "X": 1750.0,
+      "Y": 20.0
+    },
+    "MaskSize": {
+      "X": 150.0,
+      "Y": 70.0
+    },
+    "Scale": 0.8,
+    "Align": "right",
+    "ShowGoldDiff": true,
+    "ShowTimer": true,
+    "ObjectiveIcon": true,
+    "Animate": true,
+    "IconPosition": {
+      "X": 0.0,
+      "Y": 0.0
+    },
+    "GoldPosition": {
+      "X": 25.0,
+      "Y": -25.0
+    },
+    "GoldIconPosition": {
+      "X": -7.0,
+      "Y": -25.0
+    },
+    "GoldFont": {
+      "Style": "Bold",
+      "Name": "News Cycle",
+      "Size": "22px",
+      "Align": "right",
+      "Color": "rgb(230,190,138)"
+    },
+    "TimePosition": {
+      "X": 25.0,
+      "Y": 0.0
+    },
+    "TimeIconPosition": {
+      "X": -10.0,
+      "Y": 0.0
+    },
+    "TimeFont": {
+      "Style": "Bold",
+      "Name": "News Cycle",
+      "Size": "22px",
+      "Align": "right",
+      "Color": "rgb(230,190,138)"
+    }
+  },
+  "ElderTimer": {
+    "Position": {
+      "X": 120.0,
+      "Y": 55.0
+    },
+    "MaskPosition": {
+      "X": 50.0,
+      "Y": 20.0
+    },
+    "MaskSize": {
+      "X": 150.0,
+      "Y": 70.0
+    },
+    "Scale": 0.8,
+    "Align": "left",
+    "ShowGoldDiff": true,
+    "ShowTimer": true,
+    "ObjectiveIcon": true,
+    "Animate": true,
+    "IconPosition": {
+      "X": 40.0,
+      "Y": 0.0
+    },
+    "GoldPosition": {
+      "X": 18.0,
+      "Y": -25.0
+    },
+    "GoldIconPosition": {
+      "X": 22.0,
+      "Y": -25.0
+    },
+    "GoldFont": {
+      "Style": "Bold",
+      "Name": "News Cycle",
+      "Size": "22px",
+      "Align": "left",
+      "Color": "rgb(230,190,138)"
+    },
+    "TimePosition": {
+      "X": 18.0,
+      "Y": 0.0
+    },
+    "TimeIconPosition": {
+      "X": 20.0,
+      "Y": -2.0
+    },
+    "TimeFont": {
+      "Style": "Bold",
+      "Name": "News Cycle",
+      "Size": "22px",
+      "Align": "left",
+      "Color": "rgb(230,190,138)"
+    }
+  },
+  "GoogleFonts": [
+    "News Cycle",
+    "News Cycle:bold",
+    "Droid Sans"
+  ],
+  "FileVersion": "2.2"
+}
+[16-21-05] Config Ingame loaded
+[16-21-05] Found Component.json. Reading values
+[16-21-05] {
+  "DataDragon": {
+    "MinimumGoldCost": 2000,
+    "Region": "euw",
+    "Locale": "en_US",
+    "CDN": "https://ddragon.leagueoflegends.com/cdn",
+    "Patch": "latest"
+  },
+  "PickBan": {
+    "IsActive": true,
+    "UseDelay": false,
+    "DelayValue": 300,
+    "DefaultBlueColor": "rgb(66, 133, 244)",
+    "DefaultRedColor": "rgb(234, 67, 53)"
+  },
+  "Ingame": {
+    "IsActive": true,
+    "UseLiveEvents": true,
+    "DoLevelUp": true,
+    "DoItemCompleted": true,
+    "SeriesGameCount": 3,
+    "Objectives": {
+      "DoBaronKill": true,
+      "DoDragonKill": true,
+      "DoInhibitors": false,
+      "DoObjectiveSpawnPopUp": false,
+      "DoObjectiveKillPopUp": false
+    },
+    "Teams": {
+      "DoTeamNames": false,
+      "DoTeamIcons": false,
+      "DoTeamScores": false
+    },
+    "UseCustomScoreboard": true
+  },
+  "Replay": {
+    "IsActive": true,
+    "UseAutoInitUI": true
+  },
+  "PostGame": {
+    "IsActive": false
+  },
+  "App": {
+    "LogLevel": 2,
+    "CheckForUpdates": true,
+    "UpdateRepositoryUrl": "https://github.com/floh22/LeagueBroadcast",
+    "UpdateRepositoryName": "floh22/LeagueBroadcast",
+    "LeagueInstall": [
+      "C:\\",
+      "D:\\",
+      "E:\\",
+      "F:\\",
+      "C:\\Program Files",
+      "C:\\Program Files (x86)"
+    ],
+    "CheckForOffsets": true,
+    "OffsetRepository": "https://raw.githubusercontent.com/floh22/LeagueBroadcast/v2/Offsets/",
+    "OffsetPrefix": "Offsets-"
+  },
+  "FileVersion": "1.3"
+}
+[16-21-05] Config Component loaded
+[16-21-05] Loading config watchers
+[16-21-05] Watching PickBan.json for changes
+[16-21-05] Watching Component.json for changes
+[16-21-05] Watching Ingame.json for changes
+[16-21-05] Log Level set to Info
+[16-21-05] League Broadcast Version 1.4.106
+[16-21-05] [Update] Checking for Updates
+[16-21-05] [Update] Latest release version v1.4.106 vs. current version 1.4.106
+[16-21-05] [Update] Local version up to date
+[16-21-05] Using current Version
+[16-21-05] Early Init Complete in 2046,6235ms
+[16-21-06] DataDragon Provider Init
+[16-21-06] Getting latest versions from dataDragon
+[16-21-06] Retrieving latest patch info
+[16-21-06] Champion: 12.1.1, Item: 12.1.1, CDN: https://ddragon.leagueoflegends.com/cdn
+[16-21-06] Loaded 157 champions
+[16-21-07] Loaded 16 summoner spells
+[16-21-07] Detected 206 items
+[16-21-07] Loaded 100 full items
+[16-21-07] Checking Local Cache
+[16-21-07] Cache C:\Users\daisuke\Desktop\RedFox\IN GAME\RedFox - 1.4.106/Cache/12.1.1 exists already
+[16-21-07] DDragon loaded
+[16-21-07] Loading PickBan Controller
+[16-21-07] Loading Ingame Controller
+[16-21-07] Checking League install for LiveEventsAPI
+[16-21-07] Found League install location
+[16-21-07] LiveEvents API found in Game config
+[16-21-07] [WARNING] Could not parse game config. Replay API may not be enabled!
+[16-21-07] Verifying LiveEvents list
+[16-21-07] Loading Replay Controller
+[16-21-07] Loading Farsight
+[16-21-07] Farsight loaded. Found 157 Champ names
+[16-21-07] Loading Frontend Webserver (HTTP/WS)
+[16-21-07] Server file system starting
+[16-21-07] WebServer New State - Loading
+[16-21-07] WebServer New State - Listening
+[16-21-07] WebServer running on http://*:9001/
+[16-21-07] Whats that ticking noise?
+[16-21-07] Init Complete in 1.892s
+[16-21-07] Opening main window
+[16-21-07] Connection State Changed
+[16-21-07] New Client syf5VmmOTUCQyedwRRHsrA connected from http://localhost:9001
+[16-21-08] Loading State Controller
+[16-21-08] Connecting to League Client
+[16-21-08] PickBan Enabled
+[16-21-08] Ingame Enabled
+[16-21-08] Using direct PickBan
+[16-21-08] Starting LeagueBroadcast with tickrate of 2tps
+[16-21-08] Checking for running Game
+[16-21-08] Target process (League of Legends) detected.
+[16-21-08] Init Game State
+[16-21-08] Game State reset
+[16-21-08] Connection State Changed
+[16-21-08] Post Init Complete in 519,8498ms
+[16-21-08] Total Startup time: 4.459s
+[16-21-08] Game Loaded
+[16-21-08] Game Paused
+[16-21-08] LiveEventAPI Connected
+[16-21-09] Game Resumed
+[16-21-09] Baron spawned
+[16-21-09] Init Team data
+[16-21-09] Init UI
+[16-21-09] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-09] [WARNING] Sequence contains no matching element
+[16-21-09] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-09] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-09] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-09] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-09] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-09] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-09] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-09] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-09] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-09] Sending game start key inputs
+[16-21-10] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-10] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-10] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-10] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-10] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-10] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-10] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-10] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-10] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-10] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-10] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-10] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-10] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-10] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-10] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-10] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-10] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-10] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-10] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-10] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-11] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-11] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-11] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-11] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-11] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-11] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-11] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-11] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-11] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-11] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-11] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-11] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-11] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-11] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-11] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-11] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-11] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-11] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-11] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-11] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-12] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-12] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-12] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-12] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-12] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-12] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-12] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-12] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-12] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-12] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-12] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-12] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-12] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-12] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-12] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-12] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-12] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-12] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-12] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-12] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-13] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-13] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-13] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-13] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-13] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-13] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-13] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-13] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-13] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-13] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-13] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-13] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-13] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-13] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-13] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-13] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-13] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-13] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-13] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-13] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-14] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-14] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-14] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-14] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-14] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-14] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-14] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-14] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-14] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-14] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-14] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-14] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-14] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-14] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-14] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-14] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-14] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-14] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-14] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-14] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-15] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-15] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-15] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-15] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-15] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-15] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-15] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-15] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-15] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-15] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-15] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-15] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-15] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-15] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-15] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-15] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-15] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-15] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-15] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-15] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-16] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-16] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-16] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-16] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-16] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-16] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-16] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-16] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-16] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-16] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-16] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-16] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-16] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-16] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-16] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-16] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-16] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-16] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-16] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-16] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-17] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-17] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-17] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-17] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-17] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-17] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-17] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-17] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-17] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-17] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-17] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-17] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-17] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-17] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-17] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-17] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-17] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-17] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-17] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-17] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-18] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-18] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-18] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-18] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-18] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-18] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-18] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-18] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-18] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-18] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-18] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-18] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-18] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-18] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-18] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-18] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-18] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-18] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-18] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-18] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-19] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-19] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-19] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-19] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-19] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-19] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-19] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-19] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-19] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-19] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-19] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-19] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-19] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-19] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-19] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-19] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-19] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-19] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-19] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-19] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-20] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-20] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-20] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-20] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-20] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-20] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-20] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-20] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-20] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-20] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-20] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-20] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-20] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-20] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-20] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-20] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-20] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-20] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-20] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-20] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-21] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-21] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-21] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-21] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-21] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-21] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-21] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-21] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-21] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-21] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-21] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-21] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-21] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-21] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-21] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-21] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-21] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-21] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-21] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-21] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-22] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-22] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-22] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-22] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-22] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-22] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-22] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-22] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-22] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-22] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-22] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-22] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-22] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-22] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-22] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-22] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-22] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-22] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-22] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-22] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-23] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-23] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-23] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-23] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-23] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-23] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-23] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-23] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-23] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-23] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-23] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-23] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-23] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-23] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-23] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-23] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-23] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-23] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-23] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-23] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-24] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-24] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-24] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-24] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-24] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-24] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-24] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-24] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-24] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-24] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-24] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-24] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-24] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-24] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-24] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-24] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-24] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-24] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-24] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-24] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-25] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-25] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-25] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-25] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-25] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-25] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-25] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-25] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-25] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-25] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-25] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-25] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-25] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-25] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-25] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-25] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-25] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-25] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-25] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-25] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-26] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-26] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-26] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-26] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-26] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-26] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-26] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-26] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-26] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-26] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-26] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-26] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-26] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-26] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-26] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-26] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-26] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-26] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-26] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-26] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-27] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-27] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-27] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-27] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-27] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-27] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-27] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-27] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-27] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-27] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-27] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-27] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-27] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-27] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-27] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-27] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-27] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-27] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-27] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-27] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-28] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-28] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-28] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-28] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-28] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-28] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-28] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-28] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-28] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-28] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-28] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-28] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-28] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-28] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-28] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-28] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-28] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-28] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-28] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-28] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-29] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-29] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-29] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-29] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-29] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-29] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-29] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-29] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-29] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-29] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-29] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-29] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-29] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-29] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-29] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-29] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-29] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-29] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-29] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-29] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-30] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-30] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-30] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-30] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-30] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-30] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-30] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-30] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-30] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-30] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-30] Client syf5VmmOTUCQyedwRRHsrA disconnected
+[16-21-30] New Client mXZa+mSjXEyEMIlv6e8fOQ connected from http://localhost:9001
+[16-21-30] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-30] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-30] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-30] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-30] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-30] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-30] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-30] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-30] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-30] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-31] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-31] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-31] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-31] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-31] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-31] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-31] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-31] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-31] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-31] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-31] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-31] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-31] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-31] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-31] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-31] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-31] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-31] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-31] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-31] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-32] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-32] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-32] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-32] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-32] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-32] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-32] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-32] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-32] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-32] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-32] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-32] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-32] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-32] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-32] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-32] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-32] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-32] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-32] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-32] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-33] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-33] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-33] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-33] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-33] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-33] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-33] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-33] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-33] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-33] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-33] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-33] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-33] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-33] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-33] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-33] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-33] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-33] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-33] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-33] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-34] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-34] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-34] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-34] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-34] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-34] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-34] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-34] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-34] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-34] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-34] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-34] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-34] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-34] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-34] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-34] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-34] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-34] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-34] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-34] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-35] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-35] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-35] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-35] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-35] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-35] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-35] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-35] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-35] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-35] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-35] New Client iUkNdleakEKEnIetTTG6Aw connected from http://localhost:9001
+[16-21-35] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-35] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-35] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-35] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-35] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-35] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-35] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-35] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-35] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-35] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-36] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-36] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-36] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-36] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-36] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-36] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-36] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-36] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-36] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-36] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-36] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-36] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-36] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-36] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-36] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-36] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-36] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-36] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-36] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-36] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-37] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-37] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-37] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-37] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-37] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-37] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-37] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-37] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-37] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-37] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-37] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-37] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-37] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-37] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-37] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-37] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-37] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-37] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-37] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-37] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-38] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-38] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-38] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-38] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-38] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-38] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-38] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-38] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-38] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-38] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-38] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-38] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-38] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-38] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-38] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-38] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-38] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-38] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-38] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-38] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-39] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-39] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-39] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-39] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-39] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-39] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-39] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-39] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-39] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-39] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-39] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-39] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-39] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-39] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-39] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-39] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-39] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-39] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-39] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-39] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-40] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-40] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-40] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-40] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-40] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-40] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-40] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-40] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-40] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-40] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-40] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-40] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-40] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-40] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-40] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-40] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-40] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-40] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-40] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-40] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-41] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-41] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-41] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-41] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-41] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-41] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-41] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-41] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-41] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-41] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-41] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-41] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-41] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-41] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-41] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-41] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-41] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-41] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-41] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-41] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-42] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-42] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-42] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-42] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-42] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-42] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-42] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-42] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-42] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-42] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-42] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-42] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-42] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-42] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-42] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-42] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-42] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-42] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-42] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-42] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-43] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-43] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-43] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-43] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-43] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-43] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-43] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-43] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-43] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-43] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-43] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-43] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-43] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-43] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-43] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-43] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-43] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-43] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-43] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-43] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-44] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-44] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-44] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-44] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-44] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-44] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-44] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-44] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-44] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-44] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-44] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-44] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-44] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-44] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-44] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-44] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-44] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-44] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-44] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-44] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-45] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-45] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-45] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-45] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-45] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-45] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-45] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-45] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-45] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-45] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-45] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-45] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-45] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-45] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-45] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-45] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-45] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-45] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-45] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-45] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-46] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-46] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-46] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-46] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-46] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-46] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-46] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-46] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-46] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-46] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-46] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-46] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-46] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-46] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-46] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-46] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-46] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-46] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-46] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-46] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-47] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-47] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-47] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-47] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-47] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-47] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-47] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-47] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-47] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-47] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-47] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-47] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-47] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-47] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-47] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-47] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-47] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-47] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-47] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-47] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-48] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-48] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-48] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-48] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-48] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-48] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-48] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-48] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-48] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-48] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-48] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-48] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-48] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-48] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-48] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-48] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-48] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-48] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-48] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-48] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-49] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-49] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-49] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-49] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-49] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-49] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-49] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-49] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-49] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-49] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-49] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-49] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-49] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-49] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-49] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-49] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-49] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-49] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-49] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-49] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-50] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-50] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-50] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-50] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-50] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-50] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-50] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-50] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-50] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-50] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-50] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-50] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-50] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-50] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-50] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-50] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-50] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-50] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-50] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-50] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-51] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-51] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-51] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-51] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-51] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-51] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-51] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-51] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-51] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-51] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-51] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-51] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-51] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-51] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-51] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-51] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-51] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-51] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-51] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-51] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-52] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-52] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-52] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-52] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-52] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-52] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-52] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-52] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-52] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-52] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-52] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-52] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-52] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-52] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-52] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-52] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-52] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-52] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-52] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-52] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-53] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-53] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-53] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-53] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-53] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-53] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-53] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-53] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-53] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-53] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-53] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-53] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-53] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-53] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-53] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-53] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-53] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-53] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-53] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-53] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-54] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-54] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-54] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-54] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-54] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-54] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-54] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-54] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-54] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-54] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-54] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-54] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-54] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-54] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-54] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-54] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-54] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-54] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-54] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-54] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-55] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-55] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-55] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-55] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-55] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-55] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-55] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-55] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-55] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-55] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-55] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-55] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-55] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-55] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-55] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-55] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-55] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-55] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-55] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-55] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-56] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-56] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-56] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-56] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-56] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-56] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-56] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-56] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-56] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-56] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-56] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-56] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-56] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-56] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-56] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-56] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-56] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-56] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-56] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-56] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-57] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-57] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-57] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-57] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-57] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-57] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-57] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-57] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-57] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-57] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-57] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-57] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-57] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-57] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-57] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-57] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-57] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-57] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-57] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-57] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-58] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-58] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-58] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-58] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-58] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-58] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-58] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-58] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-58] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-58] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-58] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-58] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-58] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-58] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-58] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-58] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-58] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-58] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-58] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-58] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-59] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-59] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-59] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-59] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-59] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-59] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-59] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-59] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-59] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-59] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-21-59] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-21-59] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-21-59] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-21-59] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-21-59] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-21-59] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-21-59] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-21-59] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-21-59] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-21-59] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-22-00] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-22-00] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-22-00] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-22-00] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-22-00] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-22-00] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-22-00] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-22-00] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-22-00] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-22-00] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-22-00] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-22-00] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-22-00] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-22-00] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-22-00] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-22-00] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-22-00] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-22-00] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-22-00] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-22-00] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-22-01] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-22-01] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-22-01] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-22-01] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-22-01] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-22-01] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-22-01] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-22-01] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-22-01] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-22-01] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-22-01] Ingame.json change detected
+[16-22-01] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-22-01] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-22-01] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-22-01] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-22-01] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-22-01] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-22-01] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-22-01] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-22-01] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-22-01] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-22-02] Found Ingame.json. Reading values
+[16-22-02] Config Ingame loaded
+[16-22-02] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-22-02] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-22-02] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-22-02] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-22-02] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-22-02] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-22-02] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-22-02] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-22-02] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-22-02] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-22-02] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-22-02] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-22-02] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-22-02] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-22-02] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-22-02] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-22-02] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-22-02] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-22-02] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-22-02] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-22-03] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-22-03] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-22-03] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-22-03] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-22-03] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-22-03] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-22-03] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-22-03] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-22-03] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-22-03] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-22-03] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-22-03] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-22-03] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-22-03] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-22-03] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-22-03] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-22-03] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-22-03] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-22-03] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-22-03] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-22-04] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-22-04] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-22-04] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-22-04] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-22-04] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-22-04] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-22-04] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-22-04] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-22-04] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-22-04] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-22-04] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-22-04] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-22-04] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-22-04] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-22-04] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-22-04] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-22-04] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-22-04] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-22-04] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-22-04] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-22-05] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-22-05] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-22-05] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-22-05] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-22-05] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-22-05] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-22-05] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-22-05] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-22-05] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-22-05] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-22-05] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-22-05] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-22-05] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-22-05] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-22-05] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-22-05] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-22-05] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-22-05] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-22-05] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-22-05] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-22-06] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-22-06] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-22-06] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-22-06] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-22-06] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-22-06] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-22-06] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-22-06] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-22-06] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-22-06] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-22-06] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-22-06] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-22-06] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-22-06] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-22-06] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-22-06] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-22-06] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-22-06] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-22-06] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-22-06] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-22-07] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-22-07] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-22-07] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-22-07] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-22-07] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-22-07] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-22-07] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-22-07] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-22-07] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-22-07] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-22-07] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-22-07] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-22-07] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-22-07] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-22-07] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-22-07] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-22-07] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-22-07] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-22-07] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-22-07] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-22-08] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-22-08] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-22-08] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-22-08] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-22-08] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-22-08] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-22-08] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-22-08] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-22-08] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-22-08] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-22-08] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-22-08] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-22-08] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-22-08] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-22-08] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-22-08] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-22-08] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-22-08] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-22-08] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-22-08] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-22-09] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-22-09] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-22-09] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-22-09] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-22-09] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-22-09] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-22-09] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-22-09] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-22-09] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-22-09] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-22-09] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-22-09] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-22-09] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-22-09] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-22-09] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-22-09] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-22-09] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-22-09] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-22-09] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-22-09] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-22-10] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-22-10] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-22-10] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-22-10] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-22-10] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-22-10] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-22-10] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-22-10] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-22-10] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-22-10] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-22-10] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-22-10] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-22-10] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-22-10] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-22-10] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-22-10] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-22-10] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-22-10] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-22-10] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-22-10] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-22-11] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-22-11] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-22-11] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-22-11] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-22-11] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-22-11] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-22-11] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-22-11] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-22-11] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-22-11] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-22-11] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-22-11] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-22-11] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-22-11] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-22-11] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-22-11] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-22-11] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-22-11] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-22-11] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-22-11] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-22-12] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-22-12] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-22-12] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-22-12] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-22-12] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-22-12] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-22-12] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-22-12] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-22-12] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-22-12] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-22-12] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-22-12] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-22-12] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-22-12] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-22-12] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-22-12] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-22-12] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-22-12] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-22-12] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-22-12] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-22-13] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-22-13] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-22-13] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-22-13] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-22-13] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-22-13] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-22-13] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-22-13] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-22-13] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-22-13] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-22-13] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-22-13] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-22-13] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-22-13] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-22-13] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-22-13] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-22-13] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-22-13] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-22-13] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-22-13] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-22-14] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-22-14] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-22-14] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-22-14] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-22-14] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-22-14] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-22-14] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-22-14] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-22-14] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-22-14] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-22-14] Ingame.json change detected
+[16-22-14] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-22-14] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-22-14] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-22-14] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-22-14] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-22-14] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-22-14] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-22-14] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-22-14] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-22-14] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-22-14] Found Ingame.json. Reading values
+[16-22-14] Config Ingame loaded
+[16-22-15] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-22-15] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-22-15] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-22-15] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-22-15] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-22-15] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-22-15] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-22-15] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-22-15] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-22-15] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-22-15] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-22-15] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-22-15] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-22-15] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-22-15] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-22-15] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-22-15] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-22-15] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-22-15] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-22-15] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-22-15] Ingame.json change detected
+[16-22-16] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-22-16] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-22-16] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-22-16] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-22-16] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-22-16] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-22-16] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-22-16] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-22-16] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-22-16] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-22-16] Found Ingame.json. Reading values
+[16-22-16] Config Ingame loaded
+[16-22-16] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-22-16] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-22-16] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-22-16] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-22-16] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-22-16] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-22-16] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-22-16] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-22-16] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-22-16] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-22-17] Ingame.json change detected
+[16-22-17] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-22-17] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-22-17] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-22-17] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-22-17] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-22-17] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-22-17] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-22-17] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-22-17] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-22-17] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-22-17] Found Ingame.json. Reading values
+[16-22-17] Config Ingame loaded
+[16-22-17] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-22-17] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-22-17] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-22-17] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-22-17] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-22-17] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-22-17] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-22-17] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-22-17] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-22-17] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-22-18] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-22-18] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-22-18] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-22-18] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-22-18] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-22-18] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-22-18] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-22-18] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-22-18] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-22-18] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-22-18] Mountain killed by ORDER
+[16-22-18] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-22-18] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-22-18] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-22-18] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-22-18] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-22-18] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-22-18] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-22-18] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-22-18] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-22-18] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!
+[16-22-19] Saving all configs to file
+[16-22-19] [WARNING] Could not save all configs
+[16-22-19] [WARNING] Jayce not found in memory snapshot. Values will be incorrect!
+[16-22-19] [WARNING] Sejuani not found in memory snapshot. Values will be incorrect!
+[16-22-19] [WARNING] Veigar not found in memory snapshot. Values will be incorrect!
+[16-22-19] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[16-22-19] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[16-22-19] [WARNING] Pantheon not found in memory snapshot. Values will be incorrect!
+[16-22-19] [WARNING] Vi not found in memory snapshot. Values will be incorrect!
+[16-22-19] [WARNING] Zed not found in memory snapshot. Values will be incorrect!
+[16-22-19] [WARNING] Xayah not found in memory snapshot. Values will be incorrect!
+[16-22-19] [WARNING] Thresh not found in memory snapshot. Values will be incorrect!

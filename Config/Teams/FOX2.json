@@ -1,0 +1,11 @@
+{
+  "Config": {
+    "name": "FOX2",
+    "nameTag": "FOX2",
+    "score": 0,
+    "coach": "RED2",
+    "color": "rgb(249,46,99)"
+  },
+  "IconLocation": "Cache\\TeamIcons\\Default.png",
+  "FileVersion": "1.0"
+}

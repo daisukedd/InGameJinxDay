@@ -1,0 +1,19 @@
+--- LeagueBroadcast Crash Report --- 
+Still more stable than the League Client
+
+Time: 2022.01.16-16:36
+Description: One or more errors occurred. (A task was canceled.)
+
+Stacktrace: 
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at LeagueBroadcast.Common.Controllers.ReplayAPIController.GetRequestContent(String url) in F:\Repos\LeagueOfLegends\LeagueBroadcast2\LeagueBroadcast\Common\Controllers\ReplayAPIController.cs:line 81
+   at LeagueBroadcast.Common.Controllers.ReplayAPIController.OnGameLoad(Object sender, EventArgs e) in F:\Repos\LeagueOfLegends\LeagueBroadcast2\LeagueBroadcast\Common\Controllers\ReplayAPIController.cs:line 44
+   at System.Threading.Tasks.Task.<>c.<ThrowAsync>b__139_1(Object state)
+   at System.Threading.QueueUserWorkItemCallback.<>c.<.cctor>b__6_0(QueueUserWorkItemCallback quwi)
+   at System.Threading.ExecutionContext.RunForThreadPoolUnsafe[TState](ExecutionContext executionContext, Action`1 callback, TState& state)
+   at System.Threading.QueueUserWorkItemCallback.Execute()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+
+-- System Details -- 
+League Broadcast Version: 1.4.106.21326
+OS: Win 10 2009

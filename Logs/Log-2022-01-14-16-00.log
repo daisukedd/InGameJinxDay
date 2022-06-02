@@ -1,0 +1,238 @@
+[16-00-25] Logging Init
+[16-00-25] Starting Config Controller
+[16-00-25] Config Provider started
+[16-00-25] Looking for config files at /Config
+[16-00-25] Init Config Folder
+[16-00-25] Init Teams Folder
+[16-00-25] Config PickBan not found. Restoring default config
+[16-00-25] Writing PickBan config to file
+[16-00-25] Updated PickBan config file
+[16-00-25] Config Ingame not found. Restoring default config
+[16-00-25] Writing Ingame config to file
+[16-00-25] Updated Ingame config file
+[16-00-25] Config Component not found. Restoring default config
+[16-00-25] Writing Component config to file
+[16-00-25] Updated Component config file
+[16-00-25] Loading config watchers
+[16-00-25] Watching PickBan.json for changes
+[16-00-25] Watching Component.json for changes
+[16-00-25] Watching Ingame.json for changes
+[16-00-25] Log Level set to Info
+[16-00-25] League Broadcast Version 1.4.106
+[16-00-25] [Update] Checking for Updates
+[16-00-26] [Update] Latest release version v1.4.106 vs. current version 1.4.106
+[16-00-26] [Update] Local version up to date
+[16-00-26] Using current Version
+[16-00-26] Early Init Complete in 1702,6973ms
+[16-00-26] DataDragon Provider Init
+[16-00-26] Getting latest versions from dataDragon
+[16-00-26] Retrieving latest patch info
+[16-00-27] New patch 12.1.1 detected
+[16-00-27] Writing PickBan config to file
+[16-00-27] Updated PickBan config file
+[16-00-27] PickBan.json change detected
+[16-00-27] Champion: 12.1.1, Item: 12.1.1, CDN: https://ddragon.leagueoflegends.com/cdn
+[16-00-27] Loaded 157 champions
+[16-00-28] Loaded 16 summoner spells
+[16-00-28] Detected 206 items
+[16-00-28] Loaded 100 full items
+[16-00-28] Checking Local Cache
+[16-00-28] Current Patch cache not detected, removing old Patch data
+[16-00-28] Starting download process. This could take a while
+[16-00-28] Downloading Item Cache of 100 images
+[16-00-28] Downloading Champion Cache of 628 images
+[16-00-28] Downloading Summoner Spell Cache of 16 images
+[16-00-28] Downloading 0 assets from datadragon!
+[16-00-36] DataDragon download finished
+[16-00-36] DDragon loaded
+[16-00-36] Loading PickBan Controller
+[16-00-36] Loading Ingame Controller
+[16-00-36] Checking League install for LiveEventsAPI
+[16-00-36] Found League install location
+[16-00-36] LiveEvents API found in Game config
+[16-00-36] [WARNING] Could not parse game config. Replay API may not be enabled!
+[16-00-36] Verifying LiveEvents list
+[16-00-36] Loading Replay Controller
+[16-00-36] Loading Farsight
+[16-00-36] Farsight loaded. Found 157 Champ names
+[16-00-36] Loading Frontend Webserver (HTTP/WS)
+[16-00-36] Server file system starting
+[16-00-36] WebServer New State - Loading
+[16-00-36] WebServer New State - Listening
+[16-00-36] WebServer running on http://*:9001/
+[16-00-36] Whats that ticking noise?
+[16-00-36] Init Complete in 10.606s
+[16-00-36] Opening main window
+[16-00-36] Connection State Changed
+[16-00-37] Loading State Controller
+[16-00-37] Connecting to League Client
+[16-00-37] PickBan Enabled
+[16-00-37] Ingame Enabled
+[16-00-37] Using direct PickBan
+[16-00-37] Starting LeagueBroadcast with tickrate of 2tps
+[16-00-37] Checking for running Game
+[16-00-37] Post Init Complete in 516,6905ms
+[16-00-37] Total Startup time: 12.826s
+[16-00-48] Connection State Changed
+[16-00-48] Connected to League Client in 11331 ms
+[16-00-53] Local Client Version 12.1.1
+[16-00-53] Loading offsets for current patch
+[16-00-53] Config Farsight not found. Restoring default config
+[16-00-53] Fetching new offsets from https://raw.githubusercontent.com/floh22/LeagueBroadcast/v2/Offsets/Offsets-12.1.1.json
+[16-00-53] Received updated offsets
+[16-00-53] Offsets found. Updating values for game version 12.1.1
+[16-00-53] Writing Farsight config to file
+[16-00-53] Updated Farsight config file
+[16-00-53] Watching Farsight.json for changes
+[16-00-53] Using offsets 12.1.1
+[16-01-28] League State: GameStart
+[16-01-28] League State: InProgress
+[16-01-29] Target process (League of Legends) detected.
+[16-01-29] Init Game State
+[16-01-29] Game State reset
+[16-01-29] Connection State Changed
+[16-01-35] New Client /5x0rlxmyUqP4T//IawXHg connected from http://localhost:9001
+[16-01-38] Connection State Changed
+[16-01-38] Client Disconnected! Attempting to reconnect...
+[16-01-55] Game Loaded
+[16-01-55] Game Paused
+[16-01-55] LiveEventAPI Connected
+[16-01-55] Game Resumed
+[16-01-55] Init Team data
+[16-01-56] Init UI
+[16-01-56] Sending game start key inputs
+[16-02-10] New Client IgcMDrpss0eRo4+nCQkTgQ connected from http://localhost:9001
+[16-02-46] Hextech spawned
+[16-02-57] Client IgcMDrpss0eRo4+nCQkTgQ disconnected
+[16-02-58] New Client jKoem3BUjke819HpdjxE6w connected from http://localhost:9001
+[16-03-00] Client jKoem3BUjke819HpdjxE6w disconnected
+[16-03-00] New Client +WPf54Iw70iHrAhTjGrIrg connected from http://localhost:9001
+[16-03-05] Client /5x0rlxmyUqP4T//IawXHg disconnected
+[16-03-06] New Client BFfItd/8qUCo2ugn7fhYsg connected from http://localhost:9001
+[16-04-13] Player 0 lvl up
+[16-04-26] Player 2 lvl up
+[16-04-58] Player 5 lvl up
+[16-05-25] Player 7 lvl up
+[16-05-30] Player 8 lvl up
+[16-05-49] Herald spawned
+[16-06-05] Hextech killed by CHAOS
+[16-06-12] Player 9 lvl up
+[16-06-31] Player 6 lvl up
+[16-07-09] Player 3 lvl up
+[16-07-30] Player 1 lvl up
+[16-07-45] Player 6 finished Item 6692
+[16-07-49] Player 4 lvl up
+[16-08-36] Herald killed by CHAOS
+[16-08-39] Player 4 finished Item 3851
+[16-09-44] Player 3 finished Item 6671
+[16-10-42] Player 9 finished Item 3190
+[16-10-45] Player 9 finished Item 3855
+[16-10-49] Player 0 finished Item 6692
+[16-10-56] Player 8 finished Item 6672
+[16-10-59] Chemtech spawned
+[16-11-40] Chemtech killed by CHAOS
+[16-11-40] Player 2 finished Item 6656
+[16-11-57] Player 2 finished Item 4644
+[16-13-42] Player 6 lvl up
+[16-13-45] Player 0 lvl up
+[16-13-49] Player 4 finished Item 4005
+[16-13-53] Player 6 finished Item 6676
+[16-14-11] Player 5 finished Item 6691
+[16-14-18] Ingame.json change detected
+[16-14-19] Found Ingame.json. Reading values
+[16-14-19] Config Ingame loaded
+[16-14-20] Player 2 lvl up
+[16-14-30] Ingame.json change detected
+[16-14-31] Found Ingame.json. Reading values
+[16-14-31] Config Ingame loaded
+[16-14-33] Herald spawned
+[16-14-39] Ingame.json change detected
+[16-14-40] Found Ingame.json. Reading values
+[16-14-40] Config Ingame loaded
+[16-14-45] Ingame.json change detected
+[16-14-45] Found Ingame.json. Reading values
+[16-14-45] Config Ingame loaded
+[16-14-50] Player 1 finished Item 3068
+[16-14-55] Player 7 finished Item 6691
+[16-14-56] Ingame.json change detected
+[16-14-57] Found Ingame.json. Reading values
+[16-14-57] Config Ingame loaded
+[16-15-04] Ingame.json change detected
+[16-15-04] Found Ingame.json. Reading values
+[16-15-04] Config Ingame loaded
+[16-15-09] Ingame.json change detected
+[16-15-10] Found Ingame.json. Reading values
+[16-15-10] Config Ingame loaded
+[16-15-15] Herald killed by CHAOS
+[16-15-17] Ingame.json change detected
+[16-15-18] Found Ingame.json. Reading values
+[16-15-18] Config Ingame loaded
+[16-15-38] Ingame.json change detected
+[16-15-38] Found Ingame.json. Reading values
+[16-15-38] Config Ingame loaded
+[16-15-44] Player 5 lvl up
+[16-15-44] Player 8 lvl up
+[16-15-51] Player 2 finished Item 3157
+[16-16-03] Player 4 finished Item 3853
+[16-16-14] Ingame.json change detected
+[16-16-15] Found Ingame.json. Reading values
+[16-16-15] Config Ingame loaded
+[16-16-16] Ingame.json change detected
+[16-16-16] Found Ingame.json. Reading values
+[16-16-16] Config Ingame loaded
+[16-16-18] Client +WPf54Iw70iHrAhTjGrIrg disconnected
+[16-16-19] New Client fPPrYyt2BkKiwiLLNUwJCA connected from http://localhost:9001
+[16-16-34] Mountain spawned
+[16-16-38] Ingame.json change detected
+[16-16-38] Found Ingame.json. Reading values
+[16-16-38] Config Ingame loaded
+[16-16-52] Mountain killed by ORDER
+[16-17-12] Ingame.json change detected
+[16-17-13] Found Ingame.json. Reading values
+[16-17-13] Config Ingame loaded
+[16-17-13] Ingame.json change detected
+[16-17-14] Found Ingame.json. Reading values
+[16-17-14] Config Ingame loaded
+[16-17-21] Ingame.json change detected
+[16-17-21] Found Ingame.json. Reading values
+[16-17-21] Config Ingame loaded
+[16-17-35] Player 1 lvl up
+[16-17-53] Baron spawned
+[16-17-57] Player 3 lvl up
+[16-17-58] Player 8 finished Item 3004
+[16-18-09] Ingame.json change detected
+[16-18-09] Found Ingame.json. Reading values
+[16-18-09] Config Ingame loaded
+[16-18-26] Client fPPrYyt2BkKiwiLLNUwJCA disconnected
+[16-18-26] New Client P9ZCMpoaJEyuWirYTcsf9A connected from http://localhost:9001
+[16-18-43] Player 3 finished Item 3046
+[16-19-31] Player 4 lvl up
+[16-19-40] Player 7 lvl up
+[16-19-46] Ingame.json change detected
+[16-19-46] Player 1 finished Item 3119
+[16-19-46] Found Ingame.json. Reading values
+[16-19-46] Config Ingame loaded
+[16-19-47] Player 8 finished Item 3042
+[16-19-49] Ingame.json change detected
+[16-19-49] Found Ingame.json. Reading values
+[16-19-49] Config Ingame loaded
+[16-20-35] Ingame.json change detected
+[16-20-35] Found Ingame.json. Reading values
+[16-20-35] Config Ingame loaded
+[16-20-36] Ingame.json change detected
+[16-20-37] Found Ingame.json. Reading values
+[16-20-37] Config Ingame loaded
+[16-20-41] Ingame.json change detected
+[16-20-42] Found Ingame.json. Reading values
+[16-20-42] Config Ingame loaded
+[16-20-42] Player 9 lvl up
+[16-20-45] Saving all configs to file
+[16-20-45] Writing PickBan config to file
+[16-20-45] Updated PickBan config file
+[16-20-45] Writing Component config to file
+[16-20-45] Updated Component config file
+[16-20-45] Writing Farsight config to file
+[16-20-45] Updated Farsight config file
+[16-20-45] Writing Ingame config to file
+[16-20-45] Updated Ingame config file
+[16-20-45] Configs saved
