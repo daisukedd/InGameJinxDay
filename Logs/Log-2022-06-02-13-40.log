@@ -1,0 +1,1846 @@
+[13-40-23] Logging Init
+[13-40-23] Starting Config Controller
+[13-40-23] Config Provider started
+[13-40-23] Looking for config files at /Config
+[13-40-24] Found PickBan.json. Reading values
+[13-40-24] {
+  "frontend": {
+    "scoreEnabled": true,
+    "spellsEnabled": true,
+    "coachesEnabled": true,
+    "blueTeam": {
+      "name": "REDBLUE1",
+      "nameTag": "RED1",
+      "score": 0,
+      "coach": "RED1",
+      "color": "rgb(46,156,249)"
+    },
+    "redTeam": {
+      "name": "FOX2",
+      "nameTag": "FOX2",
+      "score": 0,
+      "coach": "RED2",
+      "color": "rgb(249,46,99)"
+    },
+    "patch": "12.10.1"
+  },
+  "FileVersion": "1.0"
+}
+[13-40-24] Config PickBan loaded
+[13-40-24] Found Ingame.json. Reading values
+[13-40-24] {
+  "Inhib": {
+    "Position": {
+      "X": 0.0,
+      "Y": 845.0
+    },
+    "Size": {
+      "X": 306.0,
+      "Y": 118.0
+    },
+    "UseBackgroundImage": false,
+    "UseBackgroundVideo": false,
+    "Color": "rgba(19,24,63,255)",
+    "Font": {
+      "Style": "Normal",
+      "Name": "Joyride",
+      "Size": "15px",
+      "Align": "right",
+      "Color": "rgb(255,255,255)"
+    },
+    "IconSize": 40.0,
+    "HideWhenNoneDestroyed": true,
+    "UseTeamColors": true,
+    "BlueTeam": {
+      "Position": {
+        "X": 40.0,
+        "Y": 20.0
+      },
+      "LaneOffset": {
+        "X": 100.0,
+        "Y": 0.0
+      },
+      "UseTeamColor": true,
+      "Color": "rgb(0,0,0)",
+      "IconOffset": {
+        "X": 10.0,
+        "Y": -24.0
+      }
+    },
+    "RedTeam": {
+      "Position": {
+        "X": 40.0,
+        "Y": 80.0
+      },
+      "LaneOffset": {
+        "X": 100.0,
+        "Y": 0.0
+      },
+      "UseTeamColor": true,
+      "Color": "rgb(255,255,255)",
+      "IconOffset": {
+        "X": 10.0,
+        "Y": -24.0
+      }
+    },
+    "LaneOrder": [
+      "bot",
+      "mid",
+      "top"
+    ]
+  },
+  "Score": {
+    "Position": {
+      "X": 960.0,
+      "Y": 0.0
+    },
+    "Size": {
+      "X": 800.0,
+      "Y": 92.0
+    },
+    "TimeFont": {
+      "Style": "Normal",
+      "Name": "Joyride",
+      "Size": "22px",
+      "Align": "center",
+      "Color": "rgb(255,255,255)"
+    },
+    "TimePosition": {
+      "X": -1.0,
+      "Y": 80.0
+    },
+    "BlueTeam": {
+      "Kills": {
+        "Position": {
+          "X": -35.0,
+          "Y": 15.0
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "Joyride",
+          "Size": "35px",
+          "Align": "right",
+          "Color": "rgb(255,255,255)"
+        },
+        "Icon": {
+          "Name": "KillsIcon",
+          "Size": {
+            "X": 100.0,
+            "Y": 100.0
+          },
+          "Offset": {
+            "X": 0.0,
+            "Y": 0.0
+          }
+        }
+      },
+      "Towers": {
+        "Position": {
+          "X": -270.0,
+          "Y": 25.0
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "Joyride",
+          "Size": "18px",
+          "Align": "right",
+          "Color": "rgb(255,255,255)"
+        },
+        "Icon": {
+          "Name": "TowerIcon",
+          "Size": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Offset": {
+            "X": 25.0,
+            "Y": 13.0
+          }
+        }
+      },
+      "Gold": {
+        "Position": {
+          "X": -150.0,
+          "Y": 25.0
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "Joyride",
+          "Size": "18px",
+          "Align": "right",
+          "Color": "rgb(255,255,255)"
+        },
+        "Icon": {
+          "Name": "GoldIcon",
+          "Size": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Offset": {
+            "X": 25.0,
+            "Y": 10.0
+          }
+        }
+      },
+      "Drakes": {
+        "Position": {
+          "X": -75.0,
+          "Y": 85.0
+        },
+        "Offset": {
+          "X": -15.0,
+          "Y": 0.0
+        }
+      },
+      "Name": {
+        "UseTag": true,
+        "Position": {
+          "X": -390.0,
+          "Y": 6.0
+        },
+        "AdaptiveFontSize": true,
+        "MaxSize": {
+          "X": 100.0,
+          "Y": 50.0
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "Joyride",
+          "Size": "40px",
+          "Align": "left",
+          "Color": "rgb(255,255,255)"
+        }
+      },
+      "Icon": {
+        "Position": {
+          "X": -430.0,
+          "Y": 30.0
+        },
+        "Size": {
+          "X": 60.0,
+          "Y": 60.0
+        },
+        "UseBackground": true,
+        "BackgroundOffset": {
+          "X": -10.0,
+          "Y": 0.0
+        }
+      },
+      "Score": {
+        "Position": {
+          "X": -380.0,
+          "Y": 70.0
+        },
+        "NumberFont": {
+          "Style": "Normal",
+          "Name": "Joyride",
+          "Size": "15px",
+          "Align": "right",
+          "Color": "rgb(255,255,255)"
+        },
+        "UseCircleIcons": true,
+        "CircleOffset": {
+          "X": 25.0,
+          "Y": 0.0
+        },
+        "CircleRadius": 10.0,
+        "UseTeamColor": true,
+        "StrokeColor": "rgb(255,255,255)",
+        "FillColor": "rgb(255,255,255)"
+      }
+    },
+    "RedTeam": {
+      "Kills": {
+        "Position": {
+          "X": 33.0,
+          "Y": 15.0
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "Joyride",
+          "Size": "35px",
+          "Align": "left",
+          "Color": "rgb(255,255,255)"
+        },
+        "Icon": {
+          "Name": "KillsIcon",
+          "Size": {
+            "X": 100.0,
+            "Y": 100.0
+          },
+          "Offset": {
+            "X": 0.0,
+            "Y": 0.0
+          }
+        }
+      },
+      "Towers": {
+        "Position": {
+          "X": 270.0,
+          "Y": 25.0
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "Joyride",
+          "Size": "18px",
+          "Align": "left",
+          "Color": "rgb(255,255,255)"
+        },
+        "Icon": {
+          "Name": "TowerIcon",
+          "Size": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Offset": {
+            "X": -15.0,
+            "Y": 13.0
+          }
+        }
+      },
+      "Gold": {
+        "Position": {
+          "X": 150.0,
+          "Y": 25.0
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "Joyride",
+          "Size": "18px",
+          "Align": "left",
+          "Color": "rgb(255,255,255)"
+        },
+        "Icon": {
+          "Name": "GoldIcon",
+          "Size": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "Offset": {
+            "X": -25.0,
+            "Y": 10.0
+          }
+        }
+      },
+      "Drakes": {
+        "Position": {
+          "X": 75.0,
+          "Y": 85.0
+        },
+        "Offset": {
+          "X": 15.0,
+          "Y": 0.0
+        }
+      },
+      "Name": {
+        "UseTag": true,
+        "Position": {
+          "X": 390.0,
+          "Y": 6.0
+        },
+        "AdaptiveFontSize": true,
+        "MaxSize": {
+          "X": 100.0,
+          "Y": 50.0
+        },
+        "Font": {
+          "Style": "Normal",
+          "Name": "Joyride",
+          "Size": "40px",
+          "Align": "right",
+          "Color": "rgb(255,255,255)"
+        }
+      },
+      "Icon": {
+        "Position": {
+          "X": 430.0,
+          "Y": 30.0
+        },
+        "Size": {
+          "X": 60.0,
+          "Y": 60.0
+        },
+        "UseBackground": true,
+        "BackgroundOffset": {
+          "X": 10.0,
+          "Y": 0.0
+        }
+      },
+      "Score": {
+        "Position": {
+          "X": 380.0,
+          "Y": 70.0
+        },
+        "NumberFont": {
+          "Style": "Normal",
+          "Name": "Joyride",
+          "Size": "15px",
+          "Align": "left",
+          "Color": "rgb(255,255,255)"
+        },
+        "UseCircleIcons": true,
+        "CircleOffset": {
+          "X": -25.0,
+          "Y": 0.0
+        },
+        "CircleRadius": 10.0,
+        "UseTeamColor": true,
+        "StrokeColor": "rgb(255,255,255)",
+        "FillColor": "rgb(255,255,255)"
+      }
+    },
+    "Background": {
+      "UseImage": true,
+      "UseVideo": false,
+      "UseAlpha": false,
+      "FallbackColor": "rgba(0,0,0,0)"
+    },
+    "Misc": {
+      "Animation": "Simple",
+      "ShowCenterIcon": false,
+      "CenterIconPosition": {
+        "X": 0.0,
+        "Y": 30.0
+      },
+      "CenterIconSize": {
+        "X": 40.0,
+        "Y": 40.0
+      },
+      "DrakeIconSize": {
+        "X": 20.0,
+        "Y": 20.0
+      }
+    }
+  },
+  "ObjectiveKill": {
+    "ShowTeamIcon": false,
+    "SoulPointScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": true,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "ElderKillScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": true,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "DragonKillScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": true,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "BaronKillScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": false,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "HeraldKillScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": true,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": true,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    }
+  },
+  "ObjectiveSpawn": {
+    "BaronSpawnScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": false,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": false,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "DrakeSpawnScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": true,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": false,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    },
+    "HeraldSpawnScoreboardPopUp": {
+      "Enabled": false,
+      "UseImage": true,
+      "UseVideo": false,
+      "UseAlpha": true,
+      "ForceDisplayDurationForVideo": false,
+      "DisplayDuration": 2000.0,
+      "AnimationDuration": 1000.0
+    }
+  },
+  "ItemComplete": {
+    "UseCustomVideo": false,
+    "ShowItemName": false,
+    "ShowOnScoreboard": false,
+    "ShowOnChampionIndicator": true,
+    "InfoText": {
+      "Style": "Normal",
+      "Name": "Joyride",
+      "Size": "20px",
+      "Align": "center",
+      "Color": "rgb(255,255,255)"
+    },
+    "ItemAnimationStates": [
+      {
+        "Scale": 0.0,
+        "Alpha": 0.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 400.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.1,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 3200.0,
+        "Ease": "Linear",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 2.5,
+        "Alpha": 0.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 400.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 0.0
+      }
+    ],
+    "InfoTextAnimationStates": [
+      {
+        "Scale": 1.0,
+        "Alpha": 0.0,
+        "Position": {
+          "X": 55.0,
+          "Y": 0.0
+        },
+        "Mirror": true,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 55.0,
+          "Y": 0.0
+        },
+        "Mirror": true,
+        "Duration": 200.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 1000.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 0.0,
+        "Position": {
+          "X": 55.0,
+          "Y": 0.0
+        },
+        "Mirror": true,
+        "Duration": 200.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 1800.0
+      }
+    ],
+    "InfoBackgroundAnimationStates": [
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 80.0
+        },
+        "Mirror": false,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 200.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 800.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": -80.0
+        },
+        "Mirror": false,
+        "Duration": 200.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 2200.0
+      }
+    ]
+  },
+  "LevelUp": {
+    "UseCustomVideo": false,
+    "ShowOnScoreboard": true,
+    "ShowOnChampionIndicator": true,
+    "LevelFont": {
+      "Style": "Normal",
+      "Name": "Joyride",
+      "Size": "60px",
+      "Align": "center",
+      "Color": "rgb(255,255,255)"
+    },
+    "UseTeamColors": false,
+    "OrderColor": "rgb(100,0,245)",
+    "ChaosColor": "rgb(249, 46, 99)",
+    "NumberAnimationStates": [
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 70.0
+        },
+        "Mirror": true,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": -30.0
+        },
+        "Mirror": true,
+        "Duration": 300.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 250.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": -130.0
+        },
+        "Mirror": true,
+        "Duration": 400.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 3500.0
+      }
+    ],
+    "BackgroundAnimationStates": [
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 100.0
+        },
+        "Mirror": false,
+        "Duration": 0.0,
+        "Ease": "",
+        "Delay": 0.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": 0.0,
+          "Y": 0.0
+        },
+        "Mirror": false,
+        "Duration": 300.0,
+        "Ease": "Quad.easeOut",
+        "Delay": 250.0
+      },
+      {
+        "Scale": 1.0,
+        "Alpha": 1.0,
+        "Position": {
+          "X": -90.0,
+          "Y": 0.0
+        },
+        "Mirror": true,
+        "Duration": 400.0,
+        "Ease": "Quad.easeIn",
+        "Delay": 4000.0
+      }
+    ]
+  },
+  "InfoPage": {
+    "Position": {
+      "X": 0.0,
+      "Y": 135.0
+    },
+    "Title": {
+      "Enabled": true,
+      "Position": {
+        "Gold": {
+          "X": 150.0,
+          "Y": 15.0
+        },
+        "XP": {
+          "X": 150.0,
+          "Y": 15.0
+        },
+        "CSPM": {
+          "X": 150.0,
+          "Y": 15.0
+        }
+      },
+      "Font": {
+        "Style": "Bold",
+        "Name": "Montserrat",
+        "Size": "26px",
+        "Align": "center",
+        "Color": "rgb(255,255,255)"
+      }
+    },
+    "TitleHeight": 45.0,
+    "TabConfig": {
+      "TabSize": {
+        "X": 300.0,
+        "Y": 55.0
+      },
+      "UseTeamColorsText": false,
+      "OrderColor": "rgb(255,255,255)",
+      "ChaosColor": "rgb(255,255,255)",
+      "ChampIcon": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 4.0,
+            "Y": 8.0
+          },
+          "XP": {
+            "X": 4.0,
+            "Y": 8.0
+          },
+          "CSPM": {
+            "X": 4.0,
+            "Y": 8.0
+          }
+        },
+        "Size": {
+          "X": 42.0,
+          "Y": 42.0
+        }
+      },
+      "Separator": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "XP": {
+            "X": 0.0,
+            "Y": 0.0
+          },
+          "CSPM": {
+            "X": 0.0,
+            "Y": 0.0
+          }
+        },
+        "Size": {
+          "X": 300.0,
+          "Y": 2.0
+        }
+      },
+      "PlayerName": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 54.0,
+            "Y": 6.0
+          },
+          "XP": {
+            "X": 54.0,
+            "Y": 6.0
+          },
+          "CSPM": {
+            "X": 54.0,
+            "Y": 6.0
+          }
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "15px",
+          "Align": "left",
+          "Color": "rgb(255,255,255)"
+        }
+      },
+      "MinValue": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 54.0,
+            "Y": 22.0
+          },
+          "XP": {
+            "X": 54.0,
+            "Y": 22.0
+          },
+          "CSPM": {
+            "X": 54.0,
+            "Y": 22.0
+          }
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "15px",
+          "Align": "left",
+          "Color": "rgb(255,255,255)"
+        }
+      },
+      "CurrentValue": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 270.0,
+            "Y": 15.0
+          },
+          "XP": {
+            "X": 280.0,
+            "Y": 15.0
+          },
+          "CSPM": {
+            "X": 280.0,
+            "Y": 15.0
+          }
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "25px",
+          "Align": "center",
+          "Color": "rgb(255,255,255)"
+        }
+      },
+      "MaxValue": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 230.0,
+            "Y": 22.0
+          },
+          "XP": {
+            "X": 260.0,
+            "Y": 22.0
+          },
+          "CSPM": {
+            "X": 260.0,
+            "Y": 22.0
+          }
+        },
+        "Font": {
+          "Style": "Bold",
+          "Name": "Montserrat",
+          "Size": "15px",
+          "Align": "right",
+          "Color": "rgb(255,255,255)"
+        }
+      },
+      "ProgressBar": {
+        "Enabled": true,
+        "Position": {
+          "Gold": {
+            "X": 52.0,
+            "Y": 40.0
+          },
+          "XP": {
+            "X": 52.0,
+            "Y": 40.0
+          },
+          "CSPM": {
+            "X": 52.0,
+            "Y": 40.0
+          }
+        },
+        "Size": {
+          "Gold": {
+            "X": 180.0,
+            "Y": 10.0
+          },
+          "XP": {
+            "X": 210.0,
+            "Y": 10.0
+          },
+          "CSPM": {
+            "X": 210.0,
+            "Y": 10.0
+          }
+        },
+        "UseTeamColors": true,
+        "DefaultColor": "rgb(255,255,255)",
+        "OrderColor": "rgb(1,4,25)",
+        "ChaosColor": "rgb(249, 46, 99)",
+        "Animate": true
+      }
+    },
+    "Background": {
+      "UseImage": true,
+      "UseVideo": false,
+      "UseAlpha": false,
+      "FallbackColor": "rgb(19, 24, 63)",
+      "Size": {
+        "X": 300.0,
+        "Y": 600.0
+      }
+    }
+  },
+  "GoldGraph": {
+    "Position": {
+      "X": 965.0,
+      "Y": 845.0
+    },
+    "Size": {
+      "X": 740.0,
+      "Y": 235.0
+    },
+    "Background": {
+      "UseImage": false,
+      "UseVideo": false,
+      "UseAlpha": false,
+      "FallbackColor": "rgba(20,19,22,0)"
+    },
+    "Title": {
+      "Enabled": true,
+      "Position": {
+        "X": 0.0,
+        "Y": 10.0
+      },
+      "Font": {
+        "Style": "Bold",
+        "Name": "Montserrat",
+        "Size": "22px",
+        "Align": "left",
+        "Color": "rgb(255,255,255)"
+      },
+      "Text": "DIFERENÇA DE OURO"
+    },
+    "Graph": {
+      "Position": {
+        "X": 5.0,
+        "Y": 40.0
+      },
+      "Size": {
+        "X": 710.0,
+        "Y": 190.0
+      },
+      "ShowVerticalGrid": false,
+      "ShowHorizontalGrid": true,
+      "LineTension": 1.05,
+      "GridColor": "rgba(255,255,255, 0.3)",
+      "GridEdgeColor": "rgba(255,255,255, 0.4)",
+      "BorderUseTeamColors": true,
+      "BorderOrderColor": "rgb(0,0,0)",
+      "BorderChaosColor": "rgb(0,0,0)",
+      "FillUseTeamColors": true,
+      "FillOrderColor": "rgb(255,255,255)",
+      "FillChaosColor": "rgb(0,0,0)",
+      "InfoFont": {
+        "Style": "UNUSED",
+        "Name": "Joyride",
+        "Size": "UNUSED",
+        "Align": "UNUSED",
+        "Color": "rgb(255,255,255)"
+      },
+      "TimeStepSize": 30,
+      "ShowTimeStepIndicators": true
+    }
+  },
+  "BaronTimer": {
+    "Position": {
+      "X": 0.0,
+      "Y": 0.0
+    },
+    "MaskPosition": {
+      "X": 0.0,
+      "Y": 0.0
+    },
+    "MaskSize": {
+      "X": 150.0,
+      "Y": 70.0
+    },
+    "Scale": 0.0,
+    "Align": "right",
+    "ShowGoldDiff": false,
+    "ShowTimer": false,
+    "ObjectiveIcon": false,
+    "Animate": false,
+    "IconPosition": {
+      "X": 0.0,
+      "Y": 0.0
+    },
+    "GoldPosition": {
+      "X": 0.0,
+      "Y": 0.0
+    },
+    "GoldIconPosition": {
+      "X": -7.0,
+      "Y": -25.0
+    },
+    "GoldFont": {
+      "Style": "Bold",
+      "Name": "Joyride",
+      "Size": "22px",
+      "Align": "right",
+      "Color": "rgb(230,190,138)"
+    },
+    "TimePosition": {
+      "X": 0.0,
+      "Y": 0.0
+    },
+    "TimeIconPosition": {
+      "X": -10.0,
+      "Y": 0.0
+    },
+    "TimeFont": {
+      "Style": "Bold",
+      "Name": "Joyride",
+      "Size": "22px",
+      "Align": "right",
+      "Color": "rgb(230,190,138)"
+    }
+  },
+  "ElderTimer": {
+    "Position": {
+      "X": 120.0,
+      "Y": 55.0
+    },
+    "MaskPosition": {
+      "X": 50.0,
+      "Y": 20.0
+    },
+    "MaskSize": {
+      "X": 150.0,
+      "Y": 70.0
+    },
+    "Scale": 0.8,
+    "Align": "left",
+    "ShowGoldDiff": true,
+    "ShowTimer": true,
+    "ObjectiveIcon": true,
+    "Animate": true,
+    "IconPosition": {
+      "X": 40.0,
+      "Y": 0.0
+    },
+    "GoldPosition": {
+      "X": 18.0,
+      "Y": -25.0
+    },
+    "GoldIconPosition": {
+      "X": 22.0,
+      "Y": -25.0
+    },
+    "GoldFont": {
+      "Style": "Bold",
+      "Name": "Joyride",
+      "Size": "22px",
+      "Align": "left",
+      "Color": "rgb(230,190,138)"
+    },
+    "TimePosition": {
+      "X": 18.0,
+      "Y": 0.0
+    },
+    "TimeIconPosition": {
+      "X": 20.0,
+      "Y": -2.0
+    },
+    "TimeFont": {
+      "Style": "Bold",
+      "Name": "Joyride",
+      "Size": "22px",
+      "Align": "left",
+      "Color": "rgb(230,190,138)"
+    }
+  },
+  "GoogleFonts": [
+    "News Cycle",
+    "News Cycle:bold",
+    "Droid Sans"
+  ],
+  "FileVersion": "2.2"
+}
+[13-40-24] Config Ingame loaded
+[13-40-24] Found Component.json. Reading values
+[13-40-24] {
+  "DataDragon": {
+    "MinimumGoldCost": 2000,
+    "Region": "euw",
+    "Locale": "pt_BR",
+    "CDN": "https://ddragon.leagueoflegends.com/cdn",
+    "Patch": "latest"
+  },
+  "PickBan": {
+    "IsActive": true,
+    "UseDelay": false,
+    "DelayValue": 300,
+    "DefaultBlueColor": "rgb(46, 156, 249)",
+    "DefaultRedColor": "rgb(249, 46, 99)"
+  },
+  "Ingame": {
+    "IsActive": true,
+    "UseLiveEvents": true,
+    "DoLevelUp": true,
+    "DoItemCompleted": true,
+    "SeriesGameCount": 3,
+    "Objectives": {
+      "DoBaronKill": false,
+      "DoDragonKill": false,
+      "DoInhibitors": false,
+      "DoObjectiveSpawnPopUp": false,
+      "DoObjectiveKillPopUp": false
+    },
+    "Teams": {
+      "DoTeamNames": false,
+      "DoTeamIcons": false,
+      "DoTeamScores": false
+    },
+    "UseCustomScoreboard": true
+  },
+  "Replay": {
+    "IsActive": true,
+    "UseAutoInitUI": true
+  },
+  "PostGame": {
+    "IsActive": false
+  },
+  "App": {
+    "LogLevel": 2,
+    "CheckForUpdates": true,
+    "UpdateRepositoryUrl": "https://github.com/floh22/LeagueBroadcast",
+    "UpdateRepositoryName": "floh22/LeagueBroadcast",
+    "LeagueInstall": [
+      "C:\\",
+      "D:\\",
+      "E:\\",
+      "F:\\",
+      "C:\\Program Files",
+      "C:\\Program Files (x86)"
+    ],
+    "CheckForOffsets": true,
+    "OffsetRepository": "https://raw.githubusercontent.com/floh22/LeagueBroadcast/v2/Offsets/",
+    "OffsetPrefix": "Offsets-"
+  },
+  "FileVersion": "1.3"
+}
+[13-40-24] Config Component loaded
+[13-40-24] Loading config watchers
+[13-40-24] Watching PickBan.json for changes
+[13-40-24] Watching Component.json for changes
+[13-40-24] Watching Ingame.json for changes
+[13-40-24] Log Level set to Info
+[13-40-24] League Broadcast Version 1.4.106
+[13-40-24] [Update] Checking for Updates
+[13-40-24] [Update] Latest release version v1.4.106 vs. current version 1.4.106
+[13-40-24] [Update] Local version up to date
+[13-40-24] Using current Version
+[13-40-24] Early Init Complete in 1752.74ms
+[13-40-24] DataDragon Provider Init
+[13-40-24] Getting latest versions from dataDragon
+[13-40-24] Retrieving latest patch info
+[13-40-27] Champion: 12.10.1, Item: 12.10.1, CDN: https://ddragon.leagueoflegends.com/cdn
+[13-40-27] Loaded 159 champions
+[13-40-27] Loaded 16 summoner spells
+[13-40-27] Detected 254 items
+[13-40-27] Loaded 125 full items
+[13-40-27] Checking Local Cache
+[13-40-27] Cache C:\Users\Daisuke\Desktop\InHouseJinx\InGameJinxDay/Cache/12.10.1 exists already
+[13-40-27] DDragon loaded
+[13-40-27] Loading PickBan Controller
+[13-40-27] Loading Ingame Controller
+[13-40-27] Checking League install for LiveEventsAPI
+[13-40-27] Found League install location
+[13-40-27] LiveEvents API found in Game config
+[13-40-27] Replay API found in Game config
+[13-40-27] Verifying LiveEvents list
+[13-40-27] Loading Replay Controller
+[13-40-27] Loading Farsight
+[13-40-27] Farsight loaded. Found 159 Champ names
+[13-40-27] Loading Frontend Webserver (HTTP/WS)
+[13-40-27] Server file system starting
+[13-40-27] WebServer New State - Loading
+[13-40-28] WebServer New State - Listening
+[13-40-28] WebServer running on http://*:9001/
+[13-40-28] Whats that ticking noise?
+[13-40-28] Init Complete in 3.098s
+[13-40-28] Opening main window
+[13-40-28] Team REDBLUE1 loaded
+[13-40-28] Team FOX2 loaded
+[13-40-28] Connection State Changed
+[13-40-28] New Client o6RGiX/gB0WWjp7zRVhXSQ connected from http://localhost:9001
+[13-40-28] Loading State Controller
+[13-40-28] Connecting to League Client
+[13-40-28] PickBan Enabled
+[13-40-28] Ingame Enabled
+[13-40-28] Using direct PickBan
+[13-40-28] Starting LeagueBroadcast with tickrate of 2tps
+[13-40-28] Checking for running Game
+[13-40-28] Target process (League of Legends) detected.
+[13-40-28] Init Game State
+[13-40-28] Game State reset
+[13-40-28] Connection State Changed
+[13-40-28] Post Init Complete in 636.5626ms
+[13-40-28] Total Startup time: 5.488s
+[13-40-29] Game Loaded
+[13-40-29] Game Paused
+[13-40-29] LiveEventAPI Connected
+[13-40-30] Game Resumed
+[13-40-30] Init Team data
+[13-40-30] Init UI
+[13-40-30] Sending game start key inputs
+[13-40-37] [WARNING] Cho'Gath not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Sequence contains no matching element
+[13-40-37] [WARNING] Cho'Gath not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Sequence contains no matching element
+[13-40-37] [WARNING] Cho'Gath not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Sequence contains no matching element
+[13-40-37] [WARNING] Cho'Gath not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Sequence contains no matching element
+[13-40-37] [WARNING] Cho'Gath not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Sequence contains no matching element
+[13-40-37] [WARNING] Cho'Gath not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Cho'Gath not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Sequence contains no matching element
+[13-40-37] [WARNING] Sequence contains no matching element
+[13-40-37] [WARNING] Cho'Gath not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Sequence contains no matching element
+[13-40-37] [WARNING] Master Yi not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Irelia not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Camille not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Nocturne not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Yone not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Jinx not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Nami not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Master Yi not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Irelia not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Camille not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Nocturne not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Yone not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Jinx not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Nami not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Master Yi not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Irelia not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Camille not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Nocturne not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Yone not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Jinx not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Nami not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Master Yi not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Irelia not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Camille not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Nocturne not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Yone not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Jinx not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Nami not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Master Yi not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Irelia not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Camille not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Nocturne not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Yone not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Jinx not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Nami not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Master Yi not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Irelia not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Camille not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Nocturne not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Yone not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Jinx not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Nami not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Master Yi not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Master Yi not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Irelia not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Irelia not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Camille not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Nocturne not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Yone not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Jinx not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Camille not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Nami not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Nocturne not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Yone not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Jinx not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Nami not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Cho'Gath not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Master Yi not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Irelia not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Camille not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Nocturne not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Yone not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Jinx not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Nami not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Cho'Gath not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Master Yi not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Irelia not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Camille not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Nocturne not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Yone not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Jinx not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Nami not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Cho'Gath not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Master Yi not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Irelia not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Camille not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Nocturne not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Yone not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Jinx not found in memory snapshot. Values will be incorrect!
+[13-40-37] [WARNING] Nami not found in memory snapshot. Values will be incorrect!
+[13-40-38] [WARNING] Cho'Gath not found in memory snapshot. Values will be incorrect!
+[13-40-38] [WARNING] Master Yi not found in memory snapshot. Values will be incorrect!
+[13-40-38] [WARNING] Irelia not found in memory snapshot. Values will be incorrect!
+[13-40-38] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[13-40-38] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[13-40-38] [WARNING] Camille not found in memory snapshot. Values will be incorrect!
+[13-40-38] [WARNING] Nocturne not found in memory snapshot. Values will be incorrect!
+[13-40-38] [WARNING] Yone not found in memory snapshot. Values will be incorrect!
+[13-40-38] [WARNING] Jinx not found in memory snapshot. Values will be incorrect!
+[13-40-38] [WARNING] Nami not found in memory snapshot. Values will be incorrect!
+[13-40-38] [WARNING] Cho'Gath not found in memory snapshot. Values will be incorrect!
+[13-40-38] [WARNING] Master Yi not found in memory snapshot. Values will be incorrect!
+[13-40-38] [WARNING] Irelia not found in memory snapshot. Values will be incorrect!
+[13-40-38] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[13-40-38] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[13-40-38] [WARNING] Camille not found in memory snapshot. Values will be incorrect!
+[13-40-38] [WARNING] Nocturne not found in memory snapshot. Values will be incorrect!
+[13-40-38] [WARNING] Yone not found in memory snapshot. Values will be incorrect!
+[13-40-38] [WARNING] Jinx not found in memory snapshot. Values will be incorrect!
+[13-40-38] [WARNING] Nami not found in memory snapshot. Values will be incorrect!
+[13-40-39] [WARNING] Cho'Gath not found in memory snapshot. Values will be incorrect!
+[13-40-39] [WARNING] Master Yi not found in memory snapshot. Values will be incorrect!
+[13-40-39] [WARNING] Irelia not found in memory snapshot. Values will be incorrect!
+[13-40-39] [WARNING] Kai'Sa not found in memory snapshot. Values will be incorrect!
+[13-40-39] [WARNING] Karma not found in memory snapshot. Values will be incorrect!
+[13-40-39] [WARNING] Camille not found in memory snapshot. Values will be incorrect!
+[13-40-39] [WARNING] Nocturne not found in memory snapshot. Values will be incorrect!
+[13-40-39] [WARNING] Yone not found in memory snapshot. Values will be incorrect!
+[13-40-39] [WARNING] Jinx not found in memory snapshot. Values will be incorrect!
+[13-40-39] [WARNING] Nami not found in memory snapshot. Values will be incorrect!
+[13-40-42] Connected to League Client in 13843 ms
+[13-40-42] Local Client Version 12.10.1
+[13-40-42] Loading offsets for current patch
+[13-40-42] Found Farsight.json. Reading values
+[13-40-42] Config Farsight loaded
+[13-40-42] Watching Farsight.json for changes
+[13-40-42] Using offsets 12.10.1
+[13-40-42] [WARNING] Could not update State:
+System.Private.CoreLib -> One or more errors occurred. (A task was canceled.)
+ Stacktrace:
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at LeagueBroadcast.Common.Controllers.IngameController.DoTick() in F:\Repos\LeagueOfLegends\LeagueBroadcast2\LeagueBroadcast\Common\Controllers\IngameController.cs:line 249
+[13-40-44] LiveEventAPI Closed
+[13-40-44] Game ended
+[13-40-44] Connection State Changed
+[13-40-44] League State: None
+[13-41-12] Target process (League of Legends) detected.
+[13-41-12] Init Game State
+[13-41-12] Game State reset
+[13-41-12] Connection State Changed
+[13-41-24] Game Loaded
+[13-41-24] Game Paused
+[13-41-24] LiveEventAPI Connected
+[13-41-25] Game Resumed
+[13-41-25] Init Team data
+[13-41-25] Init UI
+[13-41-25] Sending game start key inputs
+[13-41-43] Hextech spawned
+[13-41-43] Player 2 lvl up
+[13-41-43] Player 4 finished Item 3851
+[13-41-43] Player 5 lvl up
+[13-41-43] Player 7 lvl up
+[13-41-44] Herald spawned
+[13-41-44] Player 0 lvl up
+[13-41-51] Player 1 lvl up
+[13-41-51] Player 7 finished Item 6692
+[13-41-52] Hextech killed by CHAOS
+[13-41-55] Player 3 lvl up
+[13-41-57] Player 6 lvl up
+[13-41-58] Game Paused
+[13-42-33] Client o6RGiX/gB0WWjp7zRVhXSQ disconnected
+[13-42-33] New Client g86xbQohd0aA8kRxhNFQMg connected from http://localhost:9001
+[13-42-38] Client g86xbQohd0aA8kRxhNFQMg disconnected
+[13-42-39] New Client +BhhoTPcMEOrXZDdfbFXBA connected from http://localhost:9001
+[13-42-42] Game Resumed
+[13-42-42] Player 4 lvl up
+[13-42-47] Player 8 lvl up
+[13-42-48] Player 9 finished Item 3851
+[13-42-50] Player 9 lvl up
+[13-42-58] Player 5 finished Item 6632
+[13-43-08] Player 4 finished Item 3853
+[13-43-14] Fire spawned
+[13-43-16] Fire killed by ORDER
+[13-43-21] Player 1 finished Item 6672
+[13-43-23] Player 6 finished Item 4636
+[13-43-23] Player 7 lvl up
+[13-43-28] Player 5 lvl up
+[13-43-31] Player 2 finished Item 6655
+[13-43-33] Herald killed by CHAOS
+[13-43-37] Player 9 finished Item 3853
+[13-43-40] Player 9 finished Item 4005
+[13-43-41] Player 8 finished Item 6671
+[13-43-43] Player 7 finished Item 6696
+[13-43-45] Player 3 finished Item 6672
+[13-43-46] Player 0 lvl up
+[13-43-47] Player 4 finished Item 6617
+[13-43-53] Ocean spawned
+[13-43-55] Ocean killed by ORDER
+[13-43-58] Player 6 lvl up
+[13-43-59] Baron spawned
+[13-44-05] Player 1 lvl up
+[13-44-06] Player 2 lvl up
+[13-44-13] Player 8 lvl up
+[13-44-14] Player 0 finished Item 3078
+[13-44-14] Player 6 finished Item 3115
+[13-44-15] Player 5 finished Item 3074
+[13-44-32] Player 1 finished Item 3036
+[13-44-32] Ocean spawned
+[13-44-37] Ocean killed by CHAOS
+[13-44-37] Player 3 lvl up
+[13-44-37] Player 7 finished Item 3142
+[13-44-38] Player 4 lvl up
+[13-44-38] Player 8 finished Item 3094
+[13-44-47] Player 2 finished Item 3157
+[13-44-53] Player 3 finished Item 3143
+[13-44-53] Player 5 finished Item 6333
+[13-44-57] Player 7 lvl up
+[13-44-59] Player 9 lvl up
+[13-45-01] Player 7 finished Item 3814
+[13-45-02] Player 5 lvl up
+[13-45-14] Ocean spawned
+[13-45-16] Player 0 finished Item 3748
+[13-45-16] Player 4 finished Item 3157
+[13-45-23] Game Paused
+[13-45-26] LiveEventAPI Closed
+[13-45-26] Game ended
+[13-45-26] Connection State Changed
+[13-51-08] Target process (League of Legends) detected.
+[13-51-08] Init Game State
+[13-51-08] Game State reset
+[13-51-08] Connection State Changed
+[13-51-21] Game Loaded
+[13-51-21] Game Paused
+[13-51-21] LiveEventAPI Connected
+[13-51-21] Game Resumed
+[13-51-21] Init Team data
+[13-51-22] Init UI
+[13-51-22] Sending game start key inputs
+[13-53-04] Hextech spawned
+[13-53-09] Player 4 finished Item 3851
+[13-53-11] Player 7 lvl up
+[13-53-18] Player 2 lvl up
+[13-53-19] Player 5 lvl up
+[13-53-24] Player 0 lvl up
+[13-53-27] Herald spawned
+[13-53-34] Player 1 lvl up
+[13-53-34] Player 7 finished Item 6692
+[13-53-35] Hextech killed by CHAOS
+[13-53-37] Player 3 lvl up
+[13-53-40] Player 6 lvl up
+[13-53-40] Player 4 lvl up
+[13-53-45] Player 8 lvl up
+[13-53-46] Player 9 finished Item 3851
+[13-53-48] Player 9 lvl up
+[13-53-56] Player 5 finished Item 6632
+[13-54-06] Player 4 finished Item 3853
+[13-54-12] Fire spawned
+[13-54-14] Fire killed by ORDER
+[13-54-18] Player 1 finished Item 6672
+[13-54-21] Player 6 finished Item 4636
+[13-54-21] Player 7 lvl up
+[13-54-26] Player 5 lvl up
+[13-54-29] Player 2 finished Item 6655
+[13-54-31] Herald killed by CHAOS
+[13-54-35] Player 9 finished Item 3853
+[13-54-38] Player 9 finished Item 4005
+[13-54-39] Player 8 finished Item 6671
+[13-54-41] Player 7 finished Item 6696
+[13-54-43] Player 3 finished Item 6672
+[13-54-44] Player 0 lvl up
+[13-54-45] Player 4 finished Item 6617
+[13-54-51] Ocean spawned
+[13-54-53] Ocean killed by ORDER
+[13-54-56] Player 6 lvl up
+[13-54-57] Baron spawned
+[13-55-03] Player 1 lvl up
+[13-55-04] Player 2 lvl up
+[13-55-11] Player 8 lvl up
+[13-55-12] Player 0 finished Item 3078
+[13-55-12] Player 6 finished Item 3115
+[13-55-13] Player 5 finished Item 3074
+[13-55-30] Player 1 finished Item 3036
+[13-55-30] Ocean spawned
+[13-55-35] Ocean killed by CHAOS
+[13-55-35] Player 3 lvl up
+[13-55-35] Player 7 finished Item 3142
+[13-55-36] Player 4 lvl up
+[13-55-36] Player 8 finished Item 3094
+[13-55-45] Player 2 finished Item 3157
+[13-55-51] Player 3 finished Item 3143
+[13-55-51] Player 5 finished Item 6333
+[13-55-55] Player 7 lvl up
+[13-55-57] Player 9 lvl up
+[13-55-59] Player 7 finished Item 3814
+[13-56-00] Player 5 lvl up
+[13-56-12] Ocean spawned
+[13-56-14] Player 0 finished Item 3748
+[13-56-14] Player 4 finished Item 3157
+[13-56-26] Game Paused
+[13-59-24] Client +BhhoTPcMEOrXZDdfbFXBA disconnected
+[13-59-31] New Client 1aMl8djL2UCRe7+qXYkUjw connected from http://localhost:9001
+[14-02-33] Client 1aMl8djL2UCRe7+qXYkUjw disconnected
+[14-02-44] New Client JKfVrCZsaEe0mJyYVcgpzg connected from http://localhost:9001
+[14-03-49] LiveEventAPI Closed
+[14-03-49] Game ended
+[14-03-49] Connection State Changed
+[14-03-58] Target process (League of Legends) detected.
+[14-03-58] Init Game State
+[14-03-58] Game State reset
+[14-03-58] Connection State Changed
+[14-04-12] Game Loaded
+[14-04-12] Game Paused
+[14-04-12] LiveEventAPI Connected
+[14-04-12] Game Resumed
+[14-04-12] Init Team data
+[14-04-13] Init UI
+[14-04-13] Sending game start key inputs
+[14-05-03] Hextech spawned
+[14-05-08] Player 4 finished Item 3851
+[14-05-10] Player 7 lvl up
+[14-05-17] Player 2 lvl up
+[14-05-18] Player 5 lvl up
+[14-05-24] Player 0 lvl up
+[14-05-26] Herald spawned
+[14-05-33] Player 1 lvl up
+[14-05-33] Player 7 finished Item 6692
+[14-05-34] Hextech killed by CHAOS
+[14-05-37] Player 3 lvl up
+[14-05-39] Player 4 lvl up
+[14-05-39] Player 6 lvl up
+[14-05-44] Player 8 lvl up
+[14-05-45] Player 9 finished Item 3851
+[14-05-47] Player 9 lvl up
+[14-05-57] Player 5 finished Item 6632
+[14-07-16] Player 4 finished Item 3853
+[14-08-00] Fire spawned
+[14-08-19] Fire killed by ORDER
+[14-08-56] Player 1 finished Item 6672
+[14-09-14] Player 6 finished Item 4636
+[14-09-16] Player 7 lvl up
+[14-09-59] Player 5 lvl up
+[14-10-18] Player 2 finished Item 6655
+[14-10-36] Herald killed by CHAOS
+[14-11-05] Player 9 finished Item 3853
+[14-11-34] Player 9 finished Item 4005
+[14-11-41] Player 8 finished Item 6671
+[14-11-57] Player 7 finished Item 6696
+[14-12-12] Player 3 finished Item 6672
+[14-12-20] Player 0 lvl up
+[14-12-31] Player 4 finished Item 6617
+[14-13-13] Ocean spawned
+[14-13-37] Ocean killed by ORDER
+[14-13-57] Player 6 lvl up
+[14-14-08] Baron spawned
+[14-14-55] Player 1 lvl up
+[14-15-02] Player 2 lvl up
+[14-15-54] Player 8 lvl up
+[14-16-04] Player 0 finished Item 3078
+[14-16-07] Player 6 finished Item 3115
+[14-16-12] Player 5 finished Item 3074
+[14-18-26] Player 1 finished Item 3036
+[14-18-31] Ocean spawned
+[14-19-06] Ocean killed by CHAOS
+[14-19-09] Player 7 finished Item 3142
+[14-19-11] Player 3 lvl up
+[14-19-14] Player 4 lvl up
+[14-19-19] Player 8 finished Item 3094
+[14-20-28] Player 2 finished Item 3157
+[14-21-16] Player 3 finished Item 3143
+[14-21-18] Player 5 finished Item 6333
+[14-21-49] Player 7 lvl up
+[14-22-06] Player 9 lvl up
+[14-22-18] Player 7 finished Item 3814
+[14-22-31] Player 5 lvl up
+[14-24-01] Ocean spawned
+[14-24-21] Player 4 finished Item 3157
+[14-24-22] Player 0 finished Item 3748
+[14-25-10] Game Paused
+[14-53-12] LiveEventAPI Closed
+[14-53-12] Game ended
+[14-53-12] Connection State Changed
+[16-41-31] Client JKfVrCZsaEe0mJyYVcgpzg disconnected
+[16-42-08] New Client 3SCIbALHxk6qnK7FSW1GsA connected from http://localhost:9001
+[17-08-42] Target process (League of Legends) detected.
+[17-08-42] Init Game State
+[17-08-42] Game State reset
+[17-08-42] Connection State Changed
+[17-08-56] Game Loaded
+[17-08-56] Game Paused
+[17-08-56] LiveEventAPI Connected
+[17-08-56] Game Resumed
+[17-08-56] Init Team data
+[17-08-57] Init UI
+[17-08-57] Sending game start key inputs
+[17-13-47] Hextech spawned
+[17-14-26] Player 4 finished Item 3851
+[17-14-39] Player 7 lvl up
+[17-15-40] Player 2 lvl up
+[17-15-48] Player 5 lvl up
+[17-16-30] Player 0 lvl up
+[17-16-50] Herald spawned
+[17-17-47] Player 7 finished Item 6692
+[17-17-48] Player 1 lvl up
+[17-17-52] Hextech killed by CHAOS
+[17-18-14] Player 3 lvl up
+[17-18-33] Player 6 lvl up
+[17-18-36] Player 4 lvl up
+[17-19-13] Player 8 lvl up
+[17-19-20] Player 9 finished Item 3851
+[17-19-36] Player 9 lvl up
+[17-20-42] Player 5 finished Item 6632
+[17-22-02] Player 4 finished Item 3853
+[17-22-46] Fire spawned
+[17-23-03] LiveEventAPI Closed
+[17-23-03] Game ended
+[17-23-03] Connection State Changed
+[17-59-35] Target process (League of Legends) detected.
+[17-59-35] Init Game State
+[17-59-35] Game State reset
+[17-59-35] Connection State Changed
+[17-59-47] Game Loaded
+[17-59-47] Game Paused
+[17-59-47] LiveEventAPI Connected
+[17-59-48] Game Resumed
+[17-59-48] Init Team data
+[17-59-49] Init UI
+[17-59-49] Sending game start key inputs
+[17-59-51] Game Paused
+[18-02-15] Game Resumed
+[18-04-42] Mountain spawned
+[18-04-43] Player 9 finished Item 3851
+[18-04-44] Scrolled back in timeline, reverting state
+[18-04-44] 301.0964050292969
+[18-04-44] Rolling back Players
+[18-04-44] Rolling back Objectives
+[18-04-45] Player 0 lvl up
+[18-04-45] Player 7 lvl up
+[18-04-45] Player 9 finished Item 3851
+[18-04-47] Scrolled back in timeline, reverting state
+[18-04-47] 362.11199951171875
+[18-04-47] Rolling back Players
+[18-04-47] Rolling back Objectives
+[18-04-48] Player 5 lvl up
+[18-04-51] Game Paused
+[18-05-00] Game Resumed
+[18-05-01] Player 8 lvl up
+[18-05-02] Player 2 lvl up
+[18-05-05] Game Paused
+[18-05-34] LiveEventAPI Closed
+[18-05-34] Game ended
+[18-05-34] Connection State Changed
+[18-05-37] League State: Lobby
+[18-30-01] Target process (League of Legends) detected.
+[18-30-01] Init Game State
+[18-30-01] Game State reset
+[18-30-01] Connection State Changed
+[18-30-10] Connection State Changed
+[18-30-10] Client Disconnected! Attempting to reconnect...
+[18-30-29] Game Loaded
+[18-30-29] Game Paused
+[18-30-29] LiveEventAPI Connected
+[18-30-30] Init UI
+[18-30-30] Sending game start key inputs
+[18-32-43] Connection State Changed
+[18-32-43] Client Reconnected!
+[18-32-45] LiveEventAPI Closed
+[18-33-17] League State: GameStart
+[18-33-17] League State: InProgress
+[18-33-18] Target process (League of Legends) detected.
+[18-33-18] Init Game State
+[18-33-18] Game State reset
+[18-33-18] Connection State Changed
+[18-33-36] Game Loaded
+[18-33-36] Game Paused
+[18-33-36] LiveEventAPI Connected
+[18-33-37] Game Resumed
+[18-33-37] Init Team data
+[18-33-37] Game Paused
+[18-33-37] Init UI
+[18-33-37] Sending game start key inputs
+[18-35-09] Game Resumed
+[18-35-10] Game Paused
+[18-35-31] Game Resumed
+[18-40-22] Cloud spawned
+[18-41-06] Player 7 lvl up
+[18-41-24] Player 2 lvl up
+[18-41-45] Player 5 lvl up
+[18-41-50] Player 0 lvl up
+[18-42-17] Cloud killed by ORDER
+[18-43-14] Player 6 lvl up
+[18-43-22] Player 3 lvl up
+[18-43-34] Player 9 finished Item 3851
+[18-43-43] Player 4 lvl up
+[18-43-46] Player 1 lvl up
+[18-44-12] Herald killed by ORDER
+[18-44-13] Player 8 lvl up
+[18-44-55] Player 4 finished Item 3859
+[18-45-21] Player 9 lvl up
+[18-46-56] Player 7 finished Item 6692
+[18-47-11] Hextech spawned
+[18-47-34] Player 3 finished Item 6672
+[18-47-56] Hextech killed by CHAOS
+[18-48-57] Player 0 lvl up
+[18-49-31] Player 1 finished Item 6630
+[18-49-46] Player 5 finished Item 4633
+[18-50-16] Player 2 finished Item 6655
+[18-50-25] Player 0 finished Item 6630
+[18-50-25] Player 4 finished Item 3860
+[18-50-30] Player 9 finished Item 3853
+[18-50-53] Herald killed by CHAOS
+[18-51-13] Player 8 finished Item 6671
+[18-51-42] Player 5 lvl up
+[18-51-43] Player 4 finished Item 3190
+[18-52-01] Player 7 lvl up
+[18-52-11] Player 2 lvl up
+[18-52-51] Fire spawned
+[18-52-58] Player 3 lvl up
+[18-53-07] Player 6 finished Item 6664
+[18-53-10] Fire killed by ORDER
+[18-55-28] Baron spawned
+[18-55-35] Player 1 lvl up
+[18-56-07] Player 8 lvl up
+[18-56-38] Baron killed by ORDER
+[18-56-44] Player 6 lvl up
+[18-57-08] Player 9 finished Item 6617
+[18-57-21] Player 7 finished Item 6695
+[18-57-31] Player 2 finished Item 3157
+[18-57-39] Player 3 finished Item 3046
+[18-57-50] Player 0 finished Item 3053
+[18-58-04] Fire spawned
+[18-58-32] Fire killed by CHAOS
+[18-58-45] Player 5 finished Item 3115
+[18-59-39] Baron ended. Resetting baron status for all players
+[19-00-22] Player 1 finished Item 6333
+[19-01-13] Player 4 lvl up
+[19-02-04] Player 9 lvl up
+[19-02-08] Player 0 lvl up
+[19-02-22] Player 3 finished Item 3031
+[19-02-37] Player 4 finished Item 3050
+[19-02-45] Player 7 finished Item 3036
+[19-02-52] Player 8 finished Item 3036
+[19-03-26] Fire spawned
+[19-03-39] Baron spawned
+[19-04-07] Player 6 finished Item 3742
+[19-04-25] Player 5 finished Item 4645
+[19-04-48] Fire killed by ORDER
+[19-05-33] Player 9 finished Item 3011
+[19-05-54] Baron killed by CHAOS
+[19-05-54] Player 5 lvl up
+[19-06-19] Client 3SCIbALHxk6qnK7FSW1GsA disconnected
+[19-06-28] Player 3 finished Item 3026
+[19-06-58] Player 3 lvl up
+[19-07-34] Player 7 lvl up
+[19-07-53] Game Paused
+[19-14-56] Game Resumed
+[19-15-04] Game Paused
+[19-15-05] Game Resumed
+[19-15-13] Game Paused
+[19-16-02] League State: WaitingForStats
+[19-16-02] LiveEventAPI Closed
+[19-16-02] Game ended
+[19-16-02] Connection State Changed
+[19-16-05] LiveEventAPI Closed
+[19-16-05] Game ended
+[19-16-05] Connection State Changed
+[19-16-05] League State: PreEndOfGame
+[19-16-05] League State: EndOfGame
+[19-16-19] Connection State Changed
+[19-16-19] Client Disconnected! Attempting to reconnect...
+[20-15-29] Saving all configs to file
+[20-15-29] Writing PickBan config to file
+[20-15-29] Updated PickBan config file
+[20-15-29] Writing Component config to file
+[20-15-29] Updated Component config file
+[20-15-29] Writing Farsight config to file
+[20-15-29] Updated Farsight config file
+[20-15-29] Writing Ingame config to file
+[20-15-29] Updated Ingame config file
+[20-15-29] Configs saved

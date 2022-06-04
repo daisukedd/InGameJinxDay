@@ -1,4 +1,34 @@
-{
+[13-06-44] Logging Init
+[13-06-44] Starting Config Controller
+[13-06-44] Config Provider started
+[13-06-44] Looking for config files at /Config
+[13-06-44] Found PickBan.json. Reading values
+[13-06-44] {
+  "frontend": {
+    "scoreEnabled": true,
+    "spellsEnabled": true,
+    "coachesEnabled": true,
+    "blueTeam": {
+      "name": "REDBLUE1",
+      "nameTag": "RED1",
+      "score": 0,
+      "coach": "RED1",
+      "color": "rgb(46,156,249)"
+    },
+    "redTeam": {
+      "name": "FOX2",
+      "nameTag": "FOX2",
+      "score": 0,
+      "coach": "RED2",
+      "color": "rgb(249,46,99)"
+    },
+    "patch": "12.10.1"
+  },
+  "FileVersion": "1.0"
+}
+[13-06-44] Config PickBan loaded
+[13-06-44] Found Ingame.json. Reading values
+[13-06-44] {
   "Inhib": {
     "Position": {
       "X": 0.0,
@@ -154,11 +184,11 @@
       },
       "Drakes": {
         "Position": {
-          "X": -75.0,
-          "Y": 85.0
+          "X": -62.0,
+          "Y": 82.0
         },
         "Offset": {
-          "X": -15.0,
+          "X": -12.0,
           "Y": 0.0
         }
       },
@@ -222,7 +252,7 @@
     "RedTeam": {
       "Kills": {
         "Position": {
-          "X": 33.0,
+          "X": 30.0,
           "Y": 15.0
         },
         "Font": {
@@ -294,11 +324,11 @@
       },
       "Drakes": {
         "Position": {
-          "X": 75.0,
-          "Y": 85.0
+          "X": 62.0,
+          "Y": 82.0
         },
         "Offset": {
-          "X": 15.0,
+          "X": 12.0,
           "Y": 0.0
         }
       },
@@ -1089,3 +1119,405 @@
   ],
   "FileVersion": "2.2"
 }
+[13-06-44] Config Ingame loaded
+[13-06-44] Found Component.json. Reading values
+[13-06-44] {
+  "DataDragon": {
+    "MinimumGoldCost": 2000,
+    "Region": "euw",
+    "Locale": "pt_BR",
+    "CDN": "https://ddragon.leagueoflegends.com/cdn",
+    "Patch": "latest"
+  },
+  "PickBan": {
+    "IsActive": true,
+    "UseDelay": false,
+    "DelayValue": 300,
+    "DefaultBlueColor": "rgb(46, 156, 249)",
+    "DefaultRedColor": "rgb(249, 46, 99)"
+  },
+  "Ingame": {
+    "IsActive": true,
+    "UseLiveEvents": true,
+    "DoLevelUp": true,
+    "DoItemCompleted": true,
+    "SeriesGameCount": 3,
+    "Objectives": {
+      "DoBaronKill": false,
+      "DoDragonKill": false,
+      "DoInhibitors": false,
+      "DoObjectiveSpawnPopUp": false,
+      "DoObjectiveKillPopUp": false
+    },
+    "Teams": {
+      "DoTeamNames": false,
+      "DoTeamIcons": false,
+      "DoTeamScores": false
+    },
+    "UseCustomScoreboard": true
+  },
+  "Replay": {
+    "IsActive": true,
+    "UseAutoInitUI": true
+  },
+  "PostGame": {
+    "IsActive": false
+  },
+  "App": {
+    "LogLevel": 2,
+    "CheckForUpdates": true,
+    "UpdateRepositoryUrl": "https://github.com/floh22/LeagueBroadcast",
+    "UpdateRepositoryName": "floh22/LeagueBroadcast",
+    "LeagueInstall": [
+      "C:\\",
+      "D:\\",
+      "E:\\",
+      "F:\\",
+      "C:\\Program Files",
+      "C:\\Program Files (x86)"
+    ],
+    "CheckForOffsets": true,
+    "OffsetRepository": "https://raw.githubusercontent.com/floh22/LeagueBroadcast/v2/Offsets/",
+    "OffsetPrefix": "Offsets-"
+  },
+  "FileVersion": "1.3"
+}
+[13-06-44] Config Component loaded
+[13-06-44] Loading config watchers
+[13-06-44] Watching PickBan.json for changes
+[13-06-44] Watching Component.json for changes
+[13-06-44] Watching Ingame.json for changes
+[13-06-44] Log Level set to Info
+[13-06-44] League Broadcast Version 1.4.106
+[13-06-44] [Update] Checking for Updates
+[13-06-45] [Update] Latest release version v1.4.106 vs. current version 1.4.106
+[13-06-45] [Update] Local version up to date
+[13-06-45] Using current Version
+[13-06-45] Early Init Complete in 1709.1539ms
+[13-06-45] DataDragon Provider Init
+[13-06-45] Getting latest versions from dataDragon
+[13-06-45] Retrieving latest patch info
+[13-06-45] Champion: 12.10.1, Item: 12.10.1, CDN: https://ddragon.leagueoflegends.com/cdn
+[13-06-45] Loaded 159 champions
+[13-06-48] Loaded 16 summoner spells
+[13-06-48] Detected 254 items
+[13-06-48] Loaded 125 full items
+[13-06-48] Checking Local Cache
+[13-06-48] Cache C:\Users\Daisuke\Desktop\InHouseJinx\InGameJinxDay/Cache/12.10.1 exists already
+[13-06-48] DDragon loaded
+[13-06-48] Loading PickBan Controller
+[13-06-48] Loading Ingame Controller
+[13-06-48] Checking League install for LiveEventsAPI
+[13-06-48] Found League install location
+[13-06-48] LiveEvents API found in Game config
+[13-06-48] Replay API found in Game config
+[13-06-48] Verifying LiveEvents list
+[13-06-48] Loading Replay Controller
+[13-06-48] Loading Farsight
+[13-06-48] Farsight loaded. Found 159 Champ names
+[13-06-48] Loading Frontend Webserver (HTTP/WS)
+[13-06-48] Server file system starting
+[13-06-48] WebServer New State - Loading
+[13-06-48] WebServer New State - Listening
+[13-06-48] WebServer running on http://*:9001/
+[13-06-48] Whats that ticking noise?
+[13-06-48] Init Complete in 3.031s
+[13-06-48] Opening main window
+[13-06-48] Team REDBLUE1 loaded
+[13-06-48] Team FOX2 loaded
+[13-06-48] Connection State Changed
+[13-06-48] Loading State Controller
+[13-06-48] Connecting to League Client
+[13-06-48] PickBan Enabled
+[13-06-48] Ingame Enabled
+[13-06-48] Using direct PickBan
+[13-06-48] Starting LeagueBroadcast with tickrate of 2tps
+[13-06-48] Checking for running Game
+[13-06-48] Post Init Complete in 409.111ms
+[13-06-48] Total Startup time: 5.149s
+[13-06-48] Connection State Changed
+[13-06-48] Connected to League Client in 143 ms
+[13-06-48] Local Client Version 12.10.1
+[13-06-48] Loading offsets for current patch
+[13-06-48] Found Farsight.json. Reading values
+[13-06-48] Config Farsight loaded
+[13-06-48] Watching Farsight.json for changes
+[13-06-48] Using offsets 12.10.1
+[13-09-27] Target process (League of Legends) detected.
+[13-09-27] Init Game State
+[13-09-27] Game State reset
+[13-09-27] Connection State Changed
+[13-09-46] New Client RonNdV/HJEC5jWuHEUTUNQ connected from http://localhost:9001
+[13-09-52] Game Loaded
+[13-09-52] Game Paused
+[13-09-52] LiveEventAPI Connected
+[13-09-52] Init Team data
+[13-09-52] Game Resumed
+[13-09-53] Init UI
+[13-09-53] Sending game start key inputs
+[13-10-25] Hextech spawned
+[13-10-25] Herald spawned
+[13-10-25] Player 0 lvl up
+[13-10-25] Player 2 lvl up
+[13-10-25] Player 4 finished Item 3851
+[13-10-25] Player 5 lvl up
+[13-10-25] Player 7 lvl up
+[13-10-41] Ingame.json change detected
+[13-10-41] [WARNING] Could not reload Ingame
+[13-10-47] Ingame.json change detected
+[13-10-47] [WARNING] Could not reload Ingame
+[13-10-58] Player 7 finished Item 6692
+[13-10-59] Player 1 lvl up
+[13-11-03] Hextech killed by CHAOS
+[13-11-17] Game Paused
+[13-11-44] Ingame.json change detected
+[13-11-45] Found Ingame.json. Reading values
+[13-11-45] Config Ingame loaded
+[13-11-51] Ingame.json change detected
+[13-11-52] Found Ingame.json. Reading values
+[13-11-52] Config Ingame loaded
+[13-11-55] Ingame.json change detected
+[13-11-56] Found Ingame.json. Reading values
+[13-11-56] Config Ingame loaded
+[13-12-02] Ingame.json change detected
+[13-12-02] Found Ingame.json. Reading values
+[13-12-02] Config Ingame loaded
+[13-12-17] Ingame.json change detected
+[13-12-17] Found Ingame.json. Reading values
+[13-12-17] Config Ingame loaded
+[13-12-19] Ingame.json change detected
+[13-12-20] Found Ingame.json. Reading values
+[13-12-20] Config Ingame loaded
+[13-12-28] Game Resumed
+[13-12-36] Player 3 lvl up
+[13-12-56] Player 6 lvl up
+[13-12-58] Player 4 lvl up
+[13-13-30] Client RonNdV/HJEC5jWuHEUTUNQ disconnected
+[13-13-31] New Client nxNIfAw9xkCvaNlUQOhMRA connected from http://localhost:9001
+[13-13-35] Player 8 lvl up
+[13-13-43] Player 9 finished Item 3851
+[13-13-46] Log Level set to Info
+[13-13-58] Player 9 lvl up
+[13-14-56] Ingame.json change detected
+[13-14-56] Found Ingame.json. Reading values
+[13-14-56] Config Ingame loaded
+[13-14-59] Ingame.json change detected
+[13-14-59] Found Ingame.json. Reading values
+[13-14-59] Config Ingame loaded
+[13-15-05] Player 5 finished Item 6632
+[13-15-24] Ingame.json change detected
+[13-15-25] Found Ingame.json. Reading values
+[13-15-25] Config Ingame loaded
+[13-16-19] Player 4 finished Item 3853
+[13-16-25] Fire spawned
+[13-16-28] Fire killed by ORDER
+[13-16-31] Game Paused
+[13-16-37] Game Resumed
+[13-16-39] Player 1 finished Item 6672
+[13-16-41] Player 6 finished Item 4636
+[13-16-41] Player 7 lvl up
+[13-16-47] Player 5 lvl up
+[13-16-49] Player 2 finished Item 6655
+[13-16-51] Herald killed by CHAOS
+[13-16-54] Game Paused
+[13-16-55] Game Resumed
+[13-16-56] Player 9 finished Item 3853
+[13-17-00] Player 9 finished Item 4005
+[13-17-00] Player 8 finished Item 6671
+[13-17-02] Player 7 finished Item 6696
+[13-17-04] Player 3 finished Item 6672
+[13-17-06] Game Paused
+[13-18-04] Game Resumed
+[13-18-04] Player 0 lvl up
+[13-18-05] Player 4 finished Item 6617
+[13-18-10] Ocean spawned
+[13-18-13] Ocean killed by ORDER
+[13-18-15] Game Paused
+[13-18-55] Ingame.json change detected
+[13-18-56] Found Ingame.json. Reading values
+[13-18-56] Config Ingame loaded
+[13-18-59] Ingame.json change detected
+[13-19-00] Found Ingame.json. Reading values
+[13-19-00] Config Ingame loaded
+[13-19-09] Ingame.json change detected
+[13-19-10] Found Ingame.json. Reading values
+[13-19-10] Config Ingame loaded
+[13-19-12] Ingame.json change detected
+[13-19-12] Found Ingame.json. Reading values
+[13-19-12] Config Ingame loaded
+[13-19-14] Ingame.json change detected
+[13-19-14] Found Ingame.json. Reading values
+[13-19-14] Config Ingame loaded
+[13-19-26] Ingame.json change detected
+[13-19-27] Found Ingame.json. Reading values
+[13-19-27] Config Ingame loaded
+[13-19-38] Game Resumed
+[13-19-39] Player 6 lvl up
+[13-19-40] Baron spawned
+[13-19-46] Player 1 lvl up
+[13-19-47] Player 2 lvl up
+[13-19-49] Game Paused
+[13-21-14] Game Resumed
+[13-21-20] Player 8 lvl up
+[13-21-21] Player 0 finished Item 3078
+[13-21-21] Player 6 finished Item 3115
+[13-21-22] Player 5 finished Item 3074
+[13-21-28] Game Paused
+[13-21-29] Game Resumed
+[13-21-39] Player 1 finished Item 3036
+[13-21-40] Ocean spawned
+[13-21-44] Ocean killed by CHAOS
+[13-21-45] Player 3 lvl up
+[13-21-45] Player 7 finished Item 3142
+[13-21-45] Player 4 lvl up
+[13-21-46] Game Paused
+[13-21-58] Ingame.json change detected
+[13-21-58] Found Ingame.json. Reading values
+[13-21-58] Config Ingame loaded
+[13-22-01] Ingame.json change detected
+[13-22-02] Found Ingame.json. Reading values
+[13-22-02] Config Ingame loaded
+[13-22-18] Ingame.json change detected
+[13-22-18] Found Ingame.json. Reading values
+[13-22-18] Config Ingame loaded
+[13-22-22] Ingame.json change detected
+[13-22-23] Found Ingame.json. Reading values
+[13-22-23] Config Ingame loaded
+[13-24-26] Game Resumed
+[13-24-26] Player 8 finished Item 3094
+[13-24-35] Player 2 finished Item 3157
+[13-24-41] Player 3 finished Item 3143
+[13-24-41] Player 5 finished Item 6333
+[13-24-45] Game Paused
+[13-28-48] Game Resumed
+[13-28-49] Player 7 lvl up
+[13-28-51] Player 9 lvl up
+[13-28-53] Player 7 finished Item 3814
+[13-28-54] Player 5 lvl up
+[13-29-06] Ocean spawned
+[13-29-08] Player 4 finished Item 3157
+[13-29-08] Player 0 finished Item 3748
+[13-29-20] Game Paused
+[13-33-16] League State: Lobby
+[13-33-16] LiveEventAPI Closed
+[13-33-16] Game ended
+[13-33-16] Connection State Changed
+[13-33-31] Starting PickBan Tick
+[13-33-35] [WARNING] Tried retrieving pick ban timer while not active. Ignoring
+[13-33-35] [WARNING] Tried retrieving pick ban timer while not active. Ignoring
+[13-33-36] [WARNING] Tried retrieving pick ban timer while not active. Ignoring
+[13-33-36] [WARNING] Tried retrieving pick ban timer while not active. Ignoring
+[13-33-37] [WARNING] Tried retrieving pick ban timer while not active. Ignoring
+[13-33-37] [WARNING] Tried retrieving pick ban timer while not active. Ignoring
+[13-35-01] LiveEventAPI Closed
+[13-35-01] Game ended
+[13-35-01] Connection State Changed
+[13-35-09] Target process (League of Legends) detected.
+[13-35-09] Init Game State
+[13-35-09] Game State reset
+[13-35-09] Connection State Changed
+[13-35-18] Connection State Changed
+[13-35-18] Client Disconnected! Attempting to reconnect...
+[13-35-27] Game Loaded
+[13-35-27] Game Paused
+[13-35-27] LiveEventAPI Connected
+[13-35-27] Game Resumed
+[13-35-27] Init Team data
+[13-35-27] Herald spawned
+[13-35-28] Init UI
+[13-35-28] Sending game start key inputs
+[13-35-34] Player 9 finished Item 3851
+[13-35-40] Player 6 finished Item 6631
+[13-35-46] Scrolled back in timeline, reverting state
+[13-35-46] 605.4041137695312
+[13-35-46] Rolling back Players
+[13-35-46] Rolling back Objectives
+[13-35-47] Scrolled back in timeline, reverting state
+[13-35-47] 601.1329956054688
+[13-35-47] Rolling back Players
+[13-35-47] Rolling back Objectives
+[13-35-49] Scrolled back in timeline, reverting state
+[13-35-49] 600.1329956054688
+[13-35-49] Rolling back Players
+[13-35-49] Rolling back Objectives
+[13-35-50] Herald spawned
+[13-35-50] Player 2 finished Item 3153
+[13-35-52] Player 9 finished Item 3851
+[13-35-54] Scrolled back in timeline, reverting state
+[13-35-54] 603.5594482421875
+[13-35-54] Rolling back Players
+[13-35-54] Rolling back Objectives
+[13-35-55] Scrolled back in timeline, reverting state
+[13-35-55] 601.1329956054688
+[13-35-55] Rolling back Players
+[13-35-55] Rolling back Objectives
+[13-35-56] Player 6 finished Item 6631
+[13-35-56] Player 9 lvl up
+[13-35-56] Player 9 finished Item 3851
+[13-35-58] Scrolled back in timeline, reverting state
+[13-35-58] 601.1329956054688
+[13-35-58] Rolling back Players
+[13-35-58] Rolling back Objectives
+[13-36-00] Scrolled back in timeline, reverting state
+[13-36-00] 601.1329956054688
+[13-36-00] Rolling back Players
+[13-36-00] Rolling back Objectives
+[13-36-01] Player 6 finished Item 6631
+[13-36-01] Player 9 lvl up
+[13-36-01] Player 9 finished Item 3851
+[13-36-02] Scrolled back in timeline, reverting state
+[13-36-02] 601.1329956054688
+[13-36-02] Rolling back Players
+[13-36-02] Rolling back Objectives
+[13-36-04] Player 6 finished Item 6631
+[13-36-04] Player 9 finished Item 3851
+[13-36-04] Player 9 lvl up
+[13-36-05] Scrolled back in timeline, reverting state
+[13-36-05] 601.1329956054688
+[13-36-05] Rolling back Players
+[13-36-05] Rolling back Objectives
+[13-36-06] Player 6 finished Item 6631
+[13-36-06] Player 9 finished Item 3851
+[13-36-06] Scrolled back in timeline, reverting state
+[13-36-06] 601.1329956054688
+[13-36-06] Rolling back Players
+[13-36-06] Rolling back Objectives
+[13-36-07] Player 9 finished Item 3851
+[13-36-08] Scrolled back in timeline, reverting state
+[13-36-08] 603.1329956054688
+[13-36-08] Rolling back Players
+[13-36-08] Rolling back Objectives
+[13-36-09] Scrolled back in timeline, reverting state
+[13-36-09] 604.86865234375
+[13-36-09] Rolling back Players
+[13-36-09] Rolling back Objectives
+[13-36-09] Scrolled back in timeline, reverting state
+[13-36-09] 601.1329956054688
+[13-36-09] Rolling back Players
+[13-36-09] Rolling back Objectives
+[13-36-10] [WARNING] Cho'Gath not found in memory snapshot. Values will be incorrect!
+[13-36-10] [WARNING] Sequence contains no matching element
+[13-36-10] Player 6 finished Item 6631
+[13-36-10] Player 9 finished Item 3851
+[13-36-10] Player 9 lvl up
+[13-36-22] Fire spawned
+[13-36-29] Player 4 lvl up
+[13-37-03] Client nxNIfAw9xkCvaNlUQOhMRA disconnected
+[13-37-04] New Client JgXcYj70lEWgPB8je93Hgg connected from http://localhost:9001
+[13-37-41] Player 2 lvl up
+[13-37-53] Player 7 finished Item 6673
+[13-38-00] Player 3 finished Item 6672
+[13-38-25] Player 5 finished Item 6632
+[13-39-47] Herald killed by CHAOS
+[13-40-00] Player 7 lvl up
+[13-40-01] Fire killed by CHAOS
+[13-40-11] Saving all configs to file
+[13-40-11] Writing PickBan config to file
+[13-40-11] Updated PickBan config file
+[13-40-11] Writing Component config to file
+[13-40-11] Updated Component config file
+[13-40-11] Writing Farsight config to file
+[13-40-11] Updated Farsight config file
+[13-40-11] Writing Ingame config to file
+[13-40-11] Updated Ingame config file
+[13-40-11] Configs saved
